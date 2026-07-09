@@ -1,0 +1,26 @@
+{
+  "name": "neverseo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "sass assets/scss/style.scss assets/css/style.css",
+    "build:html": "php build.php",
+    "build": "npm run build:css && npm run build:html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saolabs/neverseo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/saolabs/neverseo/issues"
+  },
+  "homepage": "https://github.com/saolabs/neverseo#readme",
+  "devDependencies": {
+    "sass": "^1.101.0"
+  }
+}

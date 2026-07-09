@@ -1,0 +1,11 @@
+body {
+  font-family: "Inter", sans-serif;
+  scroll-behavior: smooth;
+  @apply bg-slate-50 text-slate-800;
+}
+
+.gradient-text {
+  background: linear-gradient(to right, #0ea5e9, #3b82f6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}/*# sourceMappingURL=style.css.map */
