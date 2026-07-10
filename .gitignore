@@ -6,5 +6,6 @@ package-lock.json
 # build/
 
 # Môi trường / hệ điều hành
+.codebase-memory/
 .venv/
 .DS_Store
