@@ -1,0 +1,357 @@
+@media (max-width: 1080px) {
+  .hero-layout,
+  .split-intro,
+  .workflow-step,
+  .cta-panel {
+    grid-template-columns: 1fr;
+  }
+
+  .workflow-step.is-reverse .workflow-image {
+    order: 0;
+  }
+
+  .cta-actions {
+    align-self: start;
+  }
+
+  .site-mobile-menu {
+    display: block;
+  }
+
+  .site-header-collapse {
+    display: flex;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: min(86vw, 360px);
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0;
+    padding: 20px 22px 28px;
+    background: var(--color-surface);
+    box-shadow: -30px 0 80px rgba(11, 18, 32, 0.22);
+    transform: translateX(105%);
+    transition: transform 0.36s cubic-bezier(0.16, 1, 0.3, 1);
+    overflow-y: auto;
+    z-index: 80;
+  }
+
+  .site-header.menu-open .site-header-collapse {
+    transform: translateX(0);
+  }
+
+  .site-menu-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 18px;
+    margin-bottom: 6px;
+    border-bottom: 1px solid var(--color-line);
+  }
+
+  .site-menu-title {
+    font-family: var(--font-family);
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--color-muted);
+  }
+
+  .site-menu-close {
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--color-line);
+    border-radius: 10px;
+    background: var(--color-surface);
+    color: var(--color-ink);
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+  .site-nav {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 2px;
+    padding: 8px 0;
+  }
+
+  .site-nav a {
+    display: block;
+    width: 100%;
+    padding: 13px 12px;
+    border-radius: 10px;
+    font-size: 16px;
+  }
+
+  .site-nav a:hover,
+  .site-nav a.is-active {
+    background: var(--grad-brand-soft);
+    color: var(--color-teal);
+  }
+
+  .site-header-actions {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
+    margin-top: auto;
+    padding-top: 18px;
+    border-top: 1px solid var(--color-line);
+  }
+
+  .site-header-actions .site-login-link {
+    padding: 12px 0;
+    text-align: center;
+  }
+
+  .site-header-actions .site-header-cta {
+    width: 100%;
+  }
+}
+
+@media (max-width: 820px) {
+  .site-mobile-menu {
+    display: block;
+  }
+
+  /* Panel trượt từ phải (premium slide-in) */
+  .site-header-collapse {
+    display: flex;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: min(86vw, 360px);
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0;
+    padding: 20px 22px 28px;
+    background: var(--color-surface);
+    box-shadow: -30px 0 80px rgba(11, 18, 32, 0.22);
+    transform: translateX(105%);
+    transition: transform 0.36s cubic-bezier(0.16, 1, 0.3, 1);
+    overflow-y: auto;
+    z-index: 80;
+  }
+
+  .site-header.menu-open .site-header-collapse {
+    transform: translateX(0);
+  }
+
+  .site-menu-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 18px;
+    margin-bottom: 6px;
+    border-bottom: 1px solid var(--color-line);
+  }
+
+  .site-menu-title {
+    font-family: var(--font-family);
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--color-muted);
+  }
+
+  .site-menu-close {
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--color-line);
+    border-radius: 10px;
+    background: var(--color-surface);
+    color: var(--color-ink);
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+  .site-nav {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 2px;
+    padding: 8px 0;
+  }
+
+  .site-nav a {
+    display: block;
+    width: 100%;
+    padding: 13px 12px;
+    border-radius: 10px;
+    font-size: 16px;
+  }
+
+  .site-nav a:hover,
+  .site-nav a.is-active {
+    background: var(--grad-brand-soft);
+    color: var(--color-teal);
+  }
+
+  .site-header-actions {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
+    margin-top: auto;
+    padding-top: 18px;
+    border-top: 1px solid var(--color-line);
+  }
+
+  .site-header-actions .site-login-link {
+    padding: 12px 0;
+    text-align: center;
+  }
+
+  .site-header-actions .site-header-cta {
+    width: 100%;
+  }
+
+  .hero-studio {
+    padding: 78px 0 70px;
+  }
+
+  .hero-copy h1 {
+    font-size: clamp(42px, 12vw, 58px);
+  }
+
+  .hero-copy h1::after {
+    height: 9px;
+    margin-top: -4px;
+  }
+
+  .hero-proof,
+  .problem-grid,
+  .audience-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-proof {
+    display: flex;
+    overflow-x: auto;
+    padding-bottom: 6px;
+    scroll-snap-type: x proximity;
+  }
+
+  .hero-proof div {
+    min-width: 190px;
+    scroll-snap-align: start;
+  }
+
+  .topic-canvas {
+    min-height: 470px;
+    border-radius: 18px;
+  }
+
+  .topic-canvas::before {
+    inset: 84px 22px 72px;
+  }
+
+  .hero-product {
+    bottom: 50px;
+    width: 112%;
+  }
+
+  .map-node {
+    min-height: 30px;
+    padding: 0 10px;
+    font-size: 10px;
+  }
+
+  .node-a {
+    top: 22px;
+    left: 18px;
+  }
+
+  .node-b {
+    top: 58px;
+    right: 18px;
+  }
+
+  .node-c {
+    left: 20px;
+    bottom: 58px;
+  }
+
+  .node-d {
+    right: 20px;
+    bottom: 22px;
+  }
+
+  .map-path {
+    display: none;
+  }
+
+  .studio-section {
+    padding: 74px 0;
+  }
+
+  .section-intro h2,
+  .legal-header h1,
+  .cta-panel h2 {
+    font-size: clamp(34px, 10vw, 44px);
+  }
+
+  .workflow-image {
+    min-height: 310px;
+  }
+
+  .workflow-image img {
+    width: min(96%, 360px);
+  }
+
+  .site-footer-bottom {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 520px) {
+  .site-shell,
+  .legal-container {
+    width: min(100% - 28px, 1180px);
+  }
+
+  .site-header-row {
+    min-height: 70px;
+  }
+
+  .site-logo {
+    font-size: 18px;
+  }
+
+  .site-logo-mark {
+    width: 34px;
+    height: 34px;
+  }
+
+  .button {
+    width: 100%;
+  }
+
+  .hero-actions,
+  .cta-actions {
+    width: 100%;
+  }
+
+  .topic-canvas {
+    min-height: 410px;
+  }
+
+  .hero-product {
+    bottom: 62px;
+    width: 124%;
+  }
+
+  .problem-card,
+  .audience-card,
+  .workflow-step,
+  .legal-card {
+    padding: 22px;
+  }
+}

@@ -1,0 +1,104 @@
+:root {
+  /* Font — đổi 1 chỗ để áp cho toàn site (kể cả sơ đồ SVG) */
+  --font-family: "Roboto", Arial, sans-serif;
+
+  /* Nền & bề mặt */
+  --color-bg: #f7f9fc;
+  --color-bg-strong: #eef2f8;
+  --color-surface: #ffffff;
+
+  /* Chữ */
+  --color-ink: #0b1220;
+  --color-text: #3a4762;
+  --color-muted: #6b7688;
+  --color-line: #e6ebf2;
+
+  /* Thương hiệu: sky → blue → indigo */
+  --color-teal: #0ea5e9;      /* sky primary (giữ tên cũ để tương thích) */
+  --color-blue: #3b82f6;
+  --color-indigo: #6366f1;
+  --color-violet: #8b5cf6;
+  --color-lime: #0284c7;      /* alias cũ = sky đậm */
+  --color-lime-soft: #e0f2fe;
+
+  /* Nền tối premium */
+  --ink-900: #070b16;
+  --ink-800: #0d1424;
+  --ink-700: #131c30;
+
+  /* Gradient dùng chung */
+  --grad-brand: linear-gradient(135deg, #0ea5e9 0%, #3b82f6 45%, #6366f1 100%);
+  --grad-brand-soft: linear-gradient(135deg, rgba(14, 165, 233, 0.12), rgba(99, 102, 241, 0.12));
+  --grad-ink: linear-gradient(160deg, #0d1424 0%, #070b16 100%);
+
+  /* Bo góc */
+  --radius-xs: 8px;
+  --radius-card: 16px;
+  --radius-lg: 22px;
+  --radius-stage: 28px;
+
+  /* Đổ bóng */
+  --shadow-soft: 0 22px 70px rgba(15, 23, 42, 0.08);
+  --shadow-card: 0 10px 30px rgba(13, 20, 36, 0.08);
+  --shadow-lift: 0 30px 60px rgba(15, 23, 42, 0.12);
+  --shadow-brand: 0 20px 45px rgba(14, 165, 233, 0.28);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-padding-top: 92px;
+  scroll-behavior: smooth;
+}
+
+body.studio-body {
+  margin: 0;
+  overflow-x: hidden;
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-family);
+  font-variant-numeric: tabular-nums;
+  text-rendering: geometricPrecision;
+}
+
+::selection {
+  background: var(--color-lime);
+  color: var(--color-ink);
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  color: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--color-ink);
+  font-family: var(--font-family);
+  letter-spacing: -0.04em;
+}
+
+.site-shell {
+  width: min(100% - 40px, 1180px);
+  margin-inline: auto;
+}
+

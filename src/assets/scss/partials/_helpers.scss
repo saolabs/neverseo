@@ -1,0 +1,86 @@
+/* ==========================================================================
+   PREMIUM ADDITIONS — helpers, sections mới, menu mobile, footer nâng cấp
+   ========================================================================== */
+
+.text-center { text-align: center; }
+
+/* Eyebrow dạng pill brand (dùng thống nhất cho các section mới) */
+.section-label.label-brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 14px;
+  border-radius: 999px;
+  background: var(--grad-brand-soft);
+  border: 1px solid rgba(14, 165, 233, 0.22);
+  color: var(--color-teal);
+  font-family: var(--font-family);
+  font-size: 12.5px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.link-inline {
+  color: var(--color-teal);
+  font-weight: 700;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(14, 165, 233, 0.4);
+}
+.link-inline:hover { color: var(--color-blue); }
+
+/* Buttons bổ sung */
+.button-outline {
+  background: transparent;
+  border-color: var(--color-line);
+  color: var(--color-ink);
+}
+.button-outline:hover {
+  border-color: var(--color-teal);
+  color: var(--color-teal);
+  box-shadow: 0 10px 26px rgba(14, 165, 233, 0.14);
+}
+.button-light {
+  background: #ffffff;
+  color: var(--color-ink);
+  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.22);
+}
+.button-light:hover { background: #ffffff; color: var(--color-blue); }
+.button-on-dark {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(255, 255, 255, 0.28);
+  color: #ffffff;
+}
+.button-on-dark:hover {
+  background: rgba(255, 255, 255, 0.16);
+  border-color: rgba(255, 255, 255, 0.5);
+  color: #ffffff;
+}
+.shadow-button { box-shadow: var(--shadow-brand); }
+
+/* Header CTA + nav active (desktop) */
+.site-header-cta { gap: 8px; }
+.site-header-cta i { font-size: 15px; }
+.site-nav a { transition: color 0.2s ease; }
+.site-nav a.is-active { color: var(--color-teal); }
+
+/* Avatar tones dùng chung (testimonials + team) */
+.tone-a { background: linear-gradient(135deg, #0ea5e9, #3b82f6); }
+.tone-b { background: linear-gradient(135deg, #6366f1, #8b5cf6); }
+.tone-c { background: linear-gradient(135deg, #06b6d4, #0ea5e9); }
+.tone-d { background: linear-gradient(135deg, #3b82f6, #6366f1); }
+
+/* ---- Menu mobile: backdrop + khóa scroll ---- */
+.site-menu-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 70;
+  background: rgba(7, 11, 22, 0.5);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.site-menu-backdrop.is-visible { opacity: 1; }
+body.menu-locked { overflow: hidden; }
+

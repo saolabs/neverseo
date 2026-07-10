@@ -1,3 +1,10 @@
 vendor
 node_modules
 package-lock.json
+
+# Build output (được sinh ra bởi `npm run build`)
+# build/
+
+# Môi trường / hệ điều hành
+.venv/
+.DS_Store
