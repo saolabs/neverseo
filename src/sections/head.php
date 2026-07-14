@@ -115,5 +115,16 @@ $og_alt_locale = $LANG === 'vi' ? 'en_US' : 'vi_VN';
       ]
     }
     </script>
+
+
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Z0VRDME20D"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-Z0VRDME20D');
+</script>
 </head>
 <body class="studio-body">
