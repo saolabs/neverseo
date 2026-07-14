@@ -11,7 +11,7 @@ $logos = [
 ?>
 <section class="logos-strip" aria-label="Được tin dùng bởi">
     <div class="site-shell">
-        <p class="logos-eyebrow">Được hơn <strong>500+ doanh nghiệp &amp; agency</strong> tại Việt Nam tin dùng</p>
+        <p class="logos-eyebrow">Đồng hành cùng hơn <strong>50+ doanh nghiệp &amp; dự án</strong> tại Việt Nam</p>
         <div class="logos-track">
             <?php foreach ($logos as $logo): ?>
                 <div class="logo-chip">

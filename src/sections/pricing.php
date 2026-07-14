@@ -1,5 +1,5 @@
 <?php
-// sections/pricing.php — Bảng giá (tính năng bám theo seo-expert)
+// sections/pricing.php — Bảng giá đồng bộ với ứng dụng NeverSEO
 $plans = [
     [
         'name'    => 'Dùng thử',
@@ -21,7 +21,7 @@ $plans = [
     [
         'name'    => 'Cơ bản',
         'tagline' => 'Cho 1 website cần sản xuất đều đặn',
-        'price'   => '999.000',
+        'price'   => '4.999.999',
         'unit'    => 'đ',
         'period'  => '/ tháng',
         'cta'     => 'Bắt đầu ngay',
@@ -39,8 +39,8 @@ $plans = [
     ],
     [
         'name'    => 'Doanh nghiệp',
-        'tagline' => 'Cho doanh nghiệp quản trị nhiều website',
-        'price'   => '2.500.000',
+        'tagline' => 'Doanh nghiệp quản trị nhiều website',
+        'price'   => '10.000.000',
         'unit'    => 'đ',
         'period'  => '/ tháng',
         'cta'     => 'Bắt đầu ngay',
@@ -58,7 +58,7 @@ $plans = [
     [
         'name'    => 'Quy mô lớn',
         'tagline' => 'Cho agency & hệ thống nhiều website',
-        'price'   => '5.000.000',
+        'price'   => '25.000.000',
         'unit'    => 'đ',
         'period'  => '/ tháng',
         'cta'     => 'Liên hệ tư vấn',

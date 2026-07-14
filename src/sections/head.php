@@ -1,7 +1,7 @@
 <?php
 // sections/head.php
-$page_title       = $page_title ?? 'NeverSEO - Giám đốc SEO Ảo của bạn';
-$page_description = $page_description ?? 'Hệ thống Quản trị SEO khép kín dành cho Chủ doanh nghiệp, SEO-ers, và Đội ngũ Content.';
+$page_title       = $page_title ?? 'NeverSEO – Nền tảng quản trị SEO toàn diện cho doanh nghiệp';
+$page_description = $page_description ?? 'Giải pháp quản lý và triển khai SEO tinh gọn. Giúp chủ doanh nghiệp và đội ngũ marketing làm SEO bài bản, hiệu quả và dễ đo lường.';
 
 // SEO / social — trang gọi (index/privacy/terms) có thể override $page_path, $og_image
 $site_url      = 'https://neverseo.com';
@@ -75,7 +75,7 @@ $og_image      = $og_image ?? $site_url . '/assets/img/hero-dashboard.png';
           "name": "NeverSEO",
           "applicationCategory": "BusinessApplication",
           "operatingSystem": "Web",
-          "description": "Hệ thống quản trị chiến lược SEO và viết bài bằng AI khép kín: audit, chiến lược, kế hoạch nội dung, viết bài và QC.",
+          "description": "NeverSEO giúp doanh nghiệp xây dựng chiến lược SEO bài bản từ dữ liệu thực tế, tạo nội dung chất lượng cao và phát triển thương hiệu bền vững trên công cụ tìm kiếm.",
           "offers": { "@type": "Offer", "price": "0", "priceCurrency": "VND" }
         }
       ]

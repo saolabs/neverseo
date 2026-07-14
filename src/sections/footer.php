@@ -5,8 +5,8 @@
     <div class="site-shell">
         <div class="footer-top">
             <div class="footer-top-copy">
-                <h3>Nhận bản tin AI-first SEO</h3>
-                <p>Thủ thuật &amp; xu hướng SEO thời AI, mỗi tháng một lần. Không spam.</p>
+                <h3>Bản tin SEO thời AI</h3>
+                <p>Góc nhìn, kinh nghiệm và xu hướng SEO trong kỷ nguyên AI, mỗi tháng một lần. Không spam.</p>
             </div>
             <form class="footer-subscribe-form" action="#" method="post" aria-label="Đăng ký bản tin">
                 <input type="email" name="email" placeholder="Email của bạn" aria-label="Email" required>
@@ -23,7 +23,7 @@
                     <span><span class="logo-never">Never</span><span class="logo-seo">SEO</span></span>
                 </a>
                 <p>
-                    Hệ thống Quản trị chiến lược SEO khép kín. Giải pháp toàn diện giúp bạn thống lĩnh kết quả tìm kiếm mà không cần phải là chuyên gia kỹ thuật.
+                    Nền tảng quản trị SEO toàn diện giúp doanh nghiệp xây dựng chiến lược, tối ưu nội dung và tăng trưởng bền vững trên công cụ tìm kiếm.
                 </p>
                 <div class="site-footer-socials" aria-label="Mạng xã hội">
                     <a href="#" aria-label="LinkedIn"><i class="ph-fill ph-linkedin-logo" aria-hidden="true"></i></a>
@@ -37,7 +37,7 @@
                 <h3>Sản phẩm</h3>
                 <ul>
                     <li><a href="index.html#features">Tính năng</a></li>
-                    <li><a href="index.html#workflow">Quy trình 4 bước</a></li>
+                    <li><a href="index.html#workflow">Vòng lặp tăng trưởng</a></li>
                     <li><a href="index.html#pricing">Bảng giá</a></li>
                     <li><a href="index.html#audience">Khách hàng</a></li>
                 </ul>

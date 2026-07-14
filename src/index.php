@@ -1,7 +1,7 @@
 <?php
 // index.php
-$page_title = "NeverSEO – Nền tảng quản trị SEO & viết bài AI khép kín";
-$page_description = "Quản trị chiến lược SEO và viết bài bằng AI trong một quy trình khép kín: audit, Topical Map, kế hoạch nội dung, viết bài và chấm điểm chất lượng tự động.";
+$page_title = "NeverSEO – Nền tảng quản trị SEO toàn diện cho doanh nghiệp";
+$page_description = "Thay vì viết bài hàng loạt, NeverSEO giúp bạn lập kế hoạch SEO dựa trên dữ liệu thực tế, tạo nội dung chất lượng cao để thu hút khách hàng và tăng trưởng bền vững trên Google.";
 
 $sections_dir = __DIR__ . '/sections/';
 ?>

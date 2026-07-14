@@ -114,9 +114,9 @@
   white-space: nowrap;
   box-shadow: 0 10px 22px rgba(14, 165, 233, 0.18);
 }
-.price-head h3 { font-size: 22px; font-weight: 700; margin-bottom: 6px; }
-.price-tagline { margin-bottom: 22px; color: var(--color-muted); font-size: 14px; }
-.price-amount { display: flex; align-items: baseline; flex-wrap: wrap; gap: 8px; margin-bottom: 24px; }
+.price-tagline { margin-bottom: 22px; color: var(--color-muted); font-size: 14px; text-align: center; }
+.price-head h3 { font-size: 22px; font-weight: 700; margin-bottom: 6px; text-align: center; }
+.price-amount { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 4px; margin-bottom: 24px; text-align: center; }
 .price-value {
   font-family: var(--font-family);
   font-size: 40px;

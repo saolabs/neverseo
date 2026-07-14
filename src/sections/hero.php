@@ -6,10 +6,10 @@
         <div class="hero-split-layout">
             
             <div class="hero-copy">
-                <p class="hero-eyebrow">NeverSEO — Nền tảng Chiến lược</p>
-                <h1 id="hero-title">Hệ thống <span class="gradient-text">quản trị chiến lược SEO</span> toàn diện.</h1>
+                <p class="hero-eyebrow">Nền tảng Quản trị SEO Toàn diện</p>
+                <h1 id="hero-title">Tăng trưởng SEO <span class="gradient-text">bền vững trong kỷ nguyên AI.</span></h1>
                 <p class="hero-lead">
-                    Vượt xa các công cụ SEO truyền thống, NeverSEO là nền tảng tự động hóa giúp bạn làm chủ toàn bộ chiến dịch: từ phân tích kỹ thuật chuyên sâu, xây dựng cấu trúc chủ đề, lập kế hoạch chiến lược, cho đến triển khai sản xuất nội dung quy mô lớn.
+                    Thay vì viết bài hàng loạt một cách mù quáng, NeverSEO giúp bạn lập kế hoạch từ dữ liệu thực tế. Tập trung vào nội dung chất lượng để thuyết phục khách hàng và xây dựng vị thế bền vững trên công cụ tìm kiếm.
                 </p>
 
                 <div class="hero-actions" aria-label="Hành động chính">
@@ -22,13 +22,13 @@
                 
                 <div class="hero-proof-row">
                     <div class="proof-item">
-                        <i class="ph-fill ph-check-circle"></i> Quản trị toàn cảnh
+                        <i class="ph-fill ph-check-circle"></i> Dựa trên dữ liệu thực tế
                     </div>
                     <div class="proof-item">
-                        <i class="ph-fill ph-check-circle"></i> Autonomous AI
+                        <i class="ph-fill ph-check-circle"></i> Tối ưu cho người dùng
                     </div>
                     <div class="proof-item">
-                        <i class="ph-fill ph-check-circle"></i> Gating khép kín
+                        <i class="ph-fill ph-check-circle"></i> Tăng trưởng dài hạn
                     </div>
                 </div>
             </div>

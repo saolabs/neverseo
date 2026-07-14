@@ -1,18 +1,18 @@
 <?php
 // sections/features.php — Tính năng chi tiết + Tích hợp
 $features = [
-    ['icon' => 'ph-magnifying-glass', 'title' => 'Audit 200+ tiêu chí',      'desc' => 'Quét toàn diện Technical, On-page, Off-page và Thương hiệu, chấm điểm sức khỏe website và đề xuất "Quick Win" ưu tiên theo tác động.'],
-    ['icon' => 'ph-tree-structure',   'title' => 'Topical Map tự động',      'desc' => 'Gom cụm hàng nghìn từ khóa thành bản đồ chủ đề phân tầng Pillar – Cluster, đảm bảo phủ sóng ngữ nghĩa và thẩm quyền chủ đề (Topical Authority).'],
-    ['icon' => 'ph-calendar-check',   'title' => 'Lịch nội dung thông minh', 'desc' => 'Sinh kế hoạch bài viết hằng tháng kèm dàn ý, internal link gợi ý và yêu cầu media — sẵn sàng giao cho writer chỉ trong một cú nhấp.'],
-    ['icon' => 'ph-pen-nib-straight', 'title' => 'AI viết bài theo Brief',    'desc' => 'Writer AI bám sát outline, tự động dẫn chứng dữ liệu (Information Gain) và chèn media, cho ra bản nháp chất lượng thay vì nội dung sáo rỗng.'],
-    ['icon' => 'ph-gauge',            'title' => 'Chấm điểm On-page real-time','desc' => 'Bộ tiêu chuẩn 0–100 kiểm tra cấu trúc semantic, mật độ thực thể và readability ngay khi soạn thảo, chuẩn hóa chất lượng đầu ra.'],
-    ['icon' => 'ph-chart-donut',      'title' => 'Dashboard đo lường ROI',    'desc' => 'Đồng bộ thứ hạng, traffic và tiến độ sản xuất về một màn hình, giúp bạn nhìn toàn cảnh chiến dịch và báo cáo minh bạch cho khách hàng.'],
+    ['icon' => 'ph-magnifying-glass', 'title' => 'Nghiên cứu thị trường tự động', 'desc' => 'Phân tích dữ liệu từ Google để cho bạn biết khách hàng đang tìm kiếm điều gì và đối thủ đang làm gì.'],
+    ['icon' => 'ph-tree-structure',   'title' => 'Quản lý chủ đề thông minh',         'desc' => 'Trực quan hóa cấu trúc website, giúp bạn dễ dàng theo dõi và bổ sung nội dung cho các chủ đề quan trọng.'],
+    ['icon' => 'ph-calendar-check',   'title' => 'Lập kế hoạch nội dung',  'desc' => 'Lên lịch biên tập rõ ràng. Dễ dàng phân công công việc cho từng thành viên trong nhóm và theo dõi tiến độ.'],
+    ['icon' => 'ph-quotes',           'title' => 'Tiêu chuẩn hóa bài viết',        'desc' => 'Cung cấp hướng dẫn viết bài cụ thể, dàn ý chi tiết, đảm bảo mọi người trong nhóm đều viết bài đúng chuẩn SEO.'],
+    ['icon' => 'ph-checks',           'title' => 'Chấm điểm SEO tự động', 'desc' => 'Chỉ ra ngay những điểm cần sửa trước khi xuất bản: thiếu từ khóa, tiêu đề chưa tối ưu, nội dung chưa đủ sâu...'],
+    ['icon' => 'ph-chart-donut',      'title' => 'Báo cáo hiệu quả minh bạch', 'desc' => 'Kết nối với Google Analytics và Search Console để biết chính xác bài viết nào đang mang lại nhiều khách hàng nhất.'],
 ];
 
 $integrations = [
     ['icon' => 'ph-google-logo',      'name' => 'Search Console'],
     ['icon' => 'ph-chart-bar',        'name' => 'Google Analytics'],
-    ['icon' => 'ph-wordpress-logo',   'name' => 'WordPress'],
+    ['icon' => 'ph-layout',           'name' => 'WordPress'],
     ['icon' => 'ph-brain',            'name' => 'OpenAI'],
     ['icon' => 'ph-sparkle',          'name' => 'Anthropic'],
     ['icon' => 'ph-robot',            'name' => 'Google Gemini'],
@@ -21,9 +21,9 @@ $integrations = [
 <section id="features" class="studio-section features-section" aria-labelledby="features-title">
     <div class="site-shell">
         <div class="section-intro text-center">
-            <p class="section-label label-brand">Bộ tính năng</p>
-            <h2 id="features-title">Mọi thứ một đội SEO cần, <span class="gradient-text">gói gọn trong một nơi</span></h2>
-            <p>Từ khám bệnh website đến xuất bản nội dung — NeverSEO thay thế cả bộ công cụ rời rạc bằng một quy trình tự động, nhất quán và có thể đo lường.</p>
+            <p class="section-label label-brand">Tính năng nổi bật</p>
+            <h2 id="features-title">Tất cả các công cụ bạn cần, <span class="gradient-text">trong một nền tảng duy nhất.</span></h2>
+            <p>Không cần dùng nhiều phần mềm phức tạp. NeverSEO cung cấp đầy đủ tính năng để bạn quản lý chiến dịch SEO từ A đến Z.</p>
         </div>
 
         <div class="features-grid">

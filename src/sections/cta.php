@@ -6,8 +6,8 @@
         <div class="cta-panel">
             <div>
                 <p class="section-label">Bắt đầu ngay hôm nay</p>
-                <h2 id="cta-title">Sẵn sàng để bài viết của bạn lên trang nhất?</h2>
-                <p>Tạo tài khoản miễn phí, thêm website của bạn và để NeverSEO hướng dẫn bạn từng bước.</p>
+                <h2 id="cta-title">Bắt đầu xây dựng nguồn khách hàng bền vững từ Google</h2>
+                <p>Tạo tài khoản miễn phí và trải nghiệm cách làm SEO bài bản, hiệu quả hơn cho doanh nghiệp của bạn.</p>
             </div>
             <div class="cta-actions">
                 <a href="https://app.neverseo.com/register" class="button button-primary button-light">

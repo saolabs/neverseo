@@ -2,24 +2,28 @@
 // sections/faq.php — Câu hỏi thường gặp (accordion + FAQPage JSON-LD)
 $faqs = [
     [
-        'q' => 'NeverSEO khác gì so với việc dùng ChatGPT để viết bài?',
-        'a' => 'ChatGPT chỉ giải quyết khâu viết. NeverSEO là quy trình khép kín: từ audit website, xây Topical Map, lập kế hoạch nội dung đến viết bài và chấm điểm chất lượng. Nội dung được bám sát chiến lược và dữ liệu thực tế thay vì viết rời rạc, sáo rỗng.',
+        'q' => 'NeverSEO có thay thế được nhân sự SEO không?',
+        'a' => 'Không. NeverSEO là công cụ đắc lực giúp đội ngũ SEO làm việc hiệu quả hơn, nhanh hơn và ít sai sót hơn. Hệ thống tự động hóa quy trình phân tích và vận hành, còn tư duy chiến lược cuối cùng vẫn do con người quyết định.',
     ],
     [
-        'q' => 'Tôi không rành kỹ thuật SEO thì có dùng được không?',
-        'a' => 'Hoàn toàn được. Hệ thống tự động đề xuất việc cần làm theo thứ tự ưu tiên và hướng dẫn bạn từng bước. Chủ doanh nghiệp có thể nắm toàn cảnh chiến lược và tiến độ qua dashboard mà không cần can thiệp sâu vào kỹ thuật.',
+        'q' => 'Tôi mới tìm hiểu về SEO thì có dùng được không?',
+        'a' => 'Chắc chắn rồi. NeverSEO được thiết kế với giao diện thân thiện, dễ hiểu. Hệ thống sẽ hướng dẫn bạn từng bước cần làm, giống như có một chuyên gia SEO luôn bên cạnh hỗ trợ.',
     ],
     [
-        'q' => 'Dữ liệu và API Key của tôi có được bảo mật không?',
-        'a' => 'Có. Mỗi nhóm làm việc (Organization) có không gian dữ liệu độc lập. Các thông tin nhạy cảm như API Key, Access Token được mã hóa bằng thuật toán AES-256 và không bao giờ bị chia sẻ cho bên thứ ba.',
+        'q' => 'Viết bài bằng AI có bị Google phạt không?',
+        'a' => 'Google không phạt nội dung tạo bằng AI, họ chỉ phạt nội dung rác, kém chất lượng. NeverSEO sử dụng AI như một trợ lý để giúp bạn nghiên cứu và viết bài tốt hơn, cung cấp thông tin thực sự hữu ích cho người đọc.',
     ],
     [
-        'q' => 'BYOK (Bring Your Own Key) hoạt động thế nào?',
-        'a' => 'Ở gói Doanh nghiệp, bạn có thể nhập API Key riêng của OpenAI, Anthropic hoặc Google. Khi đó chi phí token AI sẽ tính trực tiếp trên tài khoản nhà cung cấp của bạn, giúp tối ưu chi phí ở quy mô lớn.',
+        'q' => 'Dữ liệu của công ty tôi có được bảo mật không?',
+        'a' => 'Có. Mỗi công ty (Organization) có không gian dữ liệu hoàn toàn độc lập. Các thông tin nhạy cảm được mã hóa cấp độ cao và tuyệt đối không chia sẻ cho bất kỳ bên thứ ba nào.',
     ],
     [
-        'q' => 'NeverSEO có cam kết lên top Google không?',
-        'a' => 'Không đơn vị nào nên cam kết thứ hạng, vì thứ hạng phụ thuộc nhiều yếu tố (độ uy tín tên miền, backlink, biến động thuật toán). NeverSEO đảm bảo quy trình và chất lượng nội dung chuẩn SEO — nền tảng vững chắc để bạn cải thiện thứ hạng bền vững.',
+        'q' => 'Tôi có thể dùng tài khoản AI của riêng mình không?',
+        'a' => 'Có. Ở gói Doanh nghiệp, bạn có thể kết nối tài khoản AI (API Key của OpenAI, Google...) để tự quản lý chi phí token và chủ động hơn khi sử dụng ở quy mô lớn.',
+    ],
+    [
+        'q' => 'NeverSEO có cam kết từ khóa lên top không?',
+        'a' => 'Bất kỳ cam kết lên top nào cũng thiếu thực tế, vì thuật toán Google thay đổi liên tục. NeverSEO giúp bạn xây dựng nền tảng SEO đúng chuẩn, tạo nội dung chất lượng để tăng trưởng lượng khách hàng bền vững và dài hạn.',
     ],
     [
         'q' => 'Tôi có thể hủy hoặc đổi gói bất cứ lúc nào không?',

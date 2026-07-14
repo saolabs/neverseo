@@ -4,10 +4,10 @@
 <section id="workflow" class="studio-section workflow-section" aria-labelledby="workflow-title">
     <div class="site-shell">
         <div class="section-intro text-center" style="max-width: 980px; margin: 0 auto 60px auto;">
-            <p class="section-label label-brand">Quy trình Khép kín</p>
-            <h2 id="workflow-title">Hệ thống "Gating" 4 bước</h2>
-            <p>
-                Với quy trình tự động hóa khép kín 4 bước từ Khám bệnh (Audit) đến Soạn thảo nội dung, hệ thống giúp bạn chuẩn hóa toàn bộ luồng công việc phức tạp của một Agency SEO chuyên nghiệp, đảm bảo mọi chiến dịch luôn đi đúng hướng và đạt hiệu quả tối đa.
+            <p class="section-label label-brand">Quy trình làm việc</p>
+            <h2 id="workflow-title">Quy trình 4 bước tinh gọn</h2>
+            <p style="max-width: 720px; margin-left: auto; margin-right: auto;">
+                Quy trình chuẩn hóa giúp bạn dễ dàng theo dõi toàn bộ chiến dịch SEO — từ bước phân tích hiện trạng cho đến khi xuất bản và đo lường kết quả.
             </p>
         </div>
 
@@ -17,29 +17,29 @@
                 <button class="workflow-tab-item active" data-tab="step-1">
                     <span class="step-index">01</span>
                     <div class="tab-text">
-                        <h3>Khám bệnh website (Audit)</h3>
-                        <p>Tự động phát hiện lỗ hổng Thương hiệu, Technical, Off-page và đề xuất "Quick Win".</p>
+                        <h3>1. Phân tích hiện trạng website</h3>
+                        <p>Hệ thống tự động quét website để chỉ ra những lỗi cần khắc phục, đánh giá sức khỏe SEO và tìm kiếm cơ hội tăng trưởng nhanh.</p>
                     </div>
                 </button>
                 <button class="workflow-tab-item" data-tab="step-2">
                     <span class="step-index">02</span>
                     <div class="tab-text">
-                        <h3>Lập Chiến lược & Bản đồ</h3>
-                        <p>Phân tích bối cảnh, gom cụm từ khóa và xây dựng Topical Map chuyên sâu.</p>
+                        <h3>2. Xây dựng kế hoạch nội dung</h3>
+                        <p>Thay vì tập trung vào từ khóa lẻ tẻ, hệ thống giúp nhóm các chủ đề liên quan để xây dựng kế hoạch nội dung toàn diện và mạch lạc.</p>
                     </div>
                 </button>
                 <button class="workflow-tab-item" data-tab="step-3">
                     <span class="step-index">03</span>
                     <div class="tab-text">
-                        <h3>Lên Kế hoạch nội dung hằng tháng</h3>
-                        <p>Sinh lịch bài tự động với Dàn ý, Internal Link và yêu cầu Media chi tiết.</p>
+                        <h3>3. Lên dàn ý và viết bài với AI</h3>
+                        <p>Tạo dàn ý chi tiết dựa trên dữ liệu tìm kiếm. Tích hợp AI để hỗ trợ soạn thảo nhanh chóng, đảm bảo chuẩn SEO và thân thiện với người đọc.</p>
                     </div>
                 </button>
                 <button class="workflow-tab-item" data-tab="step-4">
                     <span class="step-index">04</span>
                     <div class="tab-text">
-                        <h3>Soạn thảo Thông minh</h3>
-                        <p>AI viết bài 1-click dựa trên Outline. Chấm điểm On-page (0-100) real-time.</p>
+                        <h3>4. Kiểm duyệt và đo lường</h3>
+                        <p>Hệ thống chấm điểm SEO trước khi đăng bài. Sau đó theo dõi thứ hạng, lượng truy cập để liên tục đề xuất các bước tối ưu tiếp theo.</p>
                     </div>
                 </button>
             </div>

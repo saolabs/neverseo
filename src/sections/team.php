@@ -11,8 +11,8 @@ $members = [
     <div class="site-shell">
         <div class="section-intro text-center">
             <p class="section-label label-brand">Đội ngũ</p>
-            <h2 id="team-title">Những con người đứng sau <span class="gradient-text">NeverSEO</span></h2>
-            <p>Kết hợp chuyên môn SEO thực chiến và công nghệ AI để xây dựng công cụ mà chính chúng tôi muốn dùng.</p>
+            <h2 id="team-title">Đội ngũ <span class="gradient-text">NeverSEO</span></h2>
+            <p>Chúng tôi là những người làm SEO thực chiến, xây dựng công cụ này để giải quyết chính những khó khăn mà các doanh nghiệp đang gặp phải.</p>
         </div>
 
         <div class="team-grid">

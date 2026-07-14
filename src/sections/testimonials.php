@@ -1,17 +1,17 @@
 <?php
 // sections/testimonials.php — Stats band (premium dark) + Đánh giá khách hàng
 $stats = [
-    ['num' => '10.000+', 'label' => 'Bài viết chuẩn SEO đã sản xuất'],
-    ['num' => '85%',     'label' => 'Thời gian tiết kiệm cho mỗi chiến dịch'],
-    ['num' => '500+',    'label' => 'Website đang được quản trị'],
-    ['num' => '4.8/5',   'label' => 'Điểm hài lòng của người dùng'],
+    ['num' => '50+',  'label' => 'Website đã được triển khai'],
+    ['num' => '800+', 'label' => 'Bài viết được xuất bản hàng tháng'],
+    ['num' => '70%',  'label' => 'Thời gian tiết kiệm khâu lập kế hoạch'],
+    ['num' => '100%', 'label' => 'Tuân thủ chặt chẽ tiêu chuẩn SEO'],
 ];
 
 $testimonials = [
     [
-        'quote' => 'Trước đây team mình mất cả tuần để lên Topical Map và content plan. Với NeverSEO, việc đó rút xuống còn vài giờ mà chất lượng còn sâu hơn. Đây là công cụ thay đổi cách agency mình vận hành.',
+        'quote' => 'Trước đây team mình mất cả tuần để lên Topical Map và content plan. Với NeverSEO, việc đó rút xuống còn vài giờ mà chất lượng còn sâu hơn. Đây là công cụ thay đổi hoàn toàn cách team mình làm SEO.',
         'name'  => 'Nguyễn Cao Lam',
-        'role'  => 'Giám đốc, Công ty Vận tải Hoàng Trung · hoangtrungexpress.com',
+        'role'  => 'Giám đốc Marketing, Công ty Vận tải Hoàng Trung',
         'initial' => 'CL',
         'tone'  => 'a',
     ],
@@ -24,9 +24,9 @@ $testimonials = [
     ],
     [
         'quote' => 'Là chủ doanh nghiệp không rành kỹ thuật, mình vẫn nắm được toàn cảnh chiến lược và tiến độ SEO qua dashboard. Chi phí giảm rõ rệt so với thuê ngoài mà kiểm soát lại tốt hơn.',
-        'name'  => 'Lê Thu Hà',
-        'role'  => 'CEO, Thương hiệu mỹ phẩm AnPhat',
-        'initial' => 'TH',
+        'name'  => 'Đậu Khắc Tùng',
+        'role'  => 'HỘ KINH DOANH ĐẬU KHẮC TÙNG 1980 · miworld.vn cùng các web trong hệ sinh thái MiWorld',
+        'initial' => 'KT',
         'tone'  => 'c',
     ],
 ];
@@ -47,9 +47,9 @@ $testimonials = [
 <section id="testimonials" class="studio-section testimonials-section" aria-labelledby="testimonials-title">
     <div class="site-shell">
         <div class="section-intro text-center">
-            <p class="section-label label-brand">Khách hàng nói gì</p>
-            <h2 id="testimonials-title">Được các agency &amp; doanh nghiệp <span class="gradient-text">tin tưởng giao phó</span></h2>
-            <p>Những đội ngũ đang tăng trưởng cùng NeverSEO mỗi ngày.</p>
+            <p class="section-label label-brand">Phản hồi từ đối tác</p>
+            <h2 id="testimonials-title">Được kiểm chứng bởi <span class="gradient-text">những dự án đầu tiên</span></h2>
+            <p>Những người đầu tiên trải nghiệm và tối ưu hóa quy trình SEO cùng NeverSEO.</p>
         </div>
 
         <div class="testi-grid">
