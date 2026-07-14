@@ -12,11 +12,11 @@
                 <ul class="contact-list">
                     <li>
                         <span class="contact-ico"><i class="ph-duotone ph-envelope-simple" aria-hidden="true"></i></span>
-                        <span><strong><?= __('contact.list_email') ?></strong><a href="mailto:support@neverseo.com">support@neverseo.com</a></span>
+                        <span><strong><?= __('contact.list_email') ?></strong><a href="mailto:<?= __('contact.email_val') ?>"><?= __('contact.email_val') ?></a></span>
                     </li>
                     <li>
                         <span class="contact-ico"><i class="ph-duotone ph-phone-call" aria-hidden="true"></i></span>
-                        <span><strong><?= __('contact.list_hotline') ?></strong><a href="tel:+84946786960">0946 786 960</a></span>
+                        <span><strong><?= __('contact.list_hotline') ?></strong><a href="tel:<?= __('contact.hotline_tel') ?>"><?= __('contact.hotline_val') ?></a></span>
                     </li>
                     <li>
                         <span class="contact-ico"><i class="ph-duotone ph-map-pin" aria-hidden="true"></i></span>
