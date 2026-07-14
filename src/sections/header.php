@@ -2,6 +2,13 @@
 // sections/header.php
 $home_url = (isset($current_url) && $current_url) ? ($LANG === 'vi' ? '/vn/' : '/') : '';
 ?>
+<div id="lang-banner" class="lang-banner" hidden>
+    <div class="site-shell lang-banner-inner">
+        <span id="lang-banner-text"></span>
+        <button id="lang-banner-close" aria-label="Close"><i class="ph ph-x" aria-hidden="true"></i></button>
+    </div>
+</div>
+
 <header class="site-header <?= isset($current_url) && $current_url ? 'site-header-solid ' . $current_url : '' ?>">
     <div class="site-shell">
         <div class="site-header-row">

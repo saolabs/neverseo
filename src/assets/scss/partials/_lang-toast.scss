@@ -1,0 +1,67 @@
+.lang-banner {
+    background-color: var(--color-ink);
+    padding: 12px 0;
+    font-family: var(--font-family);
+    position: relative;
+    z-index: 1000;
+}
+
+.lang-banner-inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    gap: 16px;
+}
+
+#lang-banner-text {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.9);
+    font-weight: 500;
+}
+
+#lang-banner-text .lang-inline-link {
+    color: #38bdf8; /* Lighter shade of brand primary for dark background */
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+#lang-banner-text .lang-inline-link:hover {
+    color: #7dd3fc;
+}
+
+#lang-banner-close {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    border: none;
+    color: rgba(255, 255, 255, 0.6);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px;
+    font-size: 18px;
+    border-radius: 4px;
+}
+
+#lang-banner-close:hover {
+    color: #fff;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+@media (max-width: 768px) {
+    .lang-banner-inner {
+        flex-direction: column;
+        text-align: center;
+        padding-right: 32px;
+        padding-left: 16px;
+    }
+    #lang-banner-close {
+        right: 0;
+        top: 0;
+        transform: none;
+    }
+}

@@ -287,4 +287,69 @@ document.addEventListener('DOMContentLoaded', function () {
             }
         });
     });
+
+    /* ---------------------------------------------------------------
+       Language Suggestion / Auto Detect
+    --------------------------------------------------------------- */
+    (function() {
+        const hasRedirected = sessionStorage.getItem('lang_redirected');
+        if (hasRedirected) return;
+
+        const userLang = navigator.language || navigator.userLanguage;
+        const isVN = userLang.toLowerCase().includes('vi');
+        
+        // Curent URL path
+        const path = window.location.pathname;
+        const isCurrentVN = path.startsWith('/vn');
+
+        // Show toast conditionally
+        let toastMsg = '';
+
+        if (isVN && !isCurrentVN) {
+            toastMsg = 'Bạn đến từ Việt Nam? <a href="/vn/" class="lang-inline-link">Chuyển sang phiên bản Tiếng Việt</a> để có trải nghiệm tốt nhất.';
+        } else if (!isVN && isCurrentVN) {
+            toastMsg = 'You seem to prefer English. <a href="/" class="lang-inline-link">Switch to the English version</a>?';
+        }
+
+        if (toastMsg) {
+            const banner = document.getElementById('lang-banner');
+            const bannerText = document.getElementById('lang-banner-text');
+            const bannerClose = document.getElementById('lang-banner-close');
+            const siteHeader = document.querySelector('.site-header');
+
+            if (banner && bannerText) {
+                bannerText.innerHTML = toastMsg;
+                banner.hidden = false;
+
+                // Dynamically push header down and scroll it smoothly
+                let updateHeaderPos;
+                if (siteHeader) {
+                    updateHeaderPos = () => {
+                        if (banner.hidden) return;
+                        const h = banner.offsetHeight;
+                        let newTop = h - window.scrollY;
+                        if (newTop < 0) newTop = 0;
+                        siteHeader.style.top = newTop + 'px';
+                    };
+                    updateHeaderPos();
+                    window.addEventListener('scroll', updateHeaderPos, { passive: true });
+                    window.addEventListener('resize', updateHeaderPos, { passive: true });
+                }
+
+                if (bannerClose) {
+                    bannerClose.addEventListener('click', () => {
+                        sessionStorage.setItem('lang_redirected', 'true');
+                        banner.hidden = true;
+                        if (siteHeader) {
+                            siteHeader.style.top = '0px';
+                            if (updateHeaderPos) {
+                                window.removeEventListener('scroll', updateHeaderPos);
+                                window.removeEventListener('resize', updateHeaderPos);
+                            }
+                        }
+                    });
+                }
+            }
+        }
+    })();
 });
