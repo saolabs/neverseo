@@ -1,7 +1,7 @@
 <?php
 // sections/hero.php
 ?>
-<section class="hero-studio" aria-labelledby="hero-title">
+<section class="hero-studio" aria-labelledby="hero-title" id="hero-section">
     <div class="site-shell">
         <div class="hero-split-layout">
             

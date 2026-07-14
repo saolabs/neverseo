@@ -91,7 +91,7 @@ document.addEventListener('DOMContentLoaded', function () {
     /* ---------------------------------------------------------------
        Đánh dấu mục nav đang xem (scroll spy)
     --------------------------------------------------------------- */
-    const navLinks = Array.prototype.slice.call(document.querySelectorAll('.site-nav a[href*="#"]'));
+    const navLinks = Array.prototype.slice.call(document.querySelectorAll('.site-nav a[href*="#"], .site-header-row a.site-logo[href*="#"]'));
     const sections = navLinks
         .map(function (link) {
             const id = link.getAttribute('href').split('#')[1];

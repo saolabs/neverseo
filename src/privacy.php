@@ -3,6 +3,8 @@
 $page_title = __('privacy.meta_title');
 $page_description = __('privacy.meta_desc');
 $page_path = get_lang_url($LANG);
+$current_url = "privacy.html";
+
 
 $sections_dir = __DIR__ . '/sections/';
 ?>

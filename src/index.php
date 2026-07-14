@@ -2,7 +2,7 @@
 // index.php
 $page_title = __('meta.title');
 $page_description = __('meta.description');
-
+$current_url = "";
 $sections_dir = __DIR__ . '/sections/';
 ?>
 <?php include $sections_dir . 'head.php'; ?>

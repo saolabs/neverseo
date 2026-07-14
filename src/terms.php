@@ -3,6 +3,7 @@
 $page_title = __('terms.meta_title');
 $page_description = __('terms.meta_desc');
 $page_path = get_lang_url($LANG);
+$current_url = "terms.html";
 
 $sections_dir = __DIR__ . '/sections/';
 ?>

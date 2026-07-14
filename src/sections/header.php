@@ -1,11 +1,11 @@
 <?php
 // sections/header.php
-$home_url = $LANG === 'vi' ? '/vn/' : '/';
+$home_url = (isset($current_url) && $current_url) ? ($LANG === 'vi' ? '/vn/' : '/') : '';
 ?>
-<header class="site-header">
+<header class="site-header <?= isset($current_url) && $current_url ? 'site-header-solid ' . $current_url : '' ?>">
     <div class="site-shell">
         <div class="site-header-row">
-            <a href="<?= $LANG === 'vi' ? '/vn/' : '/' ?>" class="site-logo" aria-label="NeverSEO trang chủ">
+            <a href="<?= !isset($current_url) || $current_url === '' ? '#hero-section' : $home_url ?>" class="site-logo" aria-label="NeverSEO trang chủ">
                 <span class="site-logo-mark">
                     <i class="ph ph-graph" aria-hidden="true"></i>
                 </span>
