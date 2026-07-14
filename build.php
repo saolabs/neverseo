@@ -16,11 +16,15 @@ $pages = [
     'terms.php'   => 'terms.html',
 ];
 
-// Các thư mục asset tĩnh được copy nguyên trạng src/assets -> build/assets
-// (css KHÔNG nằm ở đây vì được sass sinh ra ở bước build:css)
+// Các thư mục asset tĩnh được copy nguyên trạng src/assets -> build/assets.
+// Font chỉ copy các bản WOFF2 đã subset, không đưa toàn bộ TTF nguồn vào build.
 $asset_dirs = ['js', 'img'];
-
-$asset_dirs = ['js', 'img'];
+$font_files = [
+    'phosphor-regular-subset.woff2',
+    'phosphor-bold-subset.woff2',
+    'phosphor-fill-subset.woff2',
+    'phosphor-duotone-subset.woff2',
+];
 
 /* ------------------------------------------------------------------ helpers */
 $LANG_CONFIG = ['en' => '', 'vi' => 'vn'];
@@ -147,6 +151,19 @@ foreach ($asset_dirs as $dir) {
     $n = copy_dir($src, $dst);
     echo "📦 ASSET  assets/{$dir}/ ({$n} file)\n";
 }
+
+/* -------------------------------------------------- 3. copy optimized fonts */
+$font_src = $SRC . '/assets/fonts';
+$font_dst = $BUILD . '/assets/fonts';
+rrmdir($font_dst);
+if (!is_dir($font_dst)) mkdir($font_dst, 0755, true);
+$font_count = 0;
+foreach ($font_files as $font) {
+    if (copy($font_src . '/' . $font, $font_dst . '/' . $font)) {
+        $font_count++;
+    }
+}
+echo "📦 ASSET  assets/fonts/ ({$font_count} file)\n";
 
 echo "🎉 Đã build HTML + assets vào: {$BUILD}\n";
 echo "   (Chạy `npm run build:css` để compile CSS nếu chưa dùng `npm run build`.)\n";

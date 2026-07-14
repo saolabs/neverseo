@@ -55,13 +55,10 @@ $og_alt_locale = $LANG === 'vi' ? 'en_US' : 'vi_VN';
 
     <link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
 
-    <!-- Google Fonts: Roboto (biến thiên, đủ mọi weight 100–900, hỗ trợ tiếng Việt) -->
+    <!-- Google Fonts: Roboto biến thiên, hỗ trợ đầy đủ tiếng Việt. -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-
-    <!-- Phosphor Icons -->
-    <script defer src="https://unpkg.com/@phosphor-icons/web"></script>
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="/assets/css/style.css?v=<?= time() ?>">
@@ -117,14 +114,30 @@ $og_alt_locale = $LANG === 'vi' ? 'en_US' : 'vi_VN';
     </script>
 
 
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-Z0VRDME20D"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <!-- Analytics tải sau tương tác đầu tiên hoặc khi trang đã rảnh. -->
+    <script>
+    (function () {
+      var loaded = false;
+      function loadAnalytics() {
+        if (loaded) return;
+        loaded = true;
+        window.dataLayer = window.dataLayer || [];
+        window.gtag = function () { window.dataLayer.push(arguments); };
+        window.gtag('js', new Date());
+        window.gtag('config', 'G-Z0VRDME20D');
+        var script = document.createElement('script');
+        script.async = true;
+        script.src = 'https://www.googletagmanager.com/gtag/js?id=G-Z0VRDME20D';
+        document.head.appendChild(script);
+      }
 
-  gtag('config', 'G-Z0VRDME20D');
-</script>
+      ['pointerdown', 'keydown', 'touchstart', 'scroll'].forEach(function (eventName) {
+        window.addEventListener(eventName, loadAnalytics, { once: true, passive: true });
+      });
+      window.addEventListener('load', function () {
+        window.setTimeout(loadAnalytics, 5000);
+      }, { once: true });
+    }());
+    </script>
 </head>
 <body class="studio-body">
