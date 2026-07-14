@@ -61,7 +61,7 @@ $og_alt_locale = $LANG === 'vi' ? 'en_US' : 'vi_VN';
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
     <!-- Phosphor Icons -->
-    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <script defer src="https://unpkg.com/@phosphor-icons/web"></script>
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="/assets/css/style.css?v=<?= time() ?>">

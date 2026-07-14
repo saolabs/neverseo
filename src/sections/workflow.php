@@ -48,22 +48,22 @@
             <div class="workflow-tab-panels">
                 <div class="tab-panel active" id="step-1">
                     <div class="panel-visual">
-                        <img src="/assets/img/step-audit.png" alt="<?= __('workflow.alt_images.0') ?>">
+                        <img src="/assets/img/step-audit.webp" width="1024" height="1024" loading="lazy" decoding="async" alt="<?= __('workflow.alt_images.0') ?>">
                     </div>
                 </div>
                 <div class="tab-panel" id="step-2">
                     <div class="panel-visual">
-                        <img src="/assets/img/step-strategy.png" alt="<?= __('workflow.alt_images.1') ?>">
+                        <img src="/assets/img/step-strategy.webp" width="1024" height="1024" loading="lazy" decoding="async" alt="<?= __('workflow.alt_images.1') ?>">
                     </div>
                 </div>
                 <div class="tab-panel" id="step-3">
                     <div class="panel-visual">
-                        <img src="/assets/img/step-plan.png" alt="<?= __('workflow.alt_images.2') ?>">
+                        <img src="/assets/img/step-plan.webp" width="1024" height="1024" loading="lazy" decoding="async" alt="<?= __('workflow.alt_images.2') ?>">
                     </div>
                 </div>
                 <div class="tab-panel" id="step-4">
                     <div class="panel-visual">
-                        <img src="/assets/img/step-write.png" alt="<?= __('workflow.alt_images.3') ?>">
+                        <img src="/assets/img/step-write.webp" width="1024" height="1024" loading="lazy" decoding="async" alt="<?= __('workflow.alt_images.3') ?>">
                     </div>
                 </div>
             </div>

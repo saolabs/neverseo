@@ -35,7 +35,7 @@
 
             <div class="hero-visual">
                 <div class="dashboard-glow"></div>
-                <img src="/assets/img/hero-dashboard.png" alt="Giao diện Dashboard Quản trị SEO" class="hero-dashboard-img">
+                <img src="/assets/img/hero-dashboard.webp" width="1024" height="1024" alt="Giao diện Dashboard Quản trị SEO" class="hero-dashboard-img">
             </div>
 
         </div>
