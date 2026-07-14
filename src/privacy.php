@@ -1,8 +1,11 @@
 <?php
 // privacy.php
-$page_title = "Chính sách Bảo mật - NeverSEO";
-$page_description = "Chính sách bảo mật thông tin và dữ liệu người dùng của hệ thống NeverSEO, bao gồm điều khoản tuân thủ API Dịch vụ Google.";
-$page_path = "/privacy.html";
+$page_title = __('privacy.meta_title');
+$page_description = __('privacy.meta_desc');
+$page_path = get_lang_url($LANG);
+
+$url_prefix = ($LANG == 'vi' ? '/vi' : '') . '/';
+
 
 $sections_dir = __DIR__ . '/sections/';
 ?>
@@ -12,55 +15,55 @@ $sections_dir = __DIR__ . '/sections/';
 <main class="legal-page">
     <div class="legal-container">
         <div class="legal-header">
-            <p class="section-label">Pháp lý / NeverSEO</p>
-            <h1>Chính sách Bảo mật</h1>
-            <p>Cập nhật lần cuối: 10/07/2026</p>
+            <p class="section-label"><?= __('privacy.label') ?></p>
+            <h1><?= __('privacy.title') ?></h1>
+            <p><?= __('privacy.date') ?></p>
         </div>
 
         <article class="legal-card">
             <div>
-                <p>Chào mừng bạn đến với NeverSEO. Chúng tôi cam kết bảo vệ quyền riêng tư và dữ liệu cá nhân của bạn. Chính sách này giải thích cách chúng tôi thu thập, sử dụng, và bảo vệ thông tin khi bạn sử dụng ứng dụng web của chúng tôi.</p>
+                <p><?= __('privacy.intro') ?></p>
 
                 <h3>
                     <i class="ph-fill ph-info"></i>
-                    1. Thông tin chúng tôi thu thập
+                    <?= __('privacy.h1') ?>
                 </h3>
-                <p>Khi bạn tạo tài khoản hoặc sử dụng NeverSEO, chúng tôi có thể thu thập:</p>
+                <p><?= __('privacy.p1') ?></p>
                 <ul>
-                    <li><strong>Thông tin định danh:</strong> Tên, địa chỉ email, ảnh đại diện (khi đăng nhập qua Google OAuth).</li>
-                    <li><strong>Dữ liệu sử dụng:</strong> Nhật ký hoạt động (logs), mức sử dụng Token AI.</li>
-                    <li><strong>Dữ liệu do bạn cung cấp:</strong> Các chiến dịch SEO, danh sách từ khóa, bản nháp nội dung, mã API Key của các dịch vụ AI bên thứ ba (được mã hóa AES-256 an toàn trong cơ sở dữ liệu).</li>
+                    <li><?= __('privacy.l1_1') ?></li>
+                    <li><?= __('privacy.l1_2') ?></li>
+                    <li><?= __('privacy.l1_3') ?></li>
                 </ul>
 
                 <h3>
                     <i class="ph-fill ph-google-logo"></i>
-                    2. Tuân thủ Chính sách Dữ liệu API của Google
+                    <?= __('privacy.h2') ?>
                 </h3>
-                <p>Việc NeverSEO sử dụng và chuyển giao thông tin nhận được từ các API của Google cho bất kỳ ứng dụng nào khác sẽ tuân thủ <strong><a href="https://developers.google.com/terms/api-services-user-data-policy" target="_blank" rel="noopener noreferrer">Chính sách Dữ liệu Người dùng của API Dịch vụ Google</a></strong>, bao gồm cả các yêu cầu về Sử dụng Có giới hạn (Limited Use).</p>
-                <p>Cụ thể, khi bạn cấp quyền truy cập vào Google Search Console hoặc Google Analytics để phục vụ tính năng Audit và đo lường:</p>
+                <p><?= __('privacy.p2_1') ?></p>
+                <p><?= __('privacy.p2_2') ?></p>
                 <ul>
-                    <li>Chúng tôi <strong>chỉ sử dụng</strong> dữ liệu này để cung cấp hoặc cải thiện các tính năng cho người dùng (phân tích thứ hạng, lượt truy cập).</li>
-                    <li>Chúng tôi <strong>không chia sẻ hoặc bán</strong> dữ liệu người dùng cho bên thứ ba vì mục đích quảng cáo hoặc bất kỳ mục đích nào khác không liên quan.</li>
-                    <li>Chúng tôi <strong>không cho phép con người đọc</strong> dữ liệu này trừ khi có sự đồng ý rõ ràng từ bạn để hỗ trợ kỹ thuật hoặc vì mục đích bảo mật/tuân thủ pháp luật.</li>
+                    <li><?= __('privacy.l2_1') ?></li>
+                    <li><?= __('privacy.l2_2') ?></li>
+                    <li><?= __('privacy.l2_3') ?></li>
                 </ul>
 
                 <h3>
                     <i class="ph-fill ph-shield-check"></i>
-                    3. Lưu trữ và Bảo mật Dữ liệu
+                    <?= __('privacy.h3') ?>
                 </h3>
-                <p>Hệ thống hỗ trợ nhiều tài khoản và mỗi nhóm làm việc (Organization) có không gian dữ liệu độc lập. Dữ liệu nhạy cảm (như API Key, Access Token) được lưu trữ an toàn bằng thuật toán mã hóa tiên tiến nhất (AES-256).</p>
+                <p><?= __('privacy.p3') ?></p>
 
                 <h3>
                     <i class="ph-fill ph-user-gear"></i>
-                    4. Quyền của bạn
+                    <?= __('privacy.h4') ?>
                 </h3>
-                <p>Bạn có quyền truy cập, cập nhật, hoặc yêu cầu xóa toàn bộ dữ liệu cá nhân của mình khỏi hệ thống. Việc xóa tài khoản (Organization) sẽ xóa vĩnh viễn toàn bộ dữ liệu dự án, cấu hình và nội dung đi kèm.</p>
+                <p><?= __('privacy.p4') ?></p>
 
                 <h3>
                     <i class="ph-fill ph-envelope-simple"></i>
-                    5. Liên hệ
+                    <?= __('privacy.h5') ?>
                 </h3>
-                <p>Nếu bạn có bất kỳ câu hỏi nào về Chính sách Bảo mật này, vui lòng liên hệ với chúng tôi qua email: <a href="mailto:support@neverseo.com">support@neverseo.com</a>.</p>
+                <p><?= __('privacy.p5') ?></p>
             </div>
         </article>
     </div>

@@ -20,7 +20,34 @@ $pages = [
 // (css KHÔNG nằm ở đây vì được sass sinh ra ở bước build:css)
 $asset_dirs = ['js', 'img'];
 
+$asset_dirs = ['js', 'img'];
+
 /* ------------------------------------------------------------------ helpers */
+$LANG_CONFIG = ['en' => '', 'vi' => 'vn'];
+global $LANG, $T, $CURRENT_PAGE;
+
+function __($key) {
+    global $T;
+    $keys = explode('.', $key);
+    $val = $T;
+    foreach ($keys as $k) {
+        if (!isset($val[$k])) return $key;
+        $val = $val[$k];
+    }
+    return $val;
+}
+
+function get_lang_url($target_lang) {
+    global $LANG, $CURRENT_PAGE, $LANG_CONFIG;
+    $prefix = $LANG_CONFIG[$target_lang] !== '' ? '/' . $LANG_CONFIG[$target_lang] : '';
+    // If it's index.php -> index.html, we just link to / or /en/
+    if ($CURRENT_PAGE === 'index.php') {
+        return $prefix === '' ? '/' : $prefix . '/';
+    }
+    // For privacy.php -> privacy.html
+    $html_page = str_replace('.php', '.html', $CURRENT_PAGE);
+    return $prefix . '/' . $html_page;
+}
 function rrmdir(string $dir): void {
     if (!is_dir($dir)) return;
     foreach (scandir($dir) as $item) {
@@ -50,28 +77,65 @@ function copy_dir(string $src, string $dst): int {
 }
 
 /* --------------------------------------------------------- 1. render pages */
-if (!is_dir($BUILD)) mkdir($BUILD, 0755, true);
+foreach ($LANG_CONFIG as $lang_code => $lang_dir) {
+    $LANG = $lang_code;
+    $locale_file = $SRC . '/locales/' . $LANG . '.json';
+    $T = file_exists($locale_file) ? json_decode(file_get_contents($locale_file), true) : [];
+    if (!$T) $T = [];
 
-foreach ($pages as $source => $output) {
-    $source_file = $SRC . '/' . $source;
-    $output_file = $BUILD . '/' . $output;
-
-    if (!file_exists($source_file)) {
-        echo "⚠️  Không tìm thấy {$source_file}\n";
-        continue;
+    $out_dir = $BUILD;
+    if ($lang_dir !== '') {
+        $out_dir .= '/' . $lang_dir;
     }
+    if (!is_dir($out_dir)) mkdir($out_dir, 0755, true);
 
-    ob_start();
-    include $source_file;
-    $html = ob_get_clean();
+    foreach ($pages as $source => $output) {
+        $source_file = $SRC . '/' . $source;
+        $output_file = $out_dir . '/' . $output;
+        $CURRENT_PAGE = $source;
 
-    $bytes = file_put_contents($output_file, $html);
-    if ($bytes === false) {
-        echo "❌ Không thể ghi file {$output}\n";
-    } else {
-        $lines   = substr_count($html, "\n") + 1;
-        $size_kb = round($bytes / 1024, 1);
-        echo "✅ HTML   {$output} ({$lines} dòng, {$size_kb} KB)\n";
+        if (!file_exists($source_file)) {
+            echo "⚠️  Không tìm thấy {$source_file}\n";
+            continue;
+        }
+
+        ob_start();
+        include $source_file;
+        $html = ob_get_clean();
+
+        $bytes = file_put_contents($output_file, $html);
+        if ($bytes === false) {
+            echo "❌ Không thể ghi file {$output_file}\n";
+        } else {
+            $lines   = substr_count($html, "\n") + 1;
+            $size_kb = round($bytes / 1024, 1);
+            $rel_out = str_replace($BUILD . '/', '', $output_file);
+            echo "✅ HTML   {$rel_out} ({$lines} dòng, {$size_kb} KB)\n";
+        }
+    }
+}
+
+// Generate a root redirect if root is not used for any language
+$root_has_index = false;
+foreach ($LANG_CONFIG as $dir) {
+    if ($dir === '') $root_has_index = true;
+}
+if (!$root_has_index) {
+    foreach ($pages as $source => $output) {
+        $redirect_path = ($output === 'index.html') ? '' : $output;
+        $redirect_html = '<!DOCTYPE html><html><head>
+<script>
+var lang = navigator.language || navigator.userLanguage || "";
+if (lang.toLowerCase().startsWith("vi")) {
+    window.location.replace("/' . $LANG_CONFIG['vi'] . '/' . $redirect_path . '");
+} else {
+    window.location.replace("/' . $LANG_CONFIG['en'] . '/' . $redirect_path . '");
+}
+</script>
+<meta http-equiv="refresh" content="0; url=/' . $LANG_CONFIG['en'] . '/' . $redirect_path . '" />
+</head><body></body></html>';
+        file_put_contents($BUILD . '/' . $output, $redirect_html);
+        echo "✅ HTML   {$output} (auto-redirect)\n";
     }
 }
 

@@ -2,92 +2,92 @@
 // sections/pricing.php — Bảng giá đồng bộ với ứng dụng NeverSEO
 $plans = [
     [
-        'name'    => 'Dùng thử',
-        'tagline' => 'Trải nghiệm nhanh trước khi nâng cấp',
-        'price'   => '0',
-        'unit'    => 'đ',
-        'period'  => '/ 7 ngày',
-        'cta'     => 'Dùng thử 7 ngày',
+        'name'    => __('pricing.plans.0.name'),
+        'tagline' => __('pricing.plans.0.tagline'),
+        'price'   => __('pricing.plans.0.price'),
+        'unit'    => __('pricing.plans.0.unit'),
+        'period'  => __('pricing.plans.0.period'),
+        'cta'     => __('pricing.plans.0.cta'),
         'href'    => 'https://app.neverseo.com/register',
         'popular' => false,
         'features'=> [
-            '7 ngày trải nghiệm',
-            '10 từ khóa',
-            'Audit cơ bản & gợi ý Quick Win',
-            'Chấm điểm On-page (0–100)',
-            'Không cần thẻ tín dụng',
+            __('pricing.plans.0.features.0'),
+            __('pricing.plans.0.features.1'),
+            __('pricing.plans.0.features.2'),
+            __('pricing.plans.0.features.3'),
+            __('pricing.plans.0.features.4'),
         ],
     ],
     [
-        'name'    => 'Cơ bản',
-        'tagline' => 'Cho 1 website cần sản xuất đều đặn',
-        'price'   => '4.999.999',
-        'unit'    => 'đ',
-        'period'  => '/ tháng',
-        'cta'     => 'Bắt đầu ngay',
+        'name'    => __('pricing.plans.1.name'),
+        'tagline' => __('pricing.plans.1.tagline'),
+        'price'   => __('pricing.plans.1.price'),
+        'unit'    => __('pricing.plans.1.unit'),
+        'period'  => __('pricing.plans.1.period'),
+        'cta'     => __('pricing.plans.1.cta'),
         'href'    => 'https://app.neverseo.com/register',
         'popular' => false,
         'features'=> [
-            '1 website',
-            'Audit chuyên sâu 200+ tiêu chí (Technical + Off-page)',
-            'Topical Map & phân cụm từ khóa',
-            '30 bài viết AI / tháng',
-            'Kế hoạch nội dung chi tiết + quản lý Media',
-            'Đa AI: ChatGPT, Claude, Gemini, DeepSeek',
-            'Dashboard đo lường ROI & Quick Win',
+            __('pricing.plans.1.features.0'),
+            __('pricing.plans.1.features.1'),
+            __('pricing.plans.1.features.2'),
+            __('pricing.plans.1.features.3'),
+            __('pricing.plans.1.features.4'),
+            __('pricing.plans.1.features.5'),
+            __('pricing.plans.1.features.6'),
         ],
     ],
     [
-        'name'    => 'Doanh nghiệp',
-        'tagline' => 'Doanh nghiệp quản trị nhiều website',
-        'price'   => '10.000.000',
-        'unit'    => 'đ',
-        'period'  => '/ tháng',
-        'cta'     => 'Bắt đầu ngay',
+        'name'    => __('pricing.plans.2.name'),
+        'tagline' => __('pricing.plans.2.tagline'),
+        'price'   => __('pricing.plans.2.price'),
+        'unit'    => __('pricing.plans.2.unit'),
+        'period'  => __('pricing.plans.2.period'),
+        'cta'     => __('pricing.plans.2.cta'),
         'href'    => 'https://app.neverseo.com/register',
         'popular' => true,
         'features'=> [
-            '3 website',
-            '100 bài viết AI / tháng',
-            'Audit chuyên sâu 200+ tiêu chí (Technical + Off-page)',
-            'Kế hoạch nội dung chi tiết + quản lý Media',
-            'Dashboard đo lường ROI & Quick Win',
-            'Đa AI: ChatGPT, Claude, Gemini, DeepSeek',
+            __('pricing.plans.2.features.0'),
+            __('pricing.plans.2.features.1'),
+            __('pricing.plans.2.features.2'),
+            __('pricing.plans.2.features.3'),
+            __('pricing.plans.2.features.4'),
+            __('pricing.plans.2.features.5'),
         ],
     ],
     [
-        'name'    => 'Quy mô lớn',
-        'tagline' => 'Cho agency & hệ thống nhiều website',
-        'price'   => '25.000.000',
-        'unit'    => 'đ',
-        'period'  => '/ tháng',
-        'cta'     => 'Liên hệ tư vấn',
+        'name'    => __('pricing.plans.3.name'),
+        'tagline' => __('pricing.plans.3.tagline'),
+        'price'   => __('pricing.plans.3.price'),
+        'unit'    => __('pricing.plans.3.unit'),
+        'period'  => __('pricing.plans.3.period'),
+        'cta'     => __('pricing.plans.3.cta'),
         'href'    => '#contact',
         'popular' => false,
         'features'=> [
-            '10 website',
-            '500 bài viết AI / tháng',
-            'Quản trị đa nhóm (Organization) & phân quyền',
-            'BYOK — dùng API Key riêng của bạn',
-            'Theo dõi chi phí Token chi tiết',
-            'Hỗ trợ ưu tiên 1-1 & onboarding',
+            __('pricing.plans.3.features.0'),
+            __('pricing.plans.3.features.1'),
+            __('pricing.plans.3.features.2'),
+            __('pricing.plans.3.features.3'),
+            __('pricing.plans.3.features.4'),
+            __('pricing.plans.3.features.5'),
         ],
     ],
     [
-        'name'    => 'Tùy chỉnh',
-        'tagline' => 'Cho khách hàng có nhu cầu lớn hơn',
-        'price'   => 'Linh động',
-        'unit'    => '',
-        'period'  => 'theo nhu cầu',
-        'cta'     => 'Liên hệ tư vấn',
+        'name'    => __('pricing.plans.4.name'),
+        'tagline' => __('pricing.plans.4.tagline'),
+        'price'   => __('pricing.plans.4.price'),
+        'unit'    => __('pricing.plans.4.unit'),
+        'period'  => __('pricing.plans.4.period'),
+        'cta'     => __('pricing.plans.4.cta'),
         'href'    => '#contact',
         'popular' => false,
         'features'=> [
-            'Số lượng website theo nhu cầu',
-            'Sản lượng bài viết theo kế hoạch',
-            'Tư vấn triển khai riêng',
-            'Tích hợp API/SSO theo yêu cầu',
-            'SLA & hỗ trợ ưu tiên',
+            __('pricing.plans.4.features.0'),
+            __('pricing.plans.4.features.1'),
+            __('pricing.plans.4.features.2'),
+            __('pricing.plans.4.features.3'),
+            __('pricing.plans.4.features.4'),
         ],
     ],
 ];
@@ -95,9 +95,9 @@ $plans = [
 <section id="pricing" class="studio-section pricing-section" aria-labelledby="pricing-title">
     <div class="site-shell">
         <div class="section-intro text-center">
-            <p class="section-label label-brand">Bảng giá</p>
-            <h2 id="pricing-title">Chọn gói phù hợp, <span class="gradient-text">nâng cấp bất cứ lúc nào</span></h2>
-            <p>Dùng thử 7 ngày, không cần thẻ tín dụng. Trả theo tháng, hủy bất cứ lúc nào.</p>
+            <p class="section-label label-brand"><?= __('pricing.label') ?></p>
+            <h2 id="pricing-title"><?= __('pricing.title_start') ?><span class="gradient-text"><?= __('pricing.title_gradient') ?></span></h2>
+            <p><?= __('pricing.desc') ?></p>
         </div>
 
         <div class="pricing-slider" data-pricing-slider>
@@ -108,13 +108,19 @@ $plans = [
             <div class="pricing-grid" data-pricing-track>
                 <?php foreach ($plans as $p): ?>
                     <article class="price-card<?php echo $p['popular'] ? ' is-popular' : ''; ?>">
-                        <?php if ($p['popular']): ?><span class="price-badge">Phổ biến nhất</span><?php endif; ?>
+                        <?php if ($p['popular']): ?><span class="price-badge"><?= __('pricing.popular_badge') ?></span><?php endif; ?>
                         <div class="price-head">
                             <h3><?php echo $p['name']; ?></h3>
                             <p class="price-tagline"><?php echo $p['tagline']; ?></p>
                         </div>
                         <div class="price-amount">
-                            <span class="price-value"><?php echo $p['price']; ?><?php if ($p['unit'] !== ''): ?><span class="price-unit"><?php echo $p['unit']; ?></span><?php endif; ?></span>
+                            <span class="price-value" style="display: flex; align-items: flex-start; justify-content: center;">
+                                <span style="position: relative;">
+                                    <?php if ($LANG === 'en' && $p['unit'] !== ''): ?><span class="price-unit" style="position: absolute; right: 100%; margin-right: 4px; font-size: 24px; margin-top: 4px;"><?php echo $p['unit']; ?></span><?php endif; ?>
+                                    <?php echo $p['price']; ?>
+                                </span>
+                                <?php if ($LANG === 'vi' && $p['unit'] !== ''): ?><span class="price-unit" style="font-size: 20px; margin-top: 4px;"><?php echo $p['unit']; ?></span><?php endif; ?>
+                            </span>
                             <span class="price-period"><?php echo $p['period']; ?></span>
                         </div>
                         <a href="<?php echo $p['href']; ?>" class="button <?php echo $p['popular'] ? 'button-primary' : 'button-outline'; ?> price-cta">
@@ -134,6 +140,6 @@ $plans = [
             </button>
         </div>
 
-        <p class="pricing-note">Tất cả gói đều bao gồm cập nhật tính năng mới và bảo mật dữ liệu mã hóa AES-256.</p>
+        <p class="pricing-note"><?= __('pricing.note') ?></p>
     </div>
 </section>

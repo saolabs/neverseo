@@ -1,31 +1,31 @@
 <?php
 // sections/testimonials.php — Stats band (premium dark) + Đánh giá khách hàng
 $stats = [
-    ['num' => '50+',  'label' => 'Website đã được triển khai'],
-    ['num' => '800+', 'label' => 'Bài viết được xuất bản hàng tháng'],
-    ['num' => '70%',  'label' => 'Thời gian tiết kiệm khâu lập kế hoạch'],
-    ['num' => '100%', 'label' => 'Tuân thủ chặt chẽ tiêu chuẩn SEO'],
+    ['num' => '50+',  'label' => __('testimonials.stats.0.label')],
+    ['num' => '800+', 'label' => __('testimonials.stats.1.label')],
+    ['num' => '70%',  'label' => __('testimonials.stats.2.label')],
+    ['num' => '100%', 'label' => __('testimonials.stats.3.label')],
 ];
 
 $testimonials = [
     [
-        'quote' => 'Trước đây team mình mất cả tuần để lên Topical Map và content plan. Với NeverSEO, việc đó rút xuống còn vài giờ mà chất lượng còn sâu hơn. Đây là công cụ thay đổi hoàn toàn cách team mình làm SEO.',
-        'name'  => 'Nguyễn Cao Lam',
-        'role'  => 'Giám đốc Marketing, Công ty Vận tải Hoàng Trung',
+        'quote' => __('testimonials.items.0.quote'),
+        'name'  => __('testimonials.items.0.name'),
+        'role'  => __('testimonials.items.0.role'),
         'initial' => 'CL',
         'tone'  => 'a',
     ],
     [
-        'quote' => 'Điểm mình thích nhất là hệ thống Gating. Bài nào chưa đạt điểm On-page thì không cho xuất bản, nhờ vậy chất lượng luôn đồng đều dù có nhiều writer cùng làm.',
-        'name'  => 'Khỏng Trọng Tú',
-        'role'  => 'Chuỗi Nha khoa Việt Bỉ · nhakhoavietbi.vn, nhakhoavietbi.com, vietbidental.com',
+        'quote' => __('testimonials.items.1.quote'),
+        'name'  => __('testimonials.items.1.name'),
+        'role'  => __('testimonials.items.1.role'),
         'initial' => 'TT',
         'tone'  => 'b',
     ],
     [
-        'quote' => 'Là chủ doanh nghiệp không rành kỹ thuật, mình vẫn nắm được toàn cảnh chiến lược và tiến độ SEO qua dashboard. Chi phí giảm rõ rệt so với thuê ngoài mà kiểm soát lại tốt hơn.',
-        'name'  => 'Đậu Khắc Tùng',
-        'role'  => 'HỘ KINH DOANH ĐẬU KHẮC TÙNG 1980 · miworld.vn cùng các web trong hệ sinh thái MiWorld',
+        'quote' => __('testimonials.items.2.quote'),
+        'name'  => __('testimonials.items.2.name'),
+        'role'  => __('testimonials.items.2.role'),
         'initial' => 'KT',
         'tone'  => 'c',
     ],
@@ -47,9 +47,9 @@ $testimonials = [
 <section id="testimonials" class="studio-section testimonials-section" aria-labelledby="testimonials-title">
     <div class="site-shell">
         <div class="section-intro text-center">
-            <p class="section-label label-brand">Phản hồi từ đối tác</p>
-            <h2 id="testimonials-title">Được kiểm chứng bởi <span class="gradient-text">những dự án đầu tiên</span></h2>
-            <p>Những người đầu tiên trải nghiệm và tối ưu hóa quy trình SEO cùng NeverSEO.</p>
+            <p class="section-label label-brand"><?= __('testimonials.label') ?></p>
+            <h2 id="testimonials-title"><?= __('testimonials.title_start') ?><span class="gradient-text"><?= __('testimonials.title_gradient') ?></span></h2>
+            <p><?= __('testimonials.desc') ?></p>
         </div>
 
         <div class="testi-grid">

@@ -1,24 +1,24 @@
 <?php
 // sections/team.php — Đội ngũ (avatar placeholder trong assets/img/team, thay ảnh thật sau)
 $members = [
-    ['slug' => 'le-ngoc-doan',        'name' => 'Lê Ngọc Doãn',        'role' => 'Founder & Kiến trúc sư sản phẩm', 'bio' => 'Đứng sau kiến trúc Gating & Prompt chaining của NeverSEO.'],
-    ['slug' => 'pham-quang-linh',     'name' => 'Phạm Quang Linh',      'role' => 'Co-Founder & Marketing',          'bio' => 'Định hình chiến lược thương hiệu và tăng trưởng cho NeverSEO.'],
-    ['slug' => 'dinh-thi-huyen-trang','name' => 'Đinh Thị Huyền Trang', 'role' => 'Cố vấn & Chuyên gia SEO',          'bio' => 'Cố vấn phương pháp Topical Authority và chuẩn chất lượng nội dung.'],
-    ['slug' => 'le-thi-anh-van',      'name' => 'Lê Thị Anh Vân',       'role' => 'Chuyên gia SEO',                   'bio' => 'Triển khai audit, phân tích đối thủ và tối ưu on-page thực chiến.'],
+    ['slug' => 'le-ngoc-doan',        'name' => __('team.members.0.name'),        'role' => __('team.members.0.role'), 'bio' => __('team.members.0.bio')],
+    ['slug' => 'pham-quang-linh',     'name' => __('team.members.1.name'),      'role' => __('team.members.1.role'),          'bio' => __('team.members.1.bio')],
+    ['slug' => 'dinh-thi-huyen-trang','name' => __('team.members.2.name'), 'role' => __('team.members.2.role'),          'bio' => __('team.members.2.bio')],
+    ['slug' => 'le-thi-anh-van',      'name' => __('team.members.3.name'),       'role' => __('team.members.3.role'),                   'bio' => __('team.members.3.bio')],
 ];
 ?>
 <section id="team" class="studio-section team-section" aria-labelledby="team-title">
     <div class="site-shell">
         <div class="section-intro text-center">
-            <p class="section-label label-brand">Đội ngũ</p>
-            <h2 id="team-title">Đội ngũ <span class="gradient-text">NeverSEO</span></h2>
-            <p>Chúng tôi là những người làm SEO thực chiến, xây dựng công cụ này để giải quyết chính những khó khăn mà các doanh nghiệp đang gặp phải.</p>
+            <p class="section-label label-brand"><?= __('team.label') ?></p>
+            <h2 id="team-title"><?= __('team.title_start') ?><span class="gradient-text"><?= __('team.title_gradient') ?></span></h2>
+            <p><?= __('team.desc') ?></p>
         </div>
 
         <div class="team-grid">
             <?php foreach ($members as $m): ?>
                 <article class="team-card">
-                    <img class="team-avatar" src="assets/img/team/<?php echo $m['slug']; ?>.png" alt="<?php echo htmlspecialchars($m['name']); ?>" width="400" height="400" loading="lazy">
+                    <img class="team-avatar" src="/assets/img/team/<?php echo $m['slug']; ?>.png" alt="<?php echo htmlspecialchars($m['name']); ?>" width="400" height="400" loading="lazy">
                     <h3 class="team-name"><?php echo $m['name']; ?></h3>
                     <p class="team-role"><?php echo $m['role']; ?></p>
                     <p class="team-bio"><?php echo $m['bio']; ?></p>

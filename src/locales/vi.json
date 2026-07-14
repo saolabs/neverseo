@@ -1,0 +1,462 @@
+{
+  "nav": {
+    "solution": "Giải pháp",
+    "workflow": "Quy trình",
+    "features": "Tính năng",
+    "pricing": "Bảng giá",
+    "faq": "FAQ",
+    "login": "Đăng nhập",
+    "cta": "Trải nghiệm miễn phí"
+  },
+  "lang_vi": "VI",
+  "lang_en": "EN",
+  "hero": {
+    "eyebrow": "Nền tảng Quản trị SEO Toàn diện",
+    "title_start": "Tăng trưởng SEO ",
+    "title_gradient": "bền vững trong kỷ nguyên AI.",
+    "lead": "Thay vì viết bài hàng loạt một cách mù quáng, NeverSEO giúp bạn lập kế hoạch từ dữ liệu thực tế. Tập trung vào nội dung chất lượng để thuyết phục khách hàng và xây dựng vị thế bền vững trên công cụ tìm kiếm.",
+    "cta_start": "Bắt đầu miễn phí",
+    "cta_secondary": "Khám phá quy trình",
+    "proof_1": "Dựa trên dữ liệu thực tế",
+    "proof_2": "Tối ưu cho người dùng",
+    "proof_3": "Tăng trưởng dài hạn"
+  },
+  "logos": {
+    "eyebrow": "Đồng hành cùng hơn <strong>50+ doanh nghiệp &amp; dự án</strong> tại Việt Nam"
+  },
+  "problems": {
+    "label": "Thực trạng hiện nay",
+    "title": "Sản xuất nội dung ồ ạt không mang lại thứ hạng bền vững.",
+    "desc": "Google ngày càng thông minh và ưu tiên nội dung mang giá trị thực. Việc nhồi nhét từ khóa hay sản xuất bài viết hàng loạt không chỉ kém hiệu quả mà còn làm lãng phí ngân sách của bạn.",
+    "items": [
+      {
+        "title": "Làm nội dung theo cảm tính",
+        "desc": "Không có chiến lược từ khóa rõ ràng, viết bài rời rạc khiến website không được Google đánh giá cao về độ chuyên sâu (Topical Authority)."
+      },
+      {
+        "title": "Lạm dụng AI quá đà",
+        "desc": "Tạo ra hàng ngàn bài viết rác bằng AI thiếu kiểm duyệt. Nội dung vô hồn, sai kiến thức, làm giảm uy tín thương hiệu trong mắt khách hàng."
+      },
+      {
+        "title": "Khó đo lường hiệu quả",
+        "desc": "Đổ nhiều tiền vào Content và Backlink nhưng không biết chính xác hoạt động nào đang thực sự mang lại traffic và khách hàng tiềm năng."
+      }
+    ]
+  },
+
+  "solution": {
+    "label": "Giải pháp NeverSEO",
+    "title": "Hệ thống quản trị SEO tinh gọn, hiệu quả.",
+    "desc": "NeverSEO kết hợp sức mạnh của dữ liệu và AI để giúp bạn làm SEO bài bản hơn. Mọi quyết định từ việc chọn chủ đề đến xuất bản nội dung đều được hướng dẫn rõ ràng, dễ hiểu.",
+    "pillars": [
+      {
+        "title": "Lên kế hoạch bằng dữ liệu",
+        "desc": "Hệ thống tự động phân tích dữ liệu website và thị trường để tìm ra cơ hội SEO tốt nhất, không cần phỏng đoán."
+      },
+      {
+        "title": "Tích hợp AI thông minh",
+        "desc": "Các trợ lý AI giúp phân tích, lập dàn ý và hỗ trợ viết bài nhanh hơn, đảm bảo chất lượng và độ chính xác."
+      },
+      {
+        "title": "Tiếp cận đúng khách hàng",
+        "desc": "Tối ưu nội dung để trả lời đúng câu hỏi của khách hàng, giúp website xuất hiện ở mọi nơi họ tìm kiếm."
+      },
+      {
+        "title": "Phát triển bền vững",
+        "desc": "Xây dựng nền tảng nội dung chất lượng cao. Các bài viết sẽ liên tục mang lại khách hàng trong nhiều năm tới."
+      }
+    ],
+    "nodes": [
+      "Nền tảng",
+      "Kế hoạch bền vững",
+      "Chiến lược",
+      "Nội dung + QC",
+      "Hiệu suất",
+      "AI Visibility"
+    ]
+  },
+  "features": {
+    "label": "Tính năng nổi bật",
+    "title_start": "Tất cả các công cụ bạn cần, ",
+    "title_gradient": "trong một nền tảng duy nhất.",
+    "desc": "Không cần dùng nhiều phần mềm phức tạp. NeverSEO cung cấp đầy đủ tính năng để bạn quản lý chiến dịch SEO từ A đến Z.",
+    "items": [
+      {
+        "title": "Nghiên cứu thị trường tự động",
+        "desc": "Phân tích dữ liệu từ Google để cho bạn biết khách hàng đang tìm kiếm điều gì và đối thủ đang làm gì."
+      },
+      {
+        "title": "Quản lý chủ đề thông minh",
+        "desc": "Trực quan hóa cấu trúc website, giúp bạn dễ dàng theo dõi và bổ sung nội dung cho các chủ đề quan trọng."
+      },
+      {
+        "title": "Lập kế hoạch nội dung",
+        "desc": "Lên lịch biên tập rõ ràng. Dễ dàng phân công công việc cho từng thành viên trong nhóm và theo dõi tiến độ."
+      },
+      {
+        "title": "Tiêu chuẩn hóa bài viết",
+        "desc": "Cung cấp hướng dẫn viết bài cụ thể, dàn ý chi tiết, đảm bảo mọi người trong nhóm đều viết bài đúng chuẩn SEO."
+      },
+      {
+        "title": "Chấm điểm SEO tự động",
+        "desc": "Chỉ ra ngay những điểm cần sửa trước khi xuất bản: thiếu từ khóa, tiêu đề chưa tối ưu, nội dung chưa đủ sâu..."
+      },
+      {
+        "title": "Báo cáo hiệu quả minh bạch",
+        "desc": "Kết nối với Google Analytics và Search Console để biết chính xác bài viết nào đang mang lại nhiều khách hàng nhất."
+      }
+    ],
+    "integrations_label": "Kết nối liền mạch với hệ sinh thái của bạn"
+  },
+  "audience": {
+    "label": "Được thiết kế cho",
+    "title": "Ai sẽ nhận được giá trị từ NeverSEO?",
+    "items": [
+      {
+        "badge": "Chủ doanh nghiệp & Quản lý",
+        "title": "Quản lý chi phí và hiệu quả SEO",
+        "desc": "Nắm bắt bức tranh toàn cảnh về SEO. Theo dõi chi phí đầu tư đang mang lại kết quả gì, bài viết nào ra số, mà không cần hiểu các thuật ngữ phức tạp."
+      },
+      {
+        "badge": "SEO-ers & Chuyên gia Tối ưu",
+        "title": "Tiết kiệm thời gian, tối ưu quy trình",
+        "desc": "Giảm thiểu hàng giờ đồng hồ nghiên cứu từ khóa thủ công. Hệ thống hóa quy trình làm việc để dễ dàng quản lý nhiều dự án và nhân sự cùng lúc."
+      },
+      {
+        "badge": "Đội ngũ Content Writer",
+        "title": "Giải quyết bài toán cạn ý tưởng",
+        "desc": "Luôn có sẵn chủ đề và dàn ý chi tiết để viết. Công cụ AI hỗ trợ soạn thảo nhanh hơn, đảm bảo chuẩn SEO và thống nhất chất lượng bài viết."
+      }
+    ]
+  },
+  "workflow": {
+    "label": "Quy trình làm việc",
+    "title": "Quy trình 4 bước tinh gọn",
+    "desc": "Quy trình chuẩn hóa giúp bạn dễ dàng theo dõi toàn bộ chiến dịch SEO — từ bước phân tích hiện trạng cho đến khi xuất bản và đo lường kết quả.",
+    "steps": [
+      {
+        "title": "1. Phân tích hiện trạng website",
+        "desc": "Hệ thống tự động quét website để chỉ ra những lỗi cần khắc phục, đánh giá sức khỏe SEO và tìm kiếm cơ hội tăng trưởng nhanh."
+      },
+      {
+        "title": "2. Xây dựng kế hoạch nội dung",
+        "desc": "Thay vì tập trung vào từ khóa lẻ tẻ, hệ thống giúp nhóm các chủ đề liên quan để xây dựng kế hoạch nội dung toàn diện và mạch lạc."
+      },
+      {
+        "title": "3. Lên dàn ý và viết bài với AI",
+        "desc": "Tạo dàn ý chi tiết dựa trên dữ liệu tìm kiếm. Tích hợp AI để hỗ trợ soạn thảo nhanh chóng, đảm bảo chuẩn SEO và thân thiện với người đọc."
+      },
+      {
+        "title": "4. Kiểm duyệt và đo lường",
+        "desc": "Hệ thống chấm điểm SEO trước khi đăng bài. Sau đó theo dõi thứ hạng, lượng truy cập để liên tục đề xuất các bước tối ưu tiếp theo."
+      }
+    ],
+    "alt_images": [
+      "Audit & Technical SEO",
+      "Chiến lược & Topical Map",
+      "Kế hoạch Content chi tiết",
+      "AI Writing & Quality Control"
+    ]
+  },
+  "testimonials": {
+    "stats": [
+      {
+        "num": "50+",
+        "label": "Website đã được triển khai"
+      },
+      {
+        "num": "800+",
+        "label": "Bài viết được xuất bản hàng tháng"
+      },
+      {
+        "num": "70%",
+        "label": "Thời gian tiết kiệm khâu lập kế hoạch"
+      },
+      {
+        "num": "100%",
+        "label": "Tuân thủ chặt chẽ tiêu chuẩn SEO"
+      }
+    ],
+    "label": "Phản hồi từ đối tác",
+    "title_start": "Được kiểm chứng bởi ",
+    "title_gradient": "những dự án đầu tiên",
+    "desc": "Những người đầu tiên trải nghiệm và tối ưu hóa quy trình SEO cùng NeverSEO.",
+    "items": [
+      {
+        "quote": "Trước đây team mình mất cả tuần để lên Topical Map và content plan. Với NeverSEO, việc đó rút xuống còn vài giờ mà chất lượng còn sâu hơn. Đây là công cụ thay đổi hoàn toàn cách team mình làm SEO.",
+        "name": "Nguyễn Cao Lam",
+        "role": "Giám đốc Marketing, Công ty Vận tải Hoàng Trung"
+      },
+      {
+        "quote": "Điểm mình thích nhất là hệ thống Gating. Bài nào chưa đạt điểm On-page thì không cho xuất bản, nhờ vậy chất lượng luôn đồng đều dù có nhiều writer cùng làm.",
+        "name": "Khổng Trọng Tú",
+        "role": "Chuỗi Nha khoa Việt Bỉ · nhakhoavietbi.vn, nhakhoavietbi.com, vietbidental.com"
+      },
+      {
+        "quote": "Là chủ doanh nghiệp không rành kỹ thuật, mình vẫn nắm được toàn cảnh chiến lược và tiến độ SEO qua dashboard. Chi phí giảm rõ rệt so với thuê ngoài mà kiểm soát lại tốt hơn.",
+        "name": "Đậu Khắc Tùng",
+        "role": "HỘ KINH DOANH ĐẬU KHẮC TÙNG 1980 · miworld.vn cùng các web trong hệ sinh thái MiWorld"
+      }
+    ]
+  },
+  "pricing": {
+    "label": "Bảng giá",
+    "title_start": "Chọn gói phù hợp, ",
+    "title_gradient": "nâng cấp bất cứ lúc nào",
+    "desc": "Dùng thử 7 ngày, không cần thẻ tín dụng. Trả theo tháng, hủy bất cứ lúc nào.",
+    "popular_badge": "Phổ biến nhất",
+    "note": "Tất cả gói đều bao gồm cập nhật tính năng mới và bảo mật dữ liệu mã hóa AES-256.",
+    "plans": [
+      {
+        "name": "Dùng thử",
+        "tagline": "Trải nghiệm nhanh trước khi nâng cấp",
+        "price": "0",
+        "unit": "đ",
+        "period": "/ 7 ngày",
+        "cta": "Dùng thử 7 ngày",
+        "features": [
+          "7 ngày trải nghiệm",
+          "10 từ khóa",
+          "Audit cơ bản & gợi ý Quick Win",
+          "Chấm điểm On-page (0–100)",
+          "Không cần thẻ tín dụng"
+        ]
+      },
+      {
+        "name": "Cơ bản",
+        "tagline": "Cho 1 website cần sản xuất đều đặn",
+        "price": "4.999.999",
+        "unit": "đ",
+        "period": "/ tháng",
+        "cta": "Bắt đầu ngay",
+        "features": [
+          "1 website",
+          "Audit chuyên sâu 200+ tiêu chí (Technical + Off-page)",
+          "Topical Map & phân cụm từ khóa",
+          "30 bài viết AI / tháng",
+          "Kế hoạch nội dung chi tiết + quản lý Media",
+          "Đa AI: ChatGPT, Claude, Gemini, DeepSeek",
+          "Dashboard đo lường ROI & Quick Win"
+        ]
+      },
+      {
+        "name": "Doanh nghiệp",
+        "tagline": "Doanh nghiệp quản trị nhiều website",
+        "price": "10.000.000",
+        "unit": "đ",
+        "period": "/ tháng",
+        "cta": "Bắt đầu ngay",
+        "features": [
+          "3 website",
+          "100 bài viết AI / tháng",
+          "Audit chuyên sâu 200+ tiêu chí (Technical + Off-page)",
+          "Kế hoạch nội dung chi tiết + quản lý Media",
+          "Dashboard đo lường ROI & Quick Win",
+          "Đa AI: ChatGPT, Claude, Gemini, DeepSeek"
+        ]
+      },
+      {
+        "name": "Quy mô lớn",
+        "tagline": "Cho agency & hệ thống nhiều website",
+        "price": "30.000.000",
+        "unit": "đ",
+        "period": "/ tháng",
+        "cta": "Liên hệ tư vấn",
+        "features": [
+          "10 website",
+          "500 bài viết AI / tháng",
+          "Quản trị đa nhóm (Organization) & phân quyền",
+          "BYOK — dùng API Key riêng của bạn",
+          "Theo dõi chi phí Token chi tiết",
+          "Hỗ trợ ưu tiên 1-1 & onboarding"
+        ]
+      },
+      {
+        "name": "Tùy chỉnh",
+        "tagline": "Cho khách hàng có nhu cầu lớn hơn",
+        "price": "Linh động",
+        "unit": "",
+        "period": "theo nhu cầu",
+        "cta": "Liên hệ tư vấn",
+        "features": [
+          "Số lượng website theo nhu cầu",
+          "Sản lượng bài viết theo kế hoạch",
+          "Tư vấn triển khai riêng",
+          "Tích hợp API/SSO theo yêu cầu",
+          "SLA & hỗ trợ ưu tiên"
+        ]
+      }
+    ]
+  },
+  "faq": {
+    "label": "Giải đáp",
+    "title": "Câu hỏi thường gặp",
+    "desc_start": "Chưa tìm thấy câu trả lời? ",
+    "desc_link": "Liên hệ đội ngũ của chúng tôi",
+    "items": [
+      {
+        "q": "NeverSEO có thay thế được nhân sự SEO không?",
+        "a": "Không. NeverSEO là công cụ đắc lực giúp đội ngũ SEO làm việc hiệu quả hơn, nhanh hơn và ít sai sót hơn. Hệ thống tự động hóa quy trình phân tích và vận hành, còn tư duy chiến lược cuối cùng vẫn do con người quyết định."
+      },
+      {
+        "q": "Tôi mới tìm hiểu về SEO thì có dùng được không?",
+        "a": "Chắc chắn rồi. NeverSEO được thiết kế với giao diện thân thiện, dễ hiểu. Hệ thống sẽ hướng dẫn bạn từng bước cần làm, giống như có một chuyên gia SEO luôn bên cạnh hỗ trợ."
+      },
+      {
+        "q": "Viết bài bằng AI có bị Google phạt không?",
+        "a": "Google không phạt nội dung tạo bằng AI, họ chỉ phạt nội dung rác, kém chất lượng. NeverSEO sử dụng AI như một trợ lý để giúp bạn nghiên cứu và viết bài tốt hơn, cung cấp thông tin thực sự hữu ích cho người đọc."
+      },
+      {
+        "q": "Dữ liệu của công ty tôi có được bảo mật không?",
+        "a": "Có. Mỗi công ty (Organization) có không gian dữ liệu hoàn toàn độc lập. Các thông tin nhạy cảm được mã hóa cấp độ cao và tuyệt đối không chia sẻ cho bất kỳ bên thứ ba nào."
+      },
+      {
+        "q": "Tôi có thể dùng tài khoản AI của riêng mình không?",
+        "a": "Có. Ở gói Doanh nghiệp, bạn có thể kết nối tài khoản AI (API Key của OpenAI, Google...) để tự quản lý chi phí token và chủ động hơn khi sử dụng ở quy mô lớn."
+      },
+      {
+        "q": "NeverSEO có cam kết từ khóa lên top không?",
+        "a": "Bất kỳ cam kết lên top nào cũng thiếu thực tế, vì thuật toán Google thay đổi liên tục. NeverSEO giúp bạn xây dựng nền tảng SEO đúng chuẩn, tạo nội dung chất lượng để tăng trưởng lượng khách hàng bền vững và dài hạn."
+      },
+      {
+        "q": "Tôi có thể hủy hoặc đổi gói bất cứ lúc nào không?",
+        "a": "Được. Bạn có thể nâng cấp, hạ cấp hoặc hủy gói bất cứ lúc nào ngay trong phần cài đặt tài khoản, không ràng buộc hợp đồng dài hạn."
+      }
+    ]
+  },
+  "team": {
+    "label": "Đội ngũ",
+    "title_start": "Đội ngũ ",
+    "title_gradient": "NeverSEO",
+    "desc": "Chúng tôi là những người làm SEO thực chiến, xây dựng công cụ này để giải quyết chính những khó khăn mà các doanh nghiệp đang gặp phải.",
+    "members": [
+      {
+        "name": "Lê Ngọc Doãn",
+        "role": "Founder & Kiến trúc sư sản phẩm",
+        "bio": "Đứng sau kiến trúc Gating & Prompt chaining của NeverSEO."
+      },
+      {
+        "name": "Phạm Quang Linh",
+        "role": "Co-Founder & Marketing",
+        "bio": "Định hình chiến lược thương hiệu và tăng trưởng cho NeverSEO."
+      },
+      {
+        "name": "Đinh Thị Huyền Trang",
+        "role": "Cố vấn & Chuyên gia SEO",
+        "bio": "Cố vấn phương pháp Topical Authority và chuẩn chất lượng nội dung."
+      },
+      {
+        "name": "Lê Thị Anh Vân",
+        "role": "Chuyên gia SEO",
+        "bio": "Triển khai audit, phân tích đối thủ và tối ưu on-page thực chiến."
+      }
+    ]
+  },
+  "meta": {
+    "title": "NeverSEO – Nền tảng quản trị SEO toàn diện cho doanh nghiệp",
+    "description": "Thay vì viết bài hàng loạt, NeverSEO giúp bạn lập kế hoạch SEO dựa trên dữ liệu thực tế, tạo nội dung chất lượng cao để thu hút khách hàng và tăng trưởng bền vững trên Google."
+  },
+  "contact": {
+    "label": "Liên hệ",
+    "title": "Cần tư vấn giải pháp cho đội ngũ của bạn?",
+    "lead": "Để lại lời nhắn, đội ngũ NeverSEO sẽ phản hồi trong vòng 24 giờ làm việc. Hoặc bắt đầu ngay với tài khoản miễn phí.",
+    "list_email": "Email",
+    "list_hotline": "Hotline",
+    "list_address": "Địa chỉ",
+    "address_val": "172 đường Bà Trị, phường Thống Nhất, tỉnh Phú Thọ, Việt Nam",
+    "list_time": "Thời gian phản hồi",
+    "time_val": "Trong vòng 24 giờ làm việc",
+    "form_name": "Họ và tên",
+    "form_name_ph": "Nguyễn Văn A",
+    "form_email": "Email",
+    "form_company": "Công ty / Website",
+    "form_message": "Nội dung",
+    "form_message_ph": "Mình muốn tìm hiểu gói phù hợp cho agency...",
+    "form_submit": "Gửi lời nhắn",
+    "form_note": "Bằng việc gửi, bạn đồng ý với ",
+    "form_note_link": "Chính sách bảo mật",
+    "form_note_suffix": " của chúng tôi.",
+    "success_title": "Đã gửi thành công!",
+    "success_desc": "Cảm ơn bạn đã liên hệ. Đội ngũ NeverSEO sẽ phản hồi trong vòng 24 giờ làm việc."
+  },
+  "cta": {
+    "label": "Bắt đầu ngay hôm nay",
+    "title": "Bắt đầu xây dựng nguồn khách&nbsp;hàng bền vững từ Google",
+    "desc": "Tạo tài khoản miễn phí và trải nghiệm cách làm SEO bài bản, hiệu quả hơn cho doanh nghiệp của bạn.",
+    "btn_primary": "Dùng thử miễn phí",
+    "btn_secondary": "Đăng nhập"
+  },
+  "footer": {
+    "newsletter_title": "Bản tin SEO thời AI",
+    "newsletter_desc": "Góc nhìn, kinh nghiệm và xu hướng SEO trong kỷ nguyên AI, mỗi tháng một lần. Không spam.",
+    "newsletter_ph": "Email của bạn",
+    "newsletter_btn": "Đăng ký",
+    "brand_desc": "Nền tảng quản trị SEO toàn diện giúp doanh nghiệp xây dựng chiến lược, tối ưu nội dung và tăng trưởng bền vững trên công cụ tìm kiếm.",
+    "col_product": "Sản phẩm",
+    "prod_features": "Tính năng",
+    "prod_workflow": "Vòng lặp tăng trưởng",
+    "prod_pricing": "Bảng giá",
+    "prod_audience": "Khách hàng",
+    "col_company": "Công ty",
+    "comp_about": "Về NeverSEO",
+    "comp_team": "Đội ngũ",
+    "comp_testimonials": "Đánh giá",
+    "comp_faq": "FAQ",
+    "col_legal": "Pháp lý & Liên hệ",
+    "legal_privacy": "Chính sách bảo mật",
+    "legal_terms": "Điều khoản sử dụng",
+    "legal_contact": "Liên hệ",
+    "bottom_copy": "Bản quyền &copy; {year} SaoLabs. Thiết kế cho kỷ nguyên AI-first SEO.",
+    "bottom_made": "Made with <i class=\"ph-fill ph-heart\" aria-hidden=\"true\"></i> in Vietnam"
+  },
+  "privacy": {
+    "meta_title": "Chính sách Bảo mật - NeverSEO",
+    "meta_desc": "Chính sách bảo mật thông tin và dữ liệu người dùng của hệ thống NeverSEO, bao gồm điều khoản tuân thủ API Dịch vụ Google.",
+    "label": "Pháp lý / NeverSEO",
+    "title": "Chính sách Bảo mật",
+    "date": "Cập nhật lần cuối: 10/07/2026",
+    "intro": "Chào mừng bạn đến với NeverSEO. Chúng tôi cam kết bảo vệ quyền riêng tư và dữ liệu cá nhân của bạn. Chính sách này giải thích cách chúng tôi thu thập, sử dụng, và bảo vệ thông tin khi bạn sử dụng ứng dụng web của chúng tôi.",
+    "h1": "1. Thông tin chúng tôi thu thập",
+    "p1": "Khi bạn tạo tài khoản hoặc sử dụng NeverSEO, chúng tôi có thể thu thập:",
+    "l1_1": "<strong>Thông tin định danh:</strong> Tên, địa chỉ email, ảnh đại diện (khi đăng nhập qua Google OAuth).",
+    "l1_2": "<strong>Dữ liệu sử dụng:</strong> Nhật ký hoạt động (logs), mức sử dụng Token AI.",
+    "l1_3": "<strong>Dữ liệu do bạn cung cấp:</strong> Các chiến dịch SEO, danh sách từ khóa, bản nháp nội dung, mã API Key của các dịch vụ AI bên thứ ba (được mã hóa AES-256 an toàn trong cơ sở dữ liệu).",
+    "h2": "2. Tuân thủ Chính sách Dữ liệu API của Google",
+    "p2_1": "Việc NeverSEO sử dụng và chuyển giao thông tin nhận được từ các API của Google cho bất kỳ ứng dụng nào khác sẽ tuân thủ <strong><a href=\"https://developers.google.com/terms/api-services-user-data-policy\" target=\"_blank\" rel=\"noopener noreferrer\">Chính sách Dữ liệu Người dùng của API Dịch vụ Google</a></strong>, bao gồm cả các yêu cầu về Sử dụng Có giới hạn (Limited Use).",
+    "p2_2": "Cụ thể, khi bạn cấp quyền truy cập vào Google Search Console hoặc Google Analytics để phục vụ tính năng Audit và đo lường:",
+    "l2_1": "Chúng tôi <strong>chỉ sử dụng</strong> dữ liệu này để cung cấp hoặc cải thiện các tính năng cho người dùng (phân tích thứ hạng, lượt truy cập).",
+    "l2_2": "Chúng tôi <strong>không chia sẻ hoặc bán</strong> dữ liệu người dùng cho bên thứ ba vì mục đích quảng cáo hoặc bất kỳ mục đích nào khác không liên quan.",
+    "l2_3": "Chúng tôi <strong>không cho phép con người đọc</strong> dữ liệu này trừ khi có sự đồng ý rõ ràng từ bạn để hỗ trợ kỹ thuật hoặc vì mục đích bảo mật/tuân thủ pháp luật.",
+    "h3": "3. Lưu trữ và Bảo mật Dữ liệu",
+    "p3": "Hệ thống hỗ trợ nhiều tài khoản và mỗi nhóm làm việc (Organization) có không gian dữ liệu độc lập. Dữ liệu nhạy cảm (như API Key, Access Token) được lưu trữ an toàn bằng thuật toán mã hóa tiên tiến nhất (AES-256).",
+    "h4": "4. Quyền của bạn",
+    "p4": "Bạn có quyền truy cập, cập nhật, hoặc yêu cầu xóa toàn bộ dữ liệu cá nhân của mình khỏi hệ thống. Việc xóa tài khoản (Organization) sẽ xóa vĩnh viễn toàn bộ dữ liệu dự án, cấu hình và nội dung đi kèm.",
+    "h5": "5. Liên hệ",
+    "p5": "Nếu bạn có bất kỳ câu hỏi nào về Chính sách Bảo mật này, vui lòng liên hệ với chúng tôi qua email: <a href=\"mailto:support@neverseo.com\">support@neverseo.com</a>."
+  },
+  "terms": {
+    "meta_title": "Điều khoản Sử dụng - NeverSEO",
+    "meta_desc": "Các điều khoản và điều kiện khi sử dụng hệ thống NeverSEO.",
+    "label": "Pháp lý / NeverSEO",
+    "title": "Điều khoản Sử dụng",
+    "date": "Cập nhật lần cuối: 10/07/2026",
+    "intro": "Bằng việc truy cập hoặc sử dụng ứng dụng NeverSEO, bạn đồng ý tuân thủ và bị ràng buộc bởi các Điều khoản Sử dụng sau đây. Nếu bạn không đồng ý với bất kỳ phần nào của các điều khoản này, vui lòng không sử dụng dịch vụ của chúng tôi.",
+    "h1": "1. Mô tả Dịch vụ",
+    "p1": "NeverSEO là một hệ thống quản trị SEO và viết bài AI khép kín, cung cấp công cụ để phân tích, lập kế hoạch từ khóa (Topical Map), và tạo ra nội dung tối ưu. Chúng tôi cung cấp giao diện để tương tác với các mô hình ngôn ngữ lớn (LLMs) của bên thứ ba (như OpenAI, Anthropic, Google) thông qua API Key do bạn tự cung cấp hoặc qua gói dịch vụ của chúng tôi.",
+    "h2": "2. Tài khoản và Trách nhiệm của Người dùng",
+    "l2_1": "Bạn chịu trách nhiệm bảo mật thông tin đăng nhập và toàn bộ hoạt động diễn ra dưới tài khoản của bạn (Organization).",
+    "l2_2": "Bạn đồng ý cung cấp thông tin chính xác khi thiết lập tài khoản và các cấu hình tích hợp.",
+    "l2_3": "Trường hợp bạn nhập API Key của riêng mình (BYOK - Bring Your Own Key), bạn hoàn toàn chịu trách nhiệm về chi phí sử dụng phát sinh trên nền tảng của nhà cung cấp AI đó.",
+    "h3": "3. Quyền Sở hữu Trí tuệ",
+    "p3": "Bạn giữ toàn quyền sở hữu đối với nội dung (bài viết, hình ảnh) được tạo ra thông qua hệ thống bằng tài khoản của bạn. Tuy nhiên, kiến trúc phần mềm, giao diện, và quy trình xử lý (Gating, Prompt chaining) thuộc bản quyền của SaoLabs.",
+    "h4": "4. Chính sách Sử dụng Hợp lý",
+    "p4": "Người dùng không được phép:",
+    "l4_1": "Sử dụng hệ thống để tạo nội dung vi phạm pháp luật, chống phá Nhà nước, hoặc vi phạm bản quyền bên thứ ba.",
+    "l4_2": "Tấn công, can thiệp hoặc phá hoại bảo mật của hệ thống NeverSEO.",
+    "l4_3": "Khai thác tự động (spam, cào dữ liệu) bằng bot trái phép đối với giao diện web.",
+    "h5": "5. Miễn trừ Trách nhiệm",
+    "p5": "NeverSEO không đảm bảo kết quả xếp hạng trên Google hoặc các công cụ tìm kiếm khác, bởi thứ hạng phụ thuộc vào nhiều yếu tố thực tế (domain authority, backlinks, biến động thuật toán). Nội dung do AI tạo ra chỉ mang tính chất tham khảo, bạn cần có trách nhiệm kiểm tra (QC) trước khi xuất bản.",
+    "h6": "6. Thay đổi Điều khoản",
+    "p6": "Chúng tôi có quyền cập nhật Điều khoản Sử dụng bất cứ lúc nào. Các thay đổi sẽ có hiệu lực ngay khi được đăng tải trên trang này. Việc bạn tiếp tục sử dụng ứng dụng đồng nghĩa với việc bạn chấp nhận các điều khoản mới."
+  }
+}

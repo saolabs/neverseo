@@ -1,10 +1,11 @@
 <?php
 // sections/header.php
+
 ?>
 <header class="site-header">
     <div class="site-shell">
         <div class="site-header-row">
-            <a href="index.html" class="site-logo" aria-label="NeverSEO trang chủ">
+            <a href="<?= $LANG === 'vi' ? '/vn/' : '/' ?>" class="site-logo" aria-label="NeverSEO trang chủ">
                 <span class="site-logo-mark">
                     <i class="ph ph-graph" aria-hidden="true"></i>
                 </span>
@@ -20,17 +21,17 @@
                 </div>
 
                 <nav class="site-nav" aria-label="Điều hướng chính">
-                    <a href="index.html#solution">Giải pháp</a>
-                    <a href="index.html#workflow">Quy trình</a>
-                    <a href="index.html#features">Tính năng</a>
-                    <a href="index.html#pricing">Bảng giá</a>
-                    <a href="index.html#faq">FAQ</a>
+                    <a href="<?= $url_prefix ?? '' ?>#solution"><?= __('nav.solution') ?></a>
+                    <a href="<?= $url_prefix ?? '' ?>#workflow"><?= __('nav.workflow') ?></a>
+                    <a href="<?= $url_prefix ?? '' ?>#features"><?= __('nav.features') ?></a>
+                    <a href="<?= $url_prefix ?? '' ?>#pricing"><?= __('nav.pricing') ?></a>
+                    <a href="<?= $url_prefix ?? '' ?>#faq"><?= __('nav.faq') ?></a>
                 </nav>
 
                 <div class="site-header-actions">
-                    <a href="https://app.neverseo.com/login" class="site-login-link">Đăng nhập</a>
+                    <a href="https://app.neverseo.com/login" class="site-login-link"><?= __('nav.login') ?></a>
                     <a href="https://app.neverseo.com/register" class="site-header-cta">
-                        Trải nghiệm miễn phí
+                        <?= __('nav.cta') ?>
                         <i class="ph-bold ph-arrow-right" aria-hidden="true"></i>
                     </a>
                 </div>

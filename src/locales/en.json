@@ -1,0 +1,462 @@
+{
+  "nav": {
+    "solution": "Solutions",
+    "workflow": "Workflow",
+    "features": "Features",
+    "pricing": "Pricing",
+    "faq": "FAQ",
+    "login": "Login",
+    "cta": "Start for free"
+  },
+  "lang_vi": "VI",
+  "lang_en": "EN",
+  "hero": {
+    "eyebrow": "Comprehensive SEO Management Platform",
+    "title_start": "Sustainable SEO growth ",
+    "title_gradient": "in the AI era.",
+    "lead": "Instead of blindly producing content, NeverSEO helps you build a data-driven strategy. Focus on high-quality content that converts customers and establishes a sustainable presence on search engines.",
+    "cta_start": "Start for free",
+    "cta_secondary": "Explore workflow",
+    "proof_1": "Data-driven strategy",
+    "proof_2": "Optimized for users",
+    "proof_3": "Long-term growth"
+  },
+  "logos": {
+    "eyebrow": "Trusted by over <strong>50+ businesses &amp; projects</strong> in Vietnam"
+  },
+  "problems": {
+    "label": "Current Challenges",
+    "title": "Mass-producing content doesn't bring sustainable rankings.",
+    "desc": "Search engines are getting smarter and prioritize genuine value. Keyword stuffing and mass content production are no longer effective and only waste your budget.",
+    "items": [
+      {
+        "title": "Guesswork content strategy",
+        "desc": "Without a clear keyword strategy, scattered articles fail to build Topical Authority and won't be highly ranked by search engines."
+      },
+      {
+        "title": "Over-relying on AI",
+        "desc": "Generating thousands of unchecked AI articles creates soulless, inaccurate content that damages your brand reputation."
+      },
+      {
+        "title": "Hard to measure ROI",
+        "desc": "Pouring money into content and backlinks without knowing exactly which activities are actually driving traffic and potential customers."
+      }
+    ]
+  },
+
+  "solution": {
+    "label": "NeverSEO Solution",
+    "title": "Streamlined and effective SEO management system.",
+    "desc": "NeverSEO combines the power of data and AI to help you do SEO more systematically. Every decision, from choosing topics to publishing content, is clearly guided.",
+    "pillars": [
+      {
+        "title": "Data-Driven Planning",
+        "desc": "The system automatically analyzes website and market data to find the best SEO opportunities, no guesswork required."
+      },
+      {
+        "title": "Smart AI Integration",
+        "desc": "AI assistants help analyze, outline, and support faster writing, ensuring quality and accuracy."
+      },
+      {
+        "title": "Reach the Right Audience",
+        "desc": "Optimize content to answer customers' actual questions, helping your website appear everywhere they search."
+      },
+      {
+        "title": "Sustainable Growth",
+        "desc": "Build a high-quality content foundation. Your articles will consistently bring in customers for years to come."
+      }
+    ],
+    "nodes": [
+      "Platform",
+      "Sustainable Plan",
+      "Strategy",
+      "Content & QC",
+      "Performance",
+      "AI Visibility"
+    ]
+  },
+  "features": {
+    "label": "Key Features",
+    "title_start": "All the tools you need, ",
+    "title_gradient": "in a single platform.",
+    "desc": "No need for complex software stacks. NeverSEO provides everything you need to manage your SEO campaigns from A to Z.",
+    "items": [
+      {
+        "title": "Automated Market Research",
+        "desc": "Analyzes Google data to tell you exactly what your customers are searching for and what competitors are doing."
+      },
+      {
+        "title": "Smart Topic Management",
+        "desc": "Visualizes your website's structure, making it easy to track and add content to important topical clusters."
+      },
+      {
+        "title": "Content Planning",
+        "desc": "Clear editorial calendar. Easily assign tasks to team members and track content production progress."
+      },
+      {
+        "title": "Content Standardization",
+        "desc": "Provides specific writing guidelines and detailed outlines, ensuring everyone writes SEO-standard articles."
+      },
+      {
+        "title": "Automated SEO Scoring",
+        "desc": "Instantly points out issues before publishing: missing keywords, unoptimized titles, thin content..."
+      },
+      {
+        "title": "Transparent Reporting",
+        "desc": "Connects with Google Analytics and Search Console so you know exactly which articles bring the most customers."
+      }
+    ],
+    "integrations_label": "Seamless integration with your ecosystem"
+  },
+  "audience": {
+    "label": "Designed for",
+    "title": "Who gets value from NeverSEO?",
+    "items": [
+      {
+        "badge": "Business Owners & Managers",
+        "title": "Manage SEO costs and effectiveness",
+        "desc": "Get the big picture of your SEO. Track what results your investment is bringing and which articles convert, without needing to understand complex jargon."
+      },
+      {
+        "badge": "SEO Specialists",
+        "title": "Save time, optimize workflows",
+        "desc": "Eliminate hours of manual keyword research. Systematize your workflow to easily manage multiple projects and team members simultaneously."
+      },
+      {
+        "badge": "Content Writers",
+        "title": "Solve the blank page problem",
+        "desc": "Always have topics and detailed outlines ready to write. AI tools help draft faster, ensure SEO standards, and maintain consistent quality."
+      }
+    ]
+  },
+  "workflow": {
+    "label": "Workflow",
+    "title": "Streamlined 4-Step Process",
+    "desc": "A standardized process helps you easily track your entire SEO campaign — from initial analysis to publishing and measuring results.",
+    "steps": [
+      {
+        "title": "1. Website Analysis",
+        "desc": "The system automatically crawls your website to point out issues to fix, evaluates SEO health, and finds quick growth opportunities."
+      },
+      {
+        "title": "2. Content Planning",
+        "desc": "Instead of focusing on isolated keywords, the system helps group related topics to build a comprehensive and coherent content plan."
+      },
+      {
+        "title": "3. Outlining & AI Writing",
+        "desc": "Create detailed outlines based on search data. Integrate AI to assist with rapid drafting, ensuring content is SEO-friendly and reader-friendly."
+      },
+      {
+        "title": "4. Quality Control & Measurement",
+        "desc": "The system scores SEO before publishing. Then it tracks rankings and traffic to continuously suggest the next optimization steps."
+      }
+    ],
+    "alt_images": [
+      "Audit & Technical SEO",
+      "Strategy & Topical Map",
+      "Detailed Content Plan",
+      "AI Writing & Quality Control"
+    ]
+  },
+  "testimonials": {
+    "stats": [
+      {
+        "num": "50+",
+        "label": "Websites deployed"
+      },
+      {
+        "num": "800+",
+        "label": "Articles published monthly"
+      },
+      {
+        "num": "70%",
+        "label": "Time saved in planning"
+      },
+      {
+        "num": "100%",
+        "label": "Strict SEO compliance"
+      }
+    ],
+    "label": "Partner Feedback",
+    "title_start": "Proven by ",
+    "title_gradient": "our earliest adopters",
+    "desc": "The first to experience and optimize their SEO workflows with NeverSEO.",
+    "items": [
+      {
+        "quote": "Our team used to spend a whole week building a Topical Map and content plan. With NeverSEO, that’s down to a few hours and the quality is even deeper. This tool completely changed how we do SEO.",
+        "name": "Nguyen Cao Lam",
+        "role": "Marketing Director, Hoang Trung Transport Co."
+      },
+      {
+        "quote": "What I like most is the Gating system. Articles that don’t meet the On-page score cannot be published, so quality is always consistent even with multiple writers.",
+        "name": "Khong Trong Tu",
+        "role": "Viet Bi Dental Chain · nhakhoavietbi.vn, nhakhoavietbi.com, vietbidental.com"
+      },
+      {
+        "quote": "As a non-technical business owner, I still grasp the entire SEO strategy and progress through the dashboard. Costs dropped significantly compared to outsourcing, yet control is much better.",
+        "name": "Dau Khac Tung",
+        "role": "DAU KHAC TUNG 1980 BUSINESS · miworld.vn and the MiWorld ecosystem"
+      }
+    ]
+  },
+  "pricing": {
+    "label": "Pricing",
+    "title_start": "Choose the right plan, ",
+    "title_gradient": "upgrade anytime",
+    "desc": "7-day free trial, no credit card required. Billed monthly, cancel anytime.",
+    "popular_badge": "Most Popular",
+    "note": "All plans include new feature updates and AES-256 encrypted data security.",
+    "plans": [
+      {
+        "name": "Trial",
+        "tagline": "Quick experience before upgrading",
+        "price": "0",
+        "unit": "$",
+        "period": "/ 7 days",
+        "cta": "Start 7-day trial",
+        "features": [
+          "7 days access",
+          "10 keywords",
+          "Basic Audit & Quick Win suggestions",
+          "On-page scoring (0–100)",
+          "No credit card required"
+        ]
+      },
+      {
+        "name": "Basic",
+        "tagline": "For 1 website needing regular content",
+        "price": "199",
+        "unit": "$",
+        "period": "/ month",
+        "cta": "Get Started",
+        "features": [
+          "1 website",
+          "Deep Audit with 200+ criteria (Technical + Off-page)",
+          "Topical Map & keyword clustering",
+          "30 AI articles / month",
+          "Detailed content plan + Media management",
+          "Multi-AI: ChatGPT, Claude, Gemini, DeepSeek",
+          "ROI & Quick Win measurement dashboard"
+        ]
+      },
+      {
+        "name": "Business",
+        "tagline": "Businesses managing multiple websites",
+        "price": "399",
+        "unit": "$",
+        "period": "/ month",
+        "cta": "Get Started",
+        "features": [
+          "3 websites",
+          "100 AI articles / month",
+          "Deep Audit with 200+ criteria (Technical + Off-page)",
+          "Detailed content plan + Media management",
+          "ROI & Quick Win measurement dashboard",
+          "Multi-AI: ChatGPT, Claude, Gemini, DeepSeek"
+        ]
+      },
+      {
+        "name": "Scale",
+        "tagline": "For agencies & large website networks",
+        "price": "1,199",
+        "unit": "$",
+        "period": "/ month",
+        "cta": "Contact Sales",
+        "features": [
+          "10 websites",
+          "500 AI articles / month",
+          "Multi-team (Organization) management & permissions",
+          "BYOK — use your own API Keys",
+          "Detailed Token cost tracking",
+          "Priority 1-1 support & onboarding"
+        ]
+      },
+      {
+        "name": "Custom",
+        "tagline": "For customers with larger needs",
+        "price": "Flexible",
+        "unit": "",
+        "period": "as needed",
+        "cta": "Contact Sales",
+        "features": [
+          "Number of websites based on needs",
+          "Article volume based on plan",
+          "Dedicated deployment consulting",
+          "API/SSO integration upon request",
+          "SLA & priority support"
+        ]
+      }
+    ]
+  },
+  "faq": {
+    "label": "FAQ",
+    "title": "Frequently Asked Questions",
+    "desc_start": "Can't find an answer? ",
+    "desc_link": "Contact our team",
+    "items": [
+      {
+        "q": "Can NeverSEO replace an SEO team?",
+        "a": "No. NeverSEO is a powerful tool that helps SEO teams work more efficiently, faster, and with fewer errors. The system automates analysis and operations, but strategic thinking is ultimately driven by humans."
+      },
+      {
+        "q": "I'm new to SEO. Can I use it?",
+        "a": "Absolutely. NeverSEO is designed with a user-friendly interface. The system guides you step-by-step, like having an SEO expert by your side."
+      },
+      {
+        "q": "Will Google penalize AI-written articles?",
+        "a": "Google does not penalize AI-generated content; they penalize spam and low-quality content. NeverSEO uses AI as an assistant to help you research and write better, providing genuinely useful information for readers."
+      },
+      {
+        "q": "Is my company's data secure?",
+        "a": "Yes. Each Organization has a completely independent data space. Sensitive information is highly encrypted and never shared with any third party."
+      },
+      {
+        "q": "Can I use my own AI accounts?",
+        "a": "Yes. On the Enterprise plan, you can connect your AI accounts (OpenAI, Google API Keys) to manage token costs yourself and have more control at scale."
+      },
+      {
+        "q": "Does NeverSEO guarantee keyword rankings?",
+        "a": "Any ranking guarantee is unrealistic because Google's algorithm constantly changes. NeverSEO helps you build a solid SEO foundation and create quality content to grow your customer base sustainably over the long term."
+      },
+      {
+        "q": "Can I cancel or change plans anytime?",
+        "a": "Yes. You can upgrade, downgrade, or cancel your plan at any time right from your account settings, with no long-term contracts."
+      }
+    ]
+  },
+  "team": {
+    "label": "The Team",
+    "title_start": "The ",
+    "title_gradient": "NeverSEO Team",
+    "desc": "We are hands-on SEO practitioners who built this tool to solve the exact challenges businesses face today.",
+    "members": [
+      {
+        "name": "Le Ngoc Doan",
+        "role": "Founder & Product Architect",
+        "bio": "The mind behind NeverSEO's Gating & Prompt chaining architecture."
+      },
+      {
+        "name": "Pham Quang Linh",
+        "role": "Co-Founder & Marketing",
+        "bio": "Shapes the brand and growth strategy for NeverSEO."
+      },
+      {
+        "name": "Dinh Thi Huyen Trang",
+        "role": "Advisor & SEO Expert",
+        "bio": "Advises on Topical Authority methodologies and content quality standards."
+      },
+      {
+        "name": "Le Thi Anh Van",
+        "role": "SEO Expert",
+        "bio": "Executes audits, competitor analysis, and practical on-page optimization."
+      }
+    ]
+  },
+  "meta": {
+    "title": "NeverSEO – Comprehensive SEO Management Platform for Businesses",
+    "description": "Instead of mass-producing content, NeverSEO helps you plan SEO based on real data, create high-quality content to attract customers, and grow sustainably on Google."
+  },
+  "contact": {
+    "label": "Contact",
+    "title": "Need a solution for your team?",
+    "lead": "Leave a message, and the NeverSEO team will respond within 24 business hours. Or start right away with a free account.",
+    "list_email": "Email",
+    "list_hotline": "Hotline",
+    "list_address": "Address",
+    "address_val": "172 Ba Tri Street, Thong Nhat Ward, Phu Tho Province, Vietnam",
+    "list_time": "Response Time",
+    "time_val": "Within 24 business hours",
+    "form_name": "Full Name",
+    "form_name_ph": "John Doe",
+    "form_email": "Email",
+    "form_company": "Company / Website",
+    "form_message": "Message",
+    "form_message_ph": "I want to learn about the right plan for my agency...",
+    "form_submit": "Send Message",
+    "form_note": "By submitting, you agree to our ",
+    "form_note_link": "Privacy Policy",
+    "form_note_suffix": ".",
+    "success_title": "Sent Successfully!",
+    "success_desc": "Thank you for contacting us. The NeverSEO team will respond within 24 business hours."
+  },
+  "cta": {
+    "label": "Get Started Today",
+    "title": "Start building a sustainable source of customers from Google",
+    "desc": "Create a free account and experience a more systematic, effective way to do SEO for your business.",
+    "btn_primary": "Start Free Trial",
+    "btn_secondary": "Log In"
+  },
+  "footer": {
+    "newsletter_title": "AI-Era SEO Newsletter",
+    "newsletter_desc": "Perspectives, experiences, and SEO trends in the AI era, once a month. No spam.",
+    "newsletter_ph": "Your email address",
+    "newsletter_btn": "Subscribe",
+    "brand_desc": "A comprehensive SEO management platform helping businesses build strategies, optimize content, and grow sustainably on search engines.",
+    "col_product": "Product",
+    "prod_features": "Features",
+    "prod_workflow": "Growth Loop",
+    "prod_pricing": "Pricing",
+    "prod_audience": "Customers",
+    "col_company": "Company",
+    "comp_about": "About NeverSEO",
+    "comp_team": "Team",
+    "comp_testimonials": "Testimonials",
+    "comp_faq": "FAQ",
+    "col_legal": "Legal & Contact",
+    "legal_privacy": "Privacy Policy",
+    "legal_terms": "Terms of Service",
+    "legal_contact": "Contact",
+    "bottom_copy": "Copyright &copy; {year} SaoLabs. Designed for AI-first SEO.",
+    "bottom_made": "Made with <i class=\"ph-fill ph-heart\" aria-hidden=\"true\"></i> in Vietnam"
+  },
+  "privacy": {
+    "meta_title": "Privacy Policy - NeverSEO",
+    "meta_desc": "Privacy and data protection policy for the NeverSEO system, including compliance with Google API Services user data policy.",
+    "label": "Legal / NeverSEO",
+    "title": "Privacy Policy",
+    "date": "Last updated: July 10, 2026",
+    "intro": "Welcome to NeverSEO. We are committed to protecting your privacy and personal data. This policy explains how we collect, use, and protect information when you use our web application.",
+    "h1": "1. Information We Collect",
+    "p1": "When you create an account or use NeverSEO, we may collect:",
+    "l1_1": "<strong>Identification information:</strong> Name, email address, avatar (when logging in via Google OAuth).",
+    "l1_2": "<strong>Usage data:</strong> Activity logs, AI Token usage.",
+    "l1_3": "<strong>Data provided by you:</strong> SEO campaigns, keyword lists, content drafts, third-party AI service API keys (securely encrypted using AES-256 in our database).",
+    "h2": "2. Compliance with Google API Data Policy",
+    "p2_1": "NeverSEO's use and transfer to any other app of information received from Google APIs will adhere to <strong><a href=\"https://developers.google.com/terms/api-services-user-data-policy\" target=\"_blank\" rel=\"noopener noreferrer\">Google API Services User Data Policy</a></strong>, including the Limited Use requirements.",
+    "p2_2": "Specifically, when you grant access to Google Search Console or Google Analytics for Audit and measurement features:",
+    "l2_1": "We <strong>only use</strong> this data to provide or improve features for users (ranking analysis, traffic).",
+    "l2_2": "We <strong>do not share or sell</strong> user data to third parties for advertising or any other unrelated purposes.",
+    "l2_3": "We <strong>do not allow humans to read</strong> this data unless we have your explicit consent for technical support or for security/legal compliance purposes.",
+    "h3": "3. Data Storage and Security",
+    "p3": "The system supports multiple accounts, and each working group (Organization) has an independent data space. Sensitive data (such as API Keys, Access Tokens) is securely stored using the most advanced encryption algorithm (AES-256).",
+    "h4": "4. Your Rights",
+    "p4": "You have the right to access, update, or request the deletion of all your personal data from the system. Deleting an account (Organization) will permanently delete all associated project data, configurations, and content.",
+    "h5": "5. Contact",
+    "p5": "If you have any questions about this Privacy Policy, please contact us via email at <a href=\"mailto:support@neverseo.com\">support@neverseo.com</a>."
+  },
+  "terms": {
+    "meta_title": "Terms of Service - NeverSEO",
+    "meta_desc": "Terms and conditions for using the NeverSEO system.",
+    "label": "Legal / NeverSEO",
+    "title": "Terms of Service",
+    "date": "Last updated: July 10, 2026",
+    "intro": "By accessing or using the NeverSEO application, you agree to comply with and be bound by the following Terms of Service. If you do not agree to any part of these terms, please do not use our services.",
+    "h1": "1. Service Description",
+    "p1": "NeverSEO is an end-to-end SEO management and AI writing system that provides tools to analyze, plan keywords (Topical Map), and generate optimized content. We provide interfaces to interact with third-party Large Language Models (LLMs) (such as OpenAI, Anthropic, Google) via your own API Keys or through our subscription plans.",
+    "h2": "2. Account and User Responsibilities",
+    "l2_1": "You are responsible for maintaining the confidentiality of your login credentials and for all activities that occur under your account (Organization).",
+    "l2_2": "You agree to provide accurate information when setting up your account and integration configurations.",
+    "l2_3": "In the event you input your own API Key (BYOK - Bring Your Own Key), you are solely responsible for any usage costs incurred on that AI provider's platform.",
+    "h3": "3. Intellectual Property Rights",
+    "p3": "You retain full ownership of the content (articles, images) generated through the system using your account. However, the software architecture, interface, and processing workflows (Gating, Prompt chaining) are copyrighted by SaoLabs.",
+    "h4": "4. Acceptable Use Policy",
+    "p4": "Users are not permitted to:",
+    "l4_1": "Use the system to create content that violates laws, opposes the State, or infringes on third-party copyrights.",
+    "l4_2": "Attack, interfere with, or compromise the security of the NeverSEO system.",
+    "l4_3": "Automate extraction (spam, scraping) using unauthorized bots against the web interface.",
+    "h5": "5. Disclaimer of Liability",
+    "p5": "NeverSEO does not guarantee ranking results on Google or other search engines, as rankings depend on many practical factors (domain authority, backlinks, algorithm changes). AI-generated content is for reference only, and you are responsible for quality control (QC) before publishing.",
+    "h6": "6. Changes to the Terms",
+    "p6": "We reserve the right to update the Terms of Service at any time. Changes will take effect immediately upon being posted on this page. Your continued use of the application signifies your acceptance of the new terms."
+  }
+}

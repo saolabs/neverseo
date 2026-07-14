@@ -10,7 +10,7 @@ $canonical_url = rtrim($site_url, '/') . $page_path;
 $og_image      = $og_image ?? $site_url . '/assets/img/hero-dashboard.png';
 ?>
 <!DOCTYPE html>
-<html lang="vi">
+<html lang="<?= $LANG ?>">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -21,6 +21,11 @@ $og_image      = $og_image ?? $site_url . '/assets/img/hero-dashboard.png';
     <meta name="robots" content="index, follow">
     <meta name="theme-color" content="#0ea5e9">
     <link rel="canonical" href="<?php echo htmlspecialchars($canonical_url); ?>">
+
+    <!-- Hreflang Tags for International SEO -->
+    <link rel="alternate" hreflang="en" href="<?php echo $site_url . get_lang_url('en'); ?>" />
+    <link rel="alternate" hreflang="vi" href="<?php echo $site_url . get_lang_url('vi'); ?>" />
+    <link rel="alternate" hreflang="x-default" href="<?php echo $site_url . get_lang_url('en'); ?>" />
 
     <title><?php echo htmlspecialchars($page_title); ?></title>
 
@@ -39,7 +44,7 @@ $og_image      = $og_image ?? $site_url . '/assets/img/hero-dashboard.png';
     <meta name="twitter:description" content="<?php echo htmlspecialchars($page_description); ?>">
     <meta name="twitter:image" content="<?php echo htmlspecialchars($og_image); ?>">
 
-    <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+    <link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
 
     <!-- Google Fonts: Roboto (biến thiên, đủ mọi weight 100–900, hỗ trợ tiếng Việt) -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -50,7 +55,7 @@ $og_image      = $og_image ?? $site_url . '/assets/img/hero-dashboard.png';
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="assets/css/style.css?v=<?php echo time(); ?>">
+    <link rel="stylesheet" href="/assets/css/style.css?v=<?= time() ?>">
 
     <!-- Structured data -->
     <script type="application/ld+json">

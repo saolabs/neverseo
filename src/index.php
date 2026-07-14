@@ -1,7 +1,8 @@
 <?php
 // index.php
-$page_title = "NeverSEO – Nền tảng quản trị SEO toàn diện cho doanh nghiệp";
-$page_description = "Thay vì viết bài hàng loạt, NeverSEO giúp bạn lập kế hoạch SEO dựa trên dữ liệu thực tế, tạo nội dung chất lượng cao để thu hút khách hàng và tăng trưởng bền vững trên Google.";
+$page_title = __('meta.title');
+$page_description = __('meta.description');
+$url_prefix = ($LANG == 'vi' ? '/vi'.'/' : '');
 
 $sections_dir = __DIR__ . '/sections/';
 ?>
