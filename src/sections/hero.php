@@ -13,7 +13,7 @@
                 </p>
 
                 <div class="hero-actions" aria-label="Hành động chính">
-                    <a href="https://app.neverseo.com/register" class="button button-primary shadow-button">
+                    <a href="https://app.neverseo.com/signup" class="button button-primary shadow-button">
                         <?= __('hero.cta_start') ?>
                         <i class="ph-bold ph-arrow-right" aria-hidden="true"></i>
                     </a>

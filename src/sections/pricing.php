@@ -8,7 +8,7 @@ $plans = [
         'unit'    => __('pricing.plans.0.unit'),
         'period'  => __('pricing.plans.0.period'),
         'cta'     => __('pricing.plans.0.cta'),
-        'href'    => 'https://app.neverseo.com/register',
+        'href'    => 'https://app.neverseo.com/signup',
         'popular' => false,
         'features'=> [
             __('pricing.plans.0.features.0'),
@@ -25,7 +25,7 @@ $plans = [
         'unit'    => __('pricing.plans.1.unit'),
         'period'  => __('pricing.plans.1.period'),
         'cta'     => __('pricing.plans.1.cta'),
-        'href'    => 'https://app.neverseo.com/register',
+        'href'    => 'https://app.neverseo.com/signup',
         'popular' => false,
         'features'=> [
             __('pricing.plans.1.features.0'),
@@ -44,7 +44,7 @@ $plans = [
         'unit'    => __('pricing.plans.2.unit'),
         'period'  => __('pricing.plans.2.period'),
         'cta'     => __('pricing.plans.2.cta'),
-        'href'    => 'https://app.neverseo.com/register',
+        'href'    => 'https://app.neverseo.com/signup',
         'popular' => true,
         'features'=> [
             __('pricing.plans.2.features.0'),

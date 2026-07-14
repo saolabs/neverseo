@@ -8,7 +8,10 @@
                 <h3><?= __('footer.newsletter_title') ?></h3>
                 <p><?= __('footer.newsletter_desc') ?></p>
             </div>
-            <form class="footer-subscribe-form" action="#" method="post" aria-label="Đăng ký bản tin">
+            <form class="footer-subscribe-form" action="#" method="post" aria-label="Đăng ký bản tin"
+                  data-msg-sending="<?= __('footer.msg_sending') ?>"
+                  data-msg-success="<?= __('footer.msg_success') ?>"
+                  data-err-server="<?= __('footer.err_server') ?>">
                 <input type="email" name="email" placeholder="<?= __('footer.newsletter_ph') ?>" aria-label="Email" required>
                 <button type="submit"><?= __('footer.newsletter_btn') ?> <i class="ph-bold ph-arrow-right" aria-hidden="true"></i></button>
             </form>

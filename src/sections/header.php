@@ -33,11 +33,13 @@ $home_url = (isset($current_url) && $current_url) ? ($LANG === 'vi' ? '/vn/' : '
                     <a href="<?= $home_url ?>#features"><?= __('nav.features') ?></a>
                     <a href="<?= $home_url ?>#pricing"><?= __('nav.pricing') ?></a>
                     <a href="<?= $home_url ?>#faq"><?= __('nav.faq') ?></a>
+                    <a href="<?= $home_url ?>#team"><?= __('nav.team') ?></a>
+                    <a href="<?= $home_url ?>#contact"><?= __('nav.contact') ?></a>
                 </nav>
 
                 <div class="site-header-actions">
                     <a href="https://app.neverseo.com/login" class="site-login-link"><?= __('nav.login') ?></a>
-                    <a href="https://app.neverseo.com/register" class="site-header-cta">
+                    <a href="https://app.neverseo.com/signup" class="site-header-cta">
                         <?= __('nav.cta') ?>
                         <i class="ph-bold ph-arrow-right" aria-hidden="true"></i>
                     </a>

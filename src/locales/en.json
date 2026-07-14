@@ -5,8 +5,10 @@
     "features": "Features",
     "pricing": "Pricing",
     "faq": "FAQ",
-    "login": "Login",
-    "cta": "Start for free"
+    "team": "Team",
+    "contact": "Contact",
+    "login": "Log in",
+    "cta": "Start Free Trial"
   },
   "lang_vi": "VI",
   "lang_en": "EN",
@@ -379,6 +381,10 @@
     "form_note": "By submitting, you agree to our ",
     "form_note_link": "Privacy Policy",
     "form_note_suffix": ".",
+    "err_empty": "Please fill in your Name, Email, and Message.",
+    "err_email": "Invalid email address. Please check again.",
+    "msg_sending": "Sending...",
+    "err_server": "An error occurred while sending. Please try again or call our hotline.",
     "success_title": "Sent Successfully!",
     "success_desc": "Thank you for contacting us. The NeverSEO team will respond within 24 business hours."
   },
@@ -408,8 +414,11 @@
     "col_legal": "Legal & Contact",
     "legal_privacy": "Privacy Policy",
     "legal_terms": "Terms of Service",
-    "legal_contact": "Contact",
-    "bottom_copy": "Copyright &copy; {year} SaoLabs. Designed for AI-first SEO.",
+    "legal_contact": "Contact Us",
+    "msg_sending": "Sending...",
+    "msg_success": "Subscribed! Thank you.",
+    "err_server": "An error occurred, please try again.",
+    "bottom_copy": "Copyright &copy; {year} SaoLabs. Built for an AI-first SEO era.",
     "bottom_made": "Made with <i class=\"ph-fill ph-heart\" aria-hidden=\"true\"></i> in Vietnam"
   },
   "privacy": {

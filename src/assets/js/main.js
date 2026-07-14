@@ -140,12 +140,17 @@ document.addEventListener('DOMContentLoaded', function () {
             const company = el['company'].value.trim();
             const message = el['message'].value.trim();
 
-            if (!name || !email || !message) { showError('Vui lòng điền đầy đủ Họ tên, Email và Nội dung.'); return; }
-            if (!emailRe.test(email)) { showError('Email chưa hợp lệ, vui lòng kiểm tra lại.'); return; }
+            const errEmpty = contactForm.getAttribute('data-err-empty') || 'Vui lòng điền đầy đủ Họ tên, Email và Nội dung.';
+            const errEmail = contactForm.getAttribute('data-err-email') || 'Email chưa hợp lệ, vui lòng kiểm tra lại.';
+            const msgSending = contactForm.getAttribute('data-msg-sending') || 'Đang gửi...';
+            const errServer = contactForm.getAttribute('data-err-server') || 'Có lỗi xảy ra khi gửi. Vui lòng thử lại hoặc gọi hotline.';
+
+            if (!name || !email || !message) { showError(errEmpty); return; }
+            if (!emailRe.test(email)) { showError(errEmail); return; }
 
             const originalHTML = submitBtn.innerHTML;
             submitBtn.disabled = true;
-            submitBtn.innerHTML = 'Đang gửi...';
+            submitBtn.innerHTML = msgSending;
 
             try {
                 const res = await fetch('https://m-ai.vcc.vn/api/mail/send', {
@@ -168,10 +173,10 @@ document.addEventListener('DOMContentLoaded', function () {
                     contactForm.hidden = true;
                     if (successEl) successEl.hidden = false;
                 } else {
-                    showError('Có lỗi xảy ra khi gửi. Vui lòng thử lại hoặc gọi 0946 786 960.');
+                    showError(errServer);
                 }
             } catch (_err) {
-                showError('Không thể kết nối máy chủ. Vui lòng thử lại hoặc gọi 0946 786 960.');
+                showError(errServer);
             }
 
             submitBtn.disabled = false;
@@ -255,8 +260,12 @@ document.addEventListener('DOMContentLoaded', function () {
             const email = (input ? input.value : '').trim();
             if (!subEmailRe.test(email)) { if (input) input.focus(); return; }
 
+            const msgSending = form.getAttribute('data-msg-sending') || 'Đang gửi...';
+            const msgSuccess = form.getAttribute('data-msg-success') || 'Đã đăng ký! Cảm ơn bạn.';
+            const errServer = form.getAttribute('data-err-server') || 'Có lỗi xảy ra, vui lòng thử lại.';
+
             const original = btn ? btn.innerHTML : '';
-            if (btn) { btn.disabled = true; btn.innerHTML = 'Đang gửi...'; }
+            if (btn) { btn.disabled = true; btn.innerHTML = msgSending; }
 
             try {
                 const res = await fetch('https://m-ai.vcc.vn/api/mail/send', {
@@ -276,14 +285,14 @@ document.addEventListener('DOMContentLoaded', function () {
                 });
                 const result = await res.json();
                 if (result.status === true || result.success === true) {
-                    form.innerHTML = '<p class="subscribe-done"><i class="ph-fill ph-check-circle" aria-hidden="true"></i> Đã đăng ký! Cảm ơn bạn.</p>';
+                    form.innerHTML = '<p class="subscribe-done"><i class="ph-fill ph-check-circle" aria-hidden="true"></i> ' + msgSuccess + '</p>';
                 } else {
                     if (btn) { btn.disabled = false; btn.innerHTML = original; }
-                    alert('Có lỗi xảy ra, vui lòng thử lại.');
+                    alert(errServer);
                 }
             } catch (_e) {
                 if (btn) { btn.disabled = false; btn.innerHTML = original; }
-                alert('Không thể kết nối máy chủ, vui lòng thử lại.');
+                alert(errServer);
             }
         });
     });

@@ -48,7 +48,7 @@
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="/assets/css/style.css?v=1784052308">
+    <link rel="stylesheet" href="/assets/css/style.css?v=1784053424">
 
     <!-- Structured data -->
         <script type="application/ld+json">
@@ -124,11 +124,13 @@
                     <a href="#features">Tính năng</a>
                     <a href="#pricing">Bảng giá</a>
                     <a href="#faq">FAQ</a>
+                    <a href="#team">Đội ngũ</a>
+                    <a href="#contact">Liên hệ</a>
                 </nav>
 
                 <div class="site-header-actions">
                     <a href="https://app.neverseo.com/login" class="site-login-link">Đăng nhập</a>
-                    <a href="https://app.neverseo.com/register" class="site-header-cta">
+                    <a href="https://app.neverseo.com/signup" class="site-header-cta">
                         Trải nghiệm miễn phí                        <i class="ph-bold ph-arrow-right" aria-hidden="true"></i>
                     </a>
                 </div>
@@ -156,7 +158,7 @@
                     Thay vì viết bài hàng loạt một cách mù quáng, NeverSEO giúp bạn lập kế hoạch từ dữ liệu thực tế. Tập trung vào nội dung chất lượng để thuyết phục khách hàng và xây dựng vị thế bền vững trên công cụ tìm kiếm.                </p>
 
                 <div class="hero-actions" aria-label="Hành động chính">
-                    <a href="https://app.neverseo.com/register" class="button button-primary shadow-button">
+                    <a href="https://app.neverseo.com/signup" class="button button-primary shadow-button">
                         Bắt đầu miễn phí                        <i class="ph-bold ph-arrow-right" aria-hidden="true"></i>
                     </a>
                     <a href="#workflow" class="button button-secondary">Khám phá quy trình</a>
@@ -675,7 +677,7 @@ document.addEventListener('DOMContentLoaded', () => {
                                 <span class="price-unit" style="font-size: 20px; margin-top: 4px;">đ</span>                            </span>
                             <span class="price-period">/ 7 ngày</span>
                         </div>
-                        <a href="https://app.neverseo.com/register" class="button button-outline price-cta">
+                        <a href="https://app.neverseo.com/signup" class="button button-outline price-cta">
                             Dùng thử 7 ngày                        </a>
                         <ul class="price-features">
                                                             <li><i class="ph-bold ph-check" aria-hidden="true"></i>7 ngày trải nghiệm</li>
@@ -697,7 +699,7 @@ document.addEventListener('DOMContentLoaded', () => {
                                 <span class="price-unit" style="font-size: 20px; margin-top: 4px;">đ</span>                            </span>
                             <span class="price-period">/ tháng</span>
                         </div>
-                        <a href="https://app.neverseo.com/register" class="button button-outline price-cta">
+                        <a href="https://app.neverseo.com/signup" class="button button-outline price-cta">
                             Bắt đầu ngay                        </a>
                         <ul class="price-features">
                                                             <li><i class="ph-bold ph-check" aria-hidden="true"></i>1 website</li>
@@ -721,7 +723,7 @@ document.addEventListener('DOMContentLoaded', () => {
                                 <span class="price-unit" style="font-size: 20px; margin-top: 4px;">đ</span>                            </span>
                             <span class="price-period">/ tháng</span>
                         </div>
-                        <a href="https://app.neverseo.com/register" class="button button-primary price-cta">
+                        <a href="https://app.neverseo.com/signup" class="button button-primary price-cta">
                             Bắt đầu ngay                        </a>
                         <ul class="price-features">
                                                             <li><i class="ph-bold ph-check" aria-hidden="true"></i>3 website</li>
@@ -1030,7 +1032,11 @@ document.addEventListener('DOMContentLoaded', () => {
             </div>
 
             <div class="contact-form-wrap">
-                <form id="contactForm" class="contact-form" novalidate aria-label="Biểu mẫu liên hệ">
+                <form id="contactForm" class="contact-form" novalidate aria-label="Biểu mẫu liên hệ"
+                      data-err-empty="Vui lòng điền đầy đủ Họ tên, Email và Nội dung."
+                      data-err-email="Email chưa hợp lệ, vui lòng kiểm tra lại."
+                      data-msg-sending="Đang gửi..."
+                      data-err-server="Có lỗi xảy ra khi gửi. Vui lòng thử lại hoặc gọi điện trực tiếp.">
                     <div class="form-row">
                         <label class="form-field">
                             <span>Họ và tên</span>
@@ -1053,12 +1059,12 @@ document.addEventListener('DOMContentLoaded', () => {
                         Gửi lời nhắn                        <i class="ph-bold ph-paper-plane-tilt" aria-hidden="true"></i>
                     </button>
                     <p id="contactError" class="form-error" role="alert" hidden></p>
-                    <p class="form-note">Bằng việc gửi, bạn đồng ý với <a href="privacy.html">Chính sách bảo mật</a> của chúng tôi.</p>
+                    <p class="form-note">Bằng việc gửi, bạn đồng ý với <a href="privacy.html">Chính sách bảo mật</a>.</p>
                 </form>
 
                 <div id="contactSuccess" class="contact-success" hidden>
                     <div class="contact-success-icon"><i class="ph-fill ph-check-circle" aria-hidden="true"></i></div>
-                    <h3>Đã gửi thành công!</h3>
+                    <h3>Gửi thành công!</h3>
                     <p>Cảm ơn bạn đã liên hệ. Đội ngũ NeverSEO sẽ phản hồi trong vòng 24 giờ làm việc.</p>
                 </div>
             </div>
@@ -1074,7 +1080,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 <p>Tạo tài khoản miễn phí và trải nghiệm cách làm SEO bài bản, hiệu quả hơn cho doanh nghiệp của bạn.</p>
             </div>
             <div class="cta-actions">
-                <a href="https://app.neverseo.com/register" class="button button-primary button-light">
+                <a href="https://app.neverseo.com/signup" class="button button-primary button-light">
                     Dùng thử miễn phí                    <i class="ph-bold ph-arrow-right" aria-hidden="true"></i>
                 </a>
                 <a href="https://app.neverseo.com/login" class="button button-secondary button-on-dark">Đăng nhập</a>
@@ -1091,7 +1097,10 @@ document.addEventListener('DOMContentLoaded', () => {
                 <h3>Bản tin SEO thời AI</h3>
                 <p>Góc nhìn, kinh nghiệm và xu hướng SEO trong kỷ nguyên AI, mỗi tháng một lần. Không spam.</p>
             </div>
-            <form class="footer-subscribe-form" action="#" method="post" aria-label="Đăng ký bản tin">
+            <form class="footer-subscribe-form" action="#" method="post" aria-label="Đăng ký bản tin"
+                  data-msg-sending="Đang gửi..."
+                  data-msg-success="Đã đăng ký! Cảm ơn bạn."
+                  data-err-server="Có lỗi xảy ra, vui lòng thử lại.">
                 <input type="email" name="email" placeholder="Email của bạn" aria-label="Email" required>
                 <button type="submit">Đăng ký <i class="ph-bold ph-arrow-right" aria-hidden="true"></i></button>
             </form>
@@ -1170,6 +1179,6 @@ document.addEventListener('DOMContentLoaded', () => {
         </div>
     </div>
 </footer>
-<script src="/assets/js/main.js?v=1784052308"></script>
+<script src="/assets/js/main.js?v=1784053424"></script>
 </body>
 </html>

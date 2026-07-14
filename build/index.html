@@ -48,7 +48,7 @@
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="/assets/css/style.css?v=1784052308">
+    <link rel="stylesheet" href="/assets/css/style.css?v=1784053424">
 
     <!-- Structured data -->
         <script type="application/ld+json">
@@ -124,12 +124,14 @@
                     <a href="#features">Features</a>
                     <a href="#pricing">Pricing</a>
                     <a href="#faq">FAQ</a>
+                    <a href="#team">Team</a>
+                    <a href="#contact">Contact</a>
                 </nav>
 
                 <div class="site-header-actions">
-                    <a href="https://app.neverseo.com/login" class="site-login-link">Login</a>
-                    <a href="https://app.neverseo.com/register" class="site-header-cta">
-                        Start for free                        <i class="ph-bold ph-arrow-right" aria-hidden="true"></i>
+                    <a href="https://app.neverseo.com/login" class="site-login-link">Log in</a>
+                    <a href="https://app.neverseo.com/signup" class="site-header-cta">
+                        Start Free Trial                        <i class="ph-bold ph-arrow-right" aria-hidden="true"></i>
                     </a>
                 </div>
             </div>
@@ -156,7 +158,7 @@
                     Instead of blindly producing content, NeverSEO helps you build a data-driven strategy. Focus on high-quality content that converts customers and establishes a sustainable presence on search engines.                </p>
 
                 <div class="hero-actions" aria-label="Hành động chính">
-                    <a href="https://app.neverseo.com/register" class="button button-primary shadow-button">
+                    <a href="https://app.neverseo.com/signup" class="button button-primary shadow-button">
                         Start for free                        <i class="ph-bold ph-arrow-right" aria-hidden="true"></i>
                     </a>
                     <a href="#workflow" class="button button-secondary">Explore workflow</a>
@@ -675,7 +677,7 @@ document.addEventListener('DOMContentLoaded', () => {
                                                             </span>
                             <span class="price-period">/ 7 days</span>
                         </div>
-                        <a href="https://app.neverseo.com/register" class="button button-outline price-cta">
+                        <a href="https://app.neverseo.com/signup" class="button button-outline price-cta">
                             Start 7-day trial                        </a>
                         <ul class="price-features">
                                                             <li><i class="ph-bold ph-check" aria-hidden="true"></i>7 days access</li>
@@ -697,7 +699,7 @@ document.addEventListener('DOMContentLoaded', () => {
                                                             </span>
                             <span class="price-period">/ month</span>
                         </div>
-                        <a href="https://app.neverseo.com/register" class="button button-outline price-cta">
+                        <a href="https://app.neverseo.com/signup" class="button button-outline price-cta">
                             Get Started                        </a>
                         <ul class="price-features">
                                                             <li><i class="ph-bold ph-check" aria-hidden="true"></i>1 website</li>
@@ -721,7 +723,7 @@ document.addEventListener('DOMContentLoaded', () => {
                                                             </span>
                             <span class="price-period">/ month</span>
                         </div>
-                        <a href="https://app.neverseo.com/register" class="button button-primary price-cta">
+                        <a href="https://app.neverseo.com/signup" class="button button-primary price-cta">
                             Get Started                        </a>
                         <ul class="price-features">
                                                             <li><i class="ph-bold ph-check" aria-hidden="true"></i>3 websites</li>
@@ -1030,7 +1032,11 @@ document.addEventListener('DOMContentLoaded', () => {
             </div>
 
             <div class="contact-form-wrap">
-                <form id="contactForm" class="contact-form" novalidate aria-label="Biểu mẫu liên hệ">
+                <form id="contactForm" class="contact-form" novalidate aria-label="Biểu mẫu liên hệ"
+                      data-err-empty="Please fill in your Name, Email, and Message."
+                      data-err-email="Invalid email address. Please check again."
+                      data-msg-sending="Sending..."
+                      data-err-server="An error occurred while sending. Please try again or call our hotline.">
                     <div class="form-row">
                         <label class="form-field">
                             <span>Full Name</span>
@@ -1074,7 +1080,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 <p>Create a free account and experience a more systematic, effective way to do SEO for your business.</p>
             </div>
             <div class="cta-actions">
-                <a href="https://app.neverseo.com/register" class="button button-primary button-light">
+                <a href="https://app.neverseo.com/signup" class="button button-primary button-light">
                     Start Free Trial                    <i class="ph-bold ph-arrow-right" aria-hidden="true"></i>
                 </a>
                 <a href="https://app.neverseo.com/login" class="button button-secondary button-on-dark">Log In</a>
@@ -1091,7 +1097,10 @@ document.addEventListener('DOMContentLoaded', () => {
                 <h3>AI-Era SEO Newsletter</h3>
                 <p>Perspectives, experiences, and SEO trends in the AI era, once a month. No spam.</p>
             </div>
-            <form class="footer-subscribe-form" action="#" method="post" aria-label="Đăng ký bản tin">
+            <form class="footer-subscribe-form" action="#" method="post" aria-label="Đăng ký bản tin"
+                  data-msg-sending="Sending..."
+                  data-msg-success="Subscribed! Thank you."
+                  data-err-server="An error occurred, please try again.">
                 <input type="email" name="email" placeholder="Your email address" aria-label="Email" required>
                 <button type="submit">Subscribe <i class="ph-bold ph-arrow-right" aria-hidden="true"></i></button>
             </form>
@@ -1140,7 +1149,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 <ul>
                     <li><a href="privacy.html">Privacy Policy</a></li>
                     <li><a href="terms.html">Terms of Service</a></li>
-                    <li><a href="index.html#contact">Contact</a></li>
+                    <li><a href="index.html#contact">Contact Us</a></li>
                     <li><a href="mailto:support@neverseo.com">support@neverseo.com</a></li>
                     <li><a href="tel:+84946786960">0946 786 960</a></li>
                 </ul>
@@ -1153,7 +1162,7 @@ document.addEventListener('DOMContentLoaded', () => {
             </div>
             
             <div style="flex: 1; text-align: center; min-width: 200px;">
-                <p>Copyright &copy; 2026 SaoLabs. Designed for AI-first SEO.</p>
+                <p>Copyright &copy; 2026 SaoLabs. Built for an AI-first SEO era.</p>
             </div>
             
             <div class="footer-lang-switcher" style="flex: 1; display: flex; justify-content: flex-end; align-items: center; gap: 12px; min-width: 200px;">
@@ -1170,6 +1179,6 @@ document.addEventListener('DOMContentLoaded', () => {
         </div>
     </div>
 </footer>
-<script src="/assets/js/main.js?v=1784052308"></script>
+<script src="/assets/js/main.js?v=1784053424"></script>
 </body>
 </html>

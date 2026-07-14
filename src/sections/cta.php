@@ -10,7 +10,7 @@
                 <p><?= __('cta.desc') ?></p>
             </div>
             <div class="cta-actions">
-                <a href="https://app.neverseo.com/register" class="button button-primary button-light">
+                <a href="https://app.neverseo.com/signup" class="button button-primary button-light">
                     <?= __('cta.btn_primary') ?>
                     <i class="ph-bold ph-arrow-right" aria-hidden="true"></i>
                 </a>

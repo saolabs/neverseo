@@ -30,7 +30,11 @@
             </div>
 
             <div class="contact-form-wrap">
-                <form id="contactForm" class="contact-form" novalidate aria-label="Biểu mẫu liên hệ">
+                <form id="contactForm" class="contact-form" novalidate aria-label="Biểu mẫu liên hệ"
+                      data-err-empty="<?= __('contact.err_empty') ?>"
+                      data-err-email="<?= __('contact.err_email') ?>"
+                      data-msg-sending="<?= __('contact.msg_sending') ?>"
+                      data-err-server="<?= __('contact.err_server') ?>">
                     <div class="form-row">
                         <label class="form-field">
                             <span><?= __('contact.form_name') ?></span>

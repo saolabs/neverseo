@@ -5,6 +5,8 @@
     "features": "Tính năng",
     "pricing": "Bảng giá",
     "faq": "FAQ",
+    "team": "Đội ngũ",
+    "contact": "Liên hệ",
     "login": "Đăng nhập",
     "cta": "Trải nghiệm miễn phí"
   },
@@ -378,8 +380,12 @@
     "form_submit": "Gửi lời nhắn",
     "form_note": "Bằng việc gửi, bạn đồng ý với ",
     "form_note_link": "Chính sách bảo mật",
-    "form_note_suffix": " của chúng tôi.",
-    "success_title": "Đã gửi thành công!",
+    "form_note_suffix": ".",
+    "err_empty": "Vui lòng điền đầy đủ Họ tên, Email và Nội dung.",
+    "err_email": "Email chưa hợp lệ, vui lòng kiểm tra lại.",
+    "msg_sending": "Đang gửi...",
+    "err_server": "Có lỗi xảy ra khi gửi. Vui lòng thử lại hoặc gọi điện trực tiếp.",
+    "success_title": "Gửi thành công!",
     "success_desc": "Cảm ơn bạn đã liên hệ. Đội ngũ NeverSEO sẽ phản hồi trong vòng 24 giờ làm việc."
   },
   "cta": {
@@ -409,6 +415,9 @@
     "legal_privacy": "Chính sách bảo mật",
     "legal_terms": "Điều khoản sử dụng",
     "legal_contact": "Liên hệ",
+    "msg_sending": "Đang gửi...",
+    "msg_success": "Đã đăng ký! Cảm ơn bạn.",
+    "err_server": "Có lỗi xảy ra, vui lòng thử lại.",
     "bottom_copy": "Bản quyền &copy; {year} SaoLabs. Thiết kế cho kỷ nguyên AI-first SEO.",
     "bottom_made": "Made with <i class=\"ph-fill ph-heart\" aria-hidden=\"true\"></i> in Vietnam"
   },
