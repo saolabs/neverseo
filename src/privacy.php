@@ -4,9 +4,6 @@ $page_title = __('privacy.meta_title');
 $page_description = __('privacy.meta_desc');
 $page_path = get_lang_url($LANG);
 
-$url_prefix = ($LANG == 'vi' ? '/vi' : '') . '/';
-
-
 $sections_dir = __DIR__ . '/sections/';
 ?>
 <?php include $sections_dir . 'head.php'; ?>

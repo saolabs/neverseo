@@ -2,7 +2,6 @@
 // index.php
 $page_title = __('meta.title');
 $page_description = __('meta.description');
-$url_prefix = ($LANG == 'vi' ? '/vi'.'/' : '');
 
 $sections_dir = __DIR__ . '/sections/';
 ?>

@@ -1,13 +1,18 @@
 <?php
 // sections/head.php
-$page_title       = $page_title ?? 'NeverSEO – Nền tảng quản trị SEO toàn diện cho doanh nghiệp';
-$page_description = $page_description ?? 'Giải pháp quản lý và triển khai SEO tinh gọn. Giúp chủ doanh nghiệp và đội ngũ marketing làm SEO bài bản, hiệu quả và dễ đo lường.';
+$page_title       = $page_title ?? __('meta.title');
+$page_description = $page_description ?? __('meta.description');
 
-// SEO / social — trang gọi (index/privacy/terms) có thể override $page_path, $og_image
+// SEO / social — trang gọi (index/privacy/terms) có thể override $page_path
 $site_url      = 'https://neverseo.com';
 $page_path     = $page_path ?? '/';
 $canonical_url = rtrim($site_url, '/') . $page_path;
-$og_image      = $og_image ?? $site_url . '/assets/img/hero-dashboard.png';
+$og_image_path = $LANG === 'vi'
+    ? '/assets/img/og-neverseo-vi.png'
+    : '/assets/img/og-neverseo-en.png';
+$og_image      = $site_url . $og_image_path;
+$og_locale     = $LANG === 'vi' ? 'vi_VN' : 'en_US';
+$og_alt_locale = $LANG === 'vi' ? 'en_US' : 'vi_VN';
 ?>
 <!DOCTYPE html>
 <html lang="<?= $LANG ?>">
@@ -36,7 +41,11 @@ $og_image      = $og_image ?? $site_url . '/assets/img/hero-dashboard.png';
     <meta property="og:type" content="website"/>
     <meta property="og:url" content="<?php echo htmlspecialchars($canonical_url); ?>"/>
     <meta property="og:image" content="<?php echo htmlspecialchars($og_image); ?>"/>
-    <meta property="og:locale" content="vi_VN"/>
+    <meta property="og:image:width" content="1200"/>
+    <meta property="og:image:height" content="630"/>
+    <meta property="og:image:alt" content="<?php echo htmlspecialchars($page_title); ?>"/>
+    <meta property="og:locale" content="<?php echo $og_locale; ?>"/>
+    <meta property="og:locale:alternate" content="<?php echo $og_alt_locale; ?>"/>
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
@@ -58,6 +67,24 @@ $og_image      = $og_image ?? $site_url . '/assets/img/hero-dashboard.png';
     <link rel="stylesheet" href="/assets/css/style.css?v=<?= time() ?>">
 
     <!-- Structured data -->
+    <?php
+    $schema_offers = [];
+    $plans = __('pricing.plans');
+    if (is_array($plans)) {
+        foreach ($plans as $p) {
+            $numeric_price = preg_replace('/[^\d]/', '', $p['price']);
+            if ($numeric_price === '') {
+                continue; // Bỏ qua gói Custom/Flexible vì không có giá cố định
+            }
+            $schema_offers[] = [
+                "@type" => "Offer",
+                "name" => $p['name'],
+                "price" => $numeric_price,
+                "priceCurrency" => $LANG === 'vi' ? 'VND' : 'USD'
+            ];
+        }
+    }
+    ?>
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -67,21 +94,23 @@ $og_image      = $og_image ?? $site_url . '/assets/img/hero-dashboard.png';
           "name": "NeverSEO",
           "url": "https://neverseo.com",
           "logo": "https://neverseo.com/assets/img/favicon.svg",
+          "image": "https://neverseo.com/assets/img/og-neverseo-en.png",
           "parentOrganization": { "@type": "Organization", "name": "SaoLabs" }
         },
         {
           "@type": "WebSite",
           "name": "NeverSEO",
           "url": "https://neverseo.com",
-          "inLanguage": "vi-VN"
+          "inLanguage": "<?php echo $LANG === 'vi' ? 'vi-VN' : 'en-US'; ?>"
         },
         {
           "@type": "SoftwareApplication",
           "name": "NeverSEO",
+          "url": "https://neverseo.com",
           "applicationCategory": "BusinessApplication",
           "operatingSystem": "Web",
-          "description": "NeverSEO giúp doanh nghiệp xây dựng chiến lược SEO bài bản từ dữ liệu thực tế, tạo nội dung chất lượng cao và phát triển thương hiệu bền vững trên công cụ tìm kiếm.",
-          "offers": { "@type": "Offer", "price": "0", "priceCurrency": "VND" }
+          "description": "<?php echo htmlspecialchars($page_description); ?>",
+          "offers": <?php echo json_encode($schema_offers, JSON_UNESCAPED_UNICODE); ?>
         }
       ]
     }
