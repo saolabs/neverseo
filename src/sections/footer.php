@@ -68,16 +68,16 @@
             </div>
         </div>
 
-        <div class="site-footer-bottom" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 16px;">
-            <div style="flex: 1; text-align: left; min-width: 200px;">
+        <div class="site-footer-bottom">
+            <div class="footer-bottom-made">
                 <p><?= __('footer.bottom_made') ?></p>
             </div>
             
-            <div style="flex: 1; text-align: center; min-width: 200px;">
+            <div class="footer-bottom-copy">
                 <p><?= str_replace('{year}', date('Y'), __('footer.bottom_copy')) ?></p>
             </div>
             
-            <div class="footer-lang-switcher" style="flex: 1; display: flex; justify-content: flex-end; align-items: center; gap: 12px; min-width: 200px;">
+            <div class="footer-lang-switcher">
                 <a href="<?= get_lang_url('vi') ?>" style="display: flex; align-items: center; gap: 6px; text-decoration: none; font-size: 14px; font-weight: <?= $LANG === 'vi' ? '500' : '400' ?>; transition: color 0.3s ease; color: <?= $LANG === 'vi' ? '#fff' : 'rgba(255,255,255,0.5)' ?>;" onmouseover="this.style.color='#fff'" onmouseout="this.style.color='<?= $LANG === 'vi' ? '#fff' : 'rgba(255,255,255,0.5)' ?>'">
                     <img src="/assets/img/flag-vi.svg" alt="VN" style="width: 18px; height: 13px; border-radius: 2px; object-fit: cover; opacity: <?= $LANG === 'vi' ? '1' : '0.6' ?>;">
                     VN
