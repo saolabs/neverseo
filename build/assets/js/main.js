@@ -232,7 +232,6 @@ document.addEventListener('DOMContentLoaded', function () {
     /* ---------------------------------------------------------------
        Cuộn mượt cho liên kết neo trong trang (menu, nút, footer)
     --------------------------------------------------------------- */
-    const HEADER_OFFSET = 84;
     document.querySelectorAll('a[href*="#"]').forEach(function (link) {
         const raw = link.getAttribute('href') || '';
         const hashIndex = raw.indexOf('#');
@@ -242,9 +241,10 @@ document.addEventListener('DOMContentLoaded', function () {
             const target = document.getElementById(id);
             if (!target) return; // khác trang -> để trình duyệt điều hướng
             e.preventDefault();
-            const y = target.getBoundingClientRect().top + window.pageYOffset - HEADER_OFFSET;
+            const headerOffset = header ? header.getBoundingClientRect().height : 0;
+            const y = target.getBoundingClientRect().top + window.pageYOffset - headerOffset;
             window.scrollTo({ top: y, behavior: 'smooth' });
-            if (history.pushState) history.pushState(null, '', '#' + id);
+            return false;
         });
     });
 
