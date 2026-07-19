@@ -91,22 +91,22 @@ $og_alt_locale = $LANG === 'vi' ? 'en_US' : 'vi_VN';
         {
           "@type": "Organization",
           "name": "NeverSEO",
-          "url": "https://neverseo.com",
-          "logo": "https://neverseo.com/assets/img/favicon.svg",
-          "image": "https://neverseo.com/assets/img/og-neverseo-en.png",
+          "url": "<?php echo $site_url; ?>",
+          "logo": "<?php echo $site_url; ?>/assets/img/favicon.svg",
+          "image": "<?php echo htmlspecialchars($og_image); ?>",
 <?php if ($social_urls): ?>          "sameAs": <?php echo json_encode($social_urls, JSON_UNESCAPED_SLASHES); ?>,
 <?php endif; ?>          "parentOrganization": { "@type": "Organization", "name": "SaoLabs" }
         },
         {
           "@type": "WebSite",
           "name": "NeverSEO",
-          "url": "https://neverseo.com",
+          "url": "<?php echo $site_url; ?>",
           "inLanguage": "<?php echo $LANG === 'vi' ? 'vi-VN' : 'en-US'; ?>"
         },
         {
           "@type": "SoftwareApplication",
           "name": "NeverSEO",
-          "url": "https://neverseo.com",
+          "url": "<?php echo $site_url; ?>",
           "applicationCategory": "BusinessApplication",
           "operatingSystem": "Web",
           "description": "<?php echo htmlspecialchars($page_description); ?>",

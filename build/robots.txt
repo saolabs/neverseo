@@ -1,0 +1,37 @@
+# robots.txt — sinh tự động bởi build.php, đừng sửa tay trong build/
+User-agent: *
+Allow: /
+
+# AI crawler: cho phép, để nội dung NeverSEO được trích dẫn trong câu trả lời AI
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+# Bản tóm tắt site cho LLM: https://neverseo.com/llms.txt
+Sitemap: https://neverseo.com/sitemap.xml

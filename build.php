@@ -295,5 +295,35 @@ foreach ($LANG_CONFIG as $lang_code => $lang_dir) {
     echo "🤖 SEO    {$rel} (" . round(strlen($md) / 1024, 1) . " KB)\n";
 }
 
+/* ----------------------------------------------------- 6. sinh robots.txt */
+// Cho phép toàn bộ crawler, kể cả AI crawler (liệt kê tường minh để sau này
+// muốn chặn bot nào thì đổi Allow -> Disallow ngay tại dòng đó).
+$ai_crawlers = [
+    'GPTBot',           // OpenAI - crawl để train
+    'OAI-SearchBot',    // OpenAI - ChatGPT Search
+    'ChatGPT-User',     // OpenAI - user mở link trong ChatGPT
+    'ClaudeBot',        // Anthropic - crawl
+    'Claude-User',      // Anthropic - user mở link trong Claude
+    'PerplexityBot',    // Perplexity
+    'Google-Extended',  // Google - Gemini / AI Overviews
+    'Applebot-Extended',// Apple Intelligence
+    'CCBot',            // Common Crawl
+    'Bytespider',       // ByteDance
+];
+
+$robots  = "# robots.txt — sinh tự động bởi build.php, đừng sửa tay trong build/\n";
+$robots .= "User-agent: *\n";
+$robots .= "Allow: /\n\n";
+$robots .= "# AI crawler: cho phép, để nội dung NeverSEO được trích dẫn trong câu trả lời AI\n";
+foreach ($ai_crawlers as $bot) {
+    $robots .= "User-agent: {$bot}\n";
+    $robots .= "Allow: /\n\n";
+}
+$robots .= "# Bản tóm tắt site cho LLM: {$SITE_URL}/llms.txt\n";
+$robots .= "Sitemap: {$SITE_URL}/sitemap.xml\n";
+
+file_put_contents($BUILD . '/robots.txt', $robots);
+echo "🤖 SEO    robots.txt (" . count($ai_crawlers) . " AI crawler: allow)\n";
+
 echo "🎉 Đã build HTML + assets vào: {$BUILD}\n";
 echo "   (Chạy `npm run build:css` để compile CSS nếu chưa dùng `npm run build`.)\n";
