@@ -9,6 +9,18 @@
 $SRC   = __DIR__ . '/src';
 $BUILD = __DIR__ . '/build';
 
+// Domain gốc — dùng cho canonical/og trong head.php và cho sitemap.xml
+$SITE_URL = 'https://neverseo.com';
+
+// Kênh mạng xã hội chính thức — dùng cho footer, schema sameAs và llms.txt.
+// Để '' nếu chưa có kênh: footer sẽ tự ẩn icon thay vì để link chết href="#".
+$SOCIAL = [
+    'LinkedIn' => ['url' => '',                                  'icon' => 'ph-linkedin-logo'],
+    'Facebook' => ['url' => '',                                  'icon' => 'ph-facebook-logo'],
+    'X'        => ['url' => '',                                  'icon' => 'ph-x-logo'],
+    'YouTube'  => ['url' => 'https://www.youtube.com/@NeverSEO', 'icon' => 'ph-youtube-logo'],
+];
+
 // Trang nguồn (trong src/) -> file HTML đầu ra (trong build/)
 $pages = [
     'index.php'   => 'index.html',
@@ -52,6 +64,15 @@ function get_lang_url($target_lang) {
     $html_page = str_replace('.php', '.html', $CURRENT_PAGE);
     return $prefix . '/' . $html_page;
 }
+// Đường dẫn public của 1 trang đã build, ví dụ ('index.html', 'vn') -> '/vn/'
+function page_path(string $output, string $lang_dir): string {
+    $prefix = $lang_dir !== '' ? '/' . $lang_dir : '';
+    if ($output === 'index.html') {
+        return $prefix === '' ? '/' : $prefix . '/';
+    }
+    return $prefix . '/' . $output;
+}
+
 function rrmdir(string $dir): void {
     if (!is_dir($dir)) return;
     foreach (scandir($dir) as $item) {
@@ -97,6 +118,10 @@ foreach ($LANG_CONFIG as $lang_code => $lang_dir) {
         $source_file = $SRC . '/' . $source;
         $output_file = $out_dir . '/' . $output;
         $CURRENT_PAGE = $source;
+
+        // Reset meta của trang trước: các include chạy chung global scope nên
+        // $page_* dùng `??` sẽ rò rỉ sang trang kế tiếp (canonical/title sai).
+        unset($page_path, $page_title, $page_description);
 
         if (!file_exists($source_file)) {
             echo "⚠️  Không tìm thấy {$source_file}\n";
@@ -164,6 +189,111 @@ foreach ($font_files as $font) {
     }
 }
 echo "📦 ASSET  assets/fonts/ ({$font_count} file)\n";
+
+/* --------------------------------------------------- 4. sinh sitemap.xml */
+// Mỗi trang có 1 <url> cho mỗi ngôn ngữ, kèm hreflang alternates (khớp head.php).
+$xml  = '<?xml version="1.0" encoding="UTF-8"?>' . "\n";
+$xml .= '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"' . "\n";
+$xml .= '        xmlns:xhtml="http://www.w3.org/1999/xhtml">' . "\n";
+
+$url_count = 0;
+foreach ($pages as $source => $output) {
+    $source_file = $SRC . '/' . $source;
+    if (!file_exists($source_file)) continue;
+
+    $lastmod = date('Y-m-d', filemtime($source_file));
+
+    // URL tuyệt đối của trang này ở từng ngôn ngữ
+    $alternates = [];
+    foreach ($LANG_CONFIG as $lang_code => $lang_dir) {
+        $alternates[$lang_code] = $SITE_URL . page_path($output, $lang_dir);
+    }
+
+    foreach ($alternates as $loc) {
+        $xml .= "    <url>\n";
+        $xml .= "        <loc>" . htmlspecialchars($loc, ENT_XML1) . "</loc>\n";
+        $xml .= "        <lastmod>{$lastmod}</lastmod>\n";
+        $xml .= "        <priority>" . ($output === 'index.html' ? '1.0' : '0.5') . "</priority>\n";
+        foreach ($alternates as $lang_code => $alt) {
+            $xml .= '        <xhtml:link rel="alternate" hreflang="' . $lang_code
+                 . '" href="' . htmlspecialchars($alt, ENT_XML1) . "\"/>\n";
+        }
+        $xml .= '        <xhtml:link rel="alternate" hreflang="x-default" href="'
+             . htmlspecialchars($alternates['en'], ENT_XML1) . "\"/>\n";
+        $xml .= "    </url>\n";
+        $url_count++;
+    }
+}
+$xml .= "</urlset>\n";
+
+file_put_contents($BUILD . '/sitemap.xml', $xml);
+echo "🗺️  SEO    sitemap.xml ({$url_count} URL)\n";
+
+/* ------------------------------------------------------ 5. sinh llms.txt */
+// Bản tóm tắt site theo chuẩn llmstxt.org, cho LLM/AI crawler đọc.
+// Nội dung lấy từ locale JSON nên tự đồng bộ khi sửa nội dung trang.
+foreach ($LANG_CONFIG as $lang_code => $lang_dir) {
+    $LANG = $lang_code;
+    $locale_file = $SRC . '/locales/' . $LANG . '.json';
+    $T = file_exists($locale_file) ? json_decode(file_get_contents($locale_file), true) : [];
+    if (!$T) continue;
+
+    $home = $SITE_URL . page_path('index.html', $lang_dir);
+
+    $md  = "# NeverSEO\n\n";
+    $md .= "> " . __('meta.description') . "\n\n";
+    $md .= "- " . __('footer.brand_desc') . "\n";
+    $md .= "- Email: " . __('contact.email_val') . "\n";
+    $md .= "- Hotline: " . __('contact.hotline_val') . "\n";
+    foreach ($SOCIAL as $social_name => $social) {
+        if ($social['url'] === '') continue;
+        $md .= "- {$social_name}: {$social['url']}\n";
+    }
+    $md .= "\n";
+
+    $md .= "## " . __('nav.solution') . "\n\n";
+    $md .= "- [" . __('solution.title') . "]({$home}#solution): " . __('solution.desc') . "\n";
+    foreach ($T['solution']['pillars'] ?? [] as $pillar) {
+        $md .= "- {$pillar['title']}: {$pillar['desc']}\n";
+    }
+    $md .= "\n";
+
+    $md .= "## " . __('nav.features') . "\n\n";
+    foreach ($T['features']['items'] ?? [] as $item) {
+        $md .= "- [{$item['title']}]({$home}#features): {$item['desc']}\n";
+    }
+    $md .= "\n";
+
+    $md .= "## " . __('nav.workflow') . "\n\n";
+    foreach ($T['workflow']['steps'] ?? [] as $step) {
+        $md .= "- [{$step['title']}]({$home}#workflow): {$step['desc']}\n";
+    }
+    $md .= "\n";
+
+    $md .= "## " . __('nav.pricing') . "\n\n";
+    foreach ($T['pricing']['plans'] ?? [] as $plan) {
+        $price = trim($plan['price'] . $plan['unit'] . ' ' . $plan['period']);
+        $md .= "- [{$plan['name']} — {$price}]({$home}#pricing): {$plan['tagline']}\n";
+    }
+    $md .= "- " . __('pricing.desc') . "\n\n";
+
+    $md .= "## " . __('nav.faq') . "\n\n";
+    foreach ($T['faq']['items'] ?? [] as $item) {
+        $md .= "- [{$item['q']}]({$home}#faq): " . strip_tags($item['a']) . "\n";
+    }
+    $md .= "\n";
+
+    $md .= "## " . __('footer.col_legal') . "\n\n";
+    $md .= "- [" . __('footer.legal_privacy') . "]("
+         . $SITE_URL . page_path('privacy.html', $lang_dir) . "): " . __('privacy.meta_desc') . "\n";
+    $md .= "- [" . __('footer.legal_terms') . "]("
+         . $SITE_URL . page_path('terms.html', $lang_dir) . "): " . __('terms.meta_desc') . "\n";
+
+    $out_dir = $lang_dir !== '' ? $BUILD . '/' . $lang_dir : $BUILD;
+    $rel     = ltrim(page_path('llms.txt', $lang_dir), '/');
+    file_put_contents($out_dir . '/llms.txt', $md);
+    echo "🤖 SEO    {$rel} (" . round(strlen($md) / 1024, 1) . " KB)\n";
+}
 
 echo "🎉 Đã build HTML + assets vào: {$BUILD}\n";
 echo "   (Chạy `npm run build:css` để compile CSS nếu chưa dùng `npm run build`.)\n";

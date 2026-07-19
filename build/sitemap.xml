@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <url>
+        <loc>https://neverseo.com/</loc>
+        <lastmod>2026-07-19</lastmod>
+        <priority>1.0</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://neverseo.com/"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://neverseo.com/vn/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://neverseo.com/"/>
+    </url>
+    <url>
+        <loc>https://neverseo.com/vn/</loc>
+        <lastmod>2026-07-19</lastmod>
+        <priority>1.0</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://neverseo.com/"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://neverseo.com/vn/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://neverseo.com/"/>
+    </url>
+    <url>
+        <loc>https://neverseo.com/privacy.html</loc>
+        <lastmod>2026-07-14</lastmod>
+        <priority>0.5</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://neverseo.com/privacy.html"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://neverseo.com/vn/privacy.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://neverseo.com/privacy.html"/>
+    </url>
+    <url>
+        <loc>https://neverseo.com/vn/privacy.html</loc>
+        <lastmod>2026-07-14</lastmod>
+        <priority>0.5</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://neverseo.com/privacy.html"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://neverseo.com/vn/privacy.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://neverseo.com/privacy.html"/>
+    </url>
+    <url>
+        <loc>https://neverseo.com/terms.html</loc>
+        <lastmod>2026-07-14</lastmod>
+        <priority>0.5</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://neverseo.com/terms.html"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://neverseo.com/vn/terms.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://neverseo.com/terms.html"/>
+    </url>
+    <url>
+        <loc>https://neverseo.com/vn/terms.html</loc>
+        <lastmod>2026-07-14</lastmod>
+        <priority>0.5</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://neverseo.com/terms.html"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://neverseo.com/vn/terms.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://neverseo.com/terms.html"/>
+    </url>
+</urlset>

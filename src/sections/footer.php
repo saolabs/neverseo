@@ -29,10 +29,10 @@
                     <?= __('footer.brand_desc') ?>
                 </p>
                 <div class="site-footer-socials" aria-label="Mạng xã hội">
-                    <a href="#" aria-label="LinkedIn"><i class="ph-fill ph-linkedin-logo" aria-hidden="true"></i></a>
-                    <a href="#" aria-label="Facebook"><i class="ph-fill ph-facebook-logo" aria-hidden="true"></i></a>
-                    <a href="#" aria-label="X"><i class="ph-fill ph-x-logo" aria-hidden="true"></i></a>
-                    <a href="#" aria-label="YouTube"><i class="ph-fill ph-youtube-logo" aria-hidden="true"></i></a>
+<?php foreach (($GLOBALS['SOCIAL'] ?? []) as $social_name => $social):
+    if ($social['url'] === '') continue; ?>
+                    <a href="<?= htmlspecialchars($social['url']) ?>" aria-label="<?= htmlspecialchars($social_name) ?>" target="_blank" rel="noopener"><i class="ph-fill <?= $social['icon'] ?>" aria-hidden="true"></i></a>
+<?php endforeach; ?>
                 </div>
             </div>
 

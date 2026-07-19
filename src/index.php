@@ -2,6 +2,7 @@
 // index.php
 $page_title = __('meta.title');
 $page_description = __('meta.description');
+$page_path = get_lang_url($LANG);
 $current_url = "";
 $sections_dir = __DIR__ . '/sections/';
 ?>

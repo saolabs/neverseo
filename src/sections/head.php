@@ -4,7 +4,7 @@ $page_title       = $page_title ?? __('meta.title');
 $page_description = $page_description ?? __('meta.description');
 
 // SEO / social — trang gọi (index/privacy/terms) có thể override $page_path
-$site_url      = 'https://neverseo.com';
+$site_url      = $GLOBALS['SITE_URL'] ?? 'https://neverseo.com';
 $page_path     = $page_path ?? '/';
 $canonical_url = rtrim($site_url, '/') . $page_path;
 $og_image_path = $LANG === 'vi'
@@ -12,6 +12,8 @@ $og_image_path = $LANG === 'vi'
     : '/assets/img/og-neverseo-en.png';
 $og_image      = $site_url . $og_image_path;
 $og_locale     = $LANG === 'vi' ? 'vi_VN' : 'en_US';
+// Các kênh social đã khai báo (build.php) -> schema.org sameAs
+$social_urls   = array_values(array_filter(array_column($GLOBALS['SOCIAL'] ?? [], 'url')));
 $og_alt_locale = $LANG === 'vi' ? 'en_US' : 'vi_VN';
 ?>
 <!DOCTYPE html>
@@ -92,7 +94,8 @@ $og_alt_locale = $LANG === 'vi' ? 'en_US' : 'vi_VN';
           "url": "https://neverseo.com",
           "logo": "https://neverseo.com/assets/img/favicon.svg",
           "image": "https://neverseo.com/assets/img/og-neverseo-en.png",
-          "parentOrganization": { "@type": "Organization", "name": "SaoLabs" }
+<?php if ($social_urls): ?>          "sameAs": <?php echo json_encode($social_urls, JSON_UNESCAPED_SLASHES); ?>,
+<?php endif; ?>          "parentOrganization": { "@type": "Organization", "name": "SaoLabs" }
         },
         {
           "@type": "WebSite",
