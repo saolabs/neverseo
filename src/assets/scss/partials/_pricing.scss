@@ -83,12 +83,14 @@
   border-radius: var(--radius-lg);
   background: var(--color-surface);
   border: 1px solid var(--color-line);
-  box-shadow: 0 10px 20px rgba(15, 23, 42, 0.075);
+  /* Track có overflow-x: auto nên bóng bị cắt ở mép vùng cuộn. Giữ độ lan ngang
+     (blur/2) quanh 6-9px, an toàn trong padding 18px của track. */
+  box-shadow: 0 4px 12px rgba(15, 23, 42, 0.07);
   transition: transform 0.35s ease, box-shadow 0.35s ease;
 }
 .price-card:hover {
   transform: translateY(-4px);
-  box-shadow: 0 10px 30px rgba(15, 23, 42, 0.105);
+  box-shadow: 0 6px 16px rgba(15, 23, 42, 0.1);
 }
 .price-card.is-popular {
   border: 1px solid transparent;
@@ -96,14 +98,14 @@
     linear-gradient(var(--color-surface), var(--color-surface)) padding-box,
     var(--grad-brand) border-box;
   box-shadow:
-    0 15px 32px rgba(14, 165, 233, 0.16),
-    0 8px 22px rgba(15, 23, 42, 0.055);
+    0 6px 18px rgba(14, 165, 233, 0.18),
+    0 3px 10px rgba(15, 23, 42, 0.06);
 }
 .price-card.is-popular:hover {
   transform: translateY(-4px);
   box-shadow:
-    0 15px 32px rgba(14, 165, 233, 0.2),
-    0 8px 20px rgba(15, 23, 42, 0.07);
+    0 8px 18px rgba(14, 165, 233, 0.24),
+    0 4px 12px rgba(15, 23, 42, 0.08);
 }
 .price-badge {
   position: absolute;
@@ -117,7 +119,7 @@
   font-size: 12px;
   font-weight: 700;
   white-space: nowrap;
-  box-shadow: 0 10px 22px rgba(14, 165, 233, 0.18);
+  box-shadow: 0 4px 12px rgba(14, 165, 233, 0.2);
 }
 .price-tagline { margin-bottom: 22px; color: var(--color-muted); font-size: 14px; text-align: center; }
 .price-head h3 { font-size: 22px; font-weight: 700; margin-bottom: 6px; text-align: center; }
