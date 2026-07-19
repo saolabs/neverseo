@@ -212,8 +212,8 @@ document.addEventListener('DOMContentLoaded', function () {
             track.scrollBy({ left: getStep() * direction, behavior: 'smooth' });
         };
 
-        prevBtn.addEventListener('click', function () { scrollByStep(-1); });
-        nextBtn.addEventListener('click', function () { scrollByStep(1); });
+        prevBtn.addEventListener('click', function () { updateNav(); scrollByStep(-1); });
+        nextBtn.addEventListener('click', function () { updateNav(); scrollByStep(1); });
 
         let scrollFrame = null;
         track.addEventListener('scroll', function () {
@@ -225,8 +225,25 @@ document.addEventListener('DOMContentLoaded', function () {
         }, { passive: true });
 
         window.addEventListener('resize', updateNav);
-        updateNav();
+
+        // Layout còn thay đổi sau khi script chạy (font icon Phosphor tải xong,
+        // nội dung card wrap lại...). Nếu chỉ tính 1 lần lúc đầu thì nút giữ
+        // nguyên trạng thái cũ: còn enable dù đã hết chỗ để cuộn.
+        if (window.ResizeObserver) {
+            const observer = new ResizeObserver(updateNav);
+            observer.observe(track);
+            const firstCard = track.querySelector('.price-card');
+            if (firstCard) observer.observe(firstCard);
+        }
+        if (document.fonts && document.fonts.ready) {
+            document.fonts.ready.then(updateNav);
+        }
+        // Dự phòng cho trường hợp ResizeObserver không khả dụng: tính lại vài lần
+        // trong lúc layout còn ổn định sau khi tải.
         window.setTimeout(updateNav, 250);
+        window.setTimeout(updateNav, 1000);
+
+        updateNav();
     });
 
     /* ---------------------------------------------------------------
