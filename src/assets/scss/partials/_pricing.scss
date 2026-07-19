@@ -8,9 +8,12 @@
   position: relative;
   padding: 4px 56px 8px;
   max-width: 1700px;
+  /* .site-shell của section này là full-width nên slider phải tự cân giữa,
+     nếu không sẽ dính lề trái trên màn rộng hơn 1700px. */
+  margin-inline: auto;
 }
 .pricing-grid {
-  /* Bảng giá luôn có đúng 5 gói: từ 1200px trở lên hiện đủ 5, không cần slider.
+  /* Bảng giá luôn có đúng 5 gói: từ 1400px trở lên hiện đủ 5, không cần slider.
      Dưới ngưỡng đó mới cuộn ngang theo từng bước card. */
   --pricing-gap: 22px;
   --pricing-items-visible: 1;
@@ -164,9 +167,8 @@
 
 /* Đủ chỗ cho cả 5 gói -> bỏ slider: ẩn nút và thu hồi phần padding hai bên
    vốn chừa cho nút, để card rộng thêm ~112px. */
-@media (min-width: 1200px) {
+@media (min-width: 1400px) {
   .pricing-grid {
-    --pricing-gap: 18px;
     --pricing-items-visible: 5;
     --pricing-card-width: calc((100% - (var(--pricing-gap) * 4)) / 5);
     overflow-x: visible;
@@ -177,12 +179,6 @@
   }
   .pricing-nav {
     display: none;
-  }
-}
-
-@media (min-width: 1400px) {
-  .pricing-grid {
-    --pricing-gap: 22px;
   }
 }
 
