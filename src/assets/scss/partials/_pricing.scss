@@ -6,7 +6,9 @@
 }
 .pricing-slider {
   position: relative;
-  padding: 4px 56px 8px;
+  /* Không chừa chỗ hai bên cho nút nữa — nút đè lên mép card (xem .pricing-nav-*),
+     nhờ vậy card rộng thêm ~112px. */
+  padding: 4px 0 8px;
   max-width: 1700px;
   /* .site-shell của section này là full-width nên slider phải tự cân giữa,
      nếu không sẽ dính lề trái trên màn rộng hơn 1700px. */
@@ -65,11 +67,12 @@
 .pricing-nav i {
   font-size: 20px;
 }
+/* Nút nằm đè lên mép card: thò ra ngoài 8px, phần còn lại phủ lên card. */
 .pricing-nav-prev {
-  left: 8px;
+  left: -18px;
 }
 .pricing-nav-next {
-  right: 8px;
+  right: -18px;
 }
 .price-card {
   flex: 0 0 var(--pricing-card-width);
@@ -155,20 +158,26 @@
 
 @media (min-width: 768px) {
   .pricing-grid {
-    --pricing-items-visible: 3;
+    --pricing-items-visible: 2;
     --pricing-card-width: calc((100% - (var(--pricing-gap) * 2)) / 3);
   }
 }
 
 @media (min-width: 992px) {
   .pricing-grid {
+    --pricing-items-visible: 3;
+    --pricing-card-width: calc((100% - (var(--pricing-gap) * 3)) / 4);
+  }
+}
+
+@media (min-width: 1200px) {
+  .pricing-grid {
     --pricing-items-visible: 4;
     --pricing-card-width: calc((100% - (var(--pricing-gap) * 3)) / 4);
   }
 }
 
-/* Đủ chỗ cho cả 5 gói -> bỏ slider: ẩn nút và thu hồi phần padding hai bên
-   vốn chừa cho nút, để card rộng thêm ~112px. */
+/* Đủ chỗ cho cả 5 gói -> bỏ slider: ẩn nút, tắt cuộn ngang. */
 @media (min-width: 1400px) {
   .pricing-grid {
     --pricing-items-visible: 5;
@@ -176,18 +185,12 @@
     overflow-x: visible;
     scroll-snap-type: none;
   }
-  .pricing-slider {
-    padding-inline: 0;
-  }
   .pricing-nav {
     display: none;
   }
 }
 
 @media (max-width: 640px) {
-  .pricing-slider {
-    padding-inline: 44px;
-  }
   .pricing-grid {
     margin-inline: -12px;
     padding-inline: 12px;
@@ -198,10 +201,10 @@
     height: 36px;
   }
   .pricing-nav-prev {
-    left: 0;
+    left: -16px;
   }
   .pricing-nav-next {
-    right: 0;
+    right: -16px;
   }
   .pricing-nav i {
     font-size: 17px;
