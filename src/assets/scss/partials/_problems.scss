@@ -42,7 +42,8 @@
 
   .problem-grid {
     display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    // 4 vấn đề -> lưới 2x2 để không bị lẻ 1 card ở hàng cuối
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 24px;
   }
 

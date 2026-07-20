@@ -1,6 +1,6 @@
 # NeverSEO
 
-> Thay vì viết bài hàng loạt, NeverSEO giúp bạn lập kế hoạch SEO dựa trên dữ liệu thực tế, tạo nội dung chất lượng cao để thu hút khách hàng và tăng trưởng bền vững trên Google.
+> Vận hành quy trình SEO/GEO có kiểm soát. Kết hợp dữ liệu thực tế và AI chuyên dụng để lên chiến lược, xuất bản nội dung và đo lường hiệu suất trên một nền tảng duy nhất.
 
 - Nền tảng quản trị SEO toàn diện giúp doanh nghiệp xây dựng chiến lược, tối ưu nội dung và tăng trưởng bền vững trên công cụ tìm kiếm.
 - Email: support@neverseo.com
@@ -9,27 +9,45 @@
 
 ## Giải pháp
 
-- [Hệ thống quản trị SEO tinh gọn, hiệu quả.](https://neverseo.com/vn/#solution): NeverSEO kết hợp sức mạnh của dữ liệu và AI để giúp bạn làm SEO bài bản hơn. Mọi quyết định từ việc chọn chủ đề đến xuất bản nội dung đều được hướng dẫn rõ ràng, dễ hiểu.
-- Lên kế hoạch bằng dữ liệu: Hệ thống tự động phân tích dữ liệu website và thị trường để tìm ra cơ hội SEO tốt nhất, không cần phỏng đoán.
-- Tích hợp AI thông minh: Các trợ lý AI giúp phân tích, lập dàn ý và hỗ trợ viết bài nhanh hơn, đảm bảo chất lượng và độ chính xác.
-- Tiếp cận đúng khách hàng: Tối ưu nội dung để trả lời đúng câu hỏi của khách hàng, giúp website xuất hiện ở mọi nơi họ tìm kiếm.
-- Phát triển bền vững: Xây dựng nền tảng nội dung chất lượng cao. Các bài viết sẽ liên tục mang lại khách hàng trong nhiều năm tới.
+- [Vận hành quy trình SEO/GEO có kiểm soát trên một nền tảng duy nhất.](https://neverseo.com/vn/#solution): NeverSEO kết hợp dữ liệu thực tế (từ Crawl, GSC, SERP) với khả năng phân tích mạnh mẽ của các mô hình AI chuyên dụng. Từ nền tảng kỹ thuật, chiến lược nội dung đến đo lường hiệu suất—tất cả được quản lý trong một quy trình chuẩn hóa, không điểm mù và không chắp vá phần mềm.
 
-## Tính năng
+## Nền tảng chiến lược
 
-- [Nghiên cứu thị trường tự động](https://neverseo.com/vn/#features): Phân tích dữ liệu từ Google để cho bạn biết khách hàng đang tìm kiếm điều gì và đối thủ đang làm gì.
-- [Quản lý chủ đề thông minh](https://neverseo.com/vn/#features): Trực quan hóa cấu trúc website, giúp bạn dễ dàng theo dõi và bổ sung nội dung cho các chủ đề quan trọng.
-- [Lập kế hoạch nội dung](https://neverseo.com/vn/#features): Lên lịch biên tập rõ ràng. Dễ dàng phân công công việc cho từng thành viên trong nhóm và theo dõi tiến độ.
-- [Tiêu chuẩn hóa bài viết](https://neverseo.com/vn/#features): Cung cấp hướng dẫn viết bài cụ thể, dàn ý chi tiết, đảm bảo mọi người trong nhóm đều viết bài đúng chuẩn SEO.
-- [Chấm điểm SEO tự động](https://neverseo.com/vn/#features): Chỉ ra ngay những điểm cần sửa trước khi xuất bản: thiếu từ khóa, tiêu đề chưa tối ưu, nội dung chưa đủ sâu...
-- [Báo cáo hiệu quả minh bạch](https://neverseo.com/vn/#features): Kết nối với Google Analytics và Search Console để biết chính xác bài viết nào đang mang lại nhiều khách hàng nhất.
+- [Hiểu thị trường và khách hàng trước khi viết bài đầu tiên.](https://neverseo.com/vn/#research): Google đánh giá nội dung qua bốn tiêu chí E-E-A-T — trải nghiệm thực tế, chuyên môn, thẩm quyền và độ tin cậy — đồng thời ưu tiên nội dung viết cho người đọc thay vì viết để chiều công cụ tìm kiếm. Không thể đạt những chuẩn đó nếu chưa hiểu khách hàng cần gì. Vì vậy NeverSEO bắt đầu từ thị trường, từ khách hàng và từ những gì đối thủ còn bỏ ngỏ.
+- Phân tích thị trường & ngách: Nhu cầu đang dịch chuyển ra sao, điều gì tác động trực tiếp tới dự án của bạn, và đâu là khoảng trống chưa ai chiếm.
+- Chân dung khách hàng & ý định ẩn: Không dừng ở tuổi tác hay nghề nghiệp. Hệ thống bóc tách 5 tầng ẩn sau mỗi câu hỏi tìm kiếm: nỗi lo chưa nói ra, kết quả họ thực sự mong đợi, điều còn khiến họ ngờ vực, giới hạn về ngân sách và thời gian, cùng câu hỏi tiếp theo họ sẽ đặt ra.
+- SWOT dựa trên bằng chứng: Điểm mạnh và điểm yếu của chính bạn được đánh giá từ dữ liệu thu thập trên website, từ Search Console và các tín hiệu công khai — không phải từ cảm nhận chủ quan.
+- Đối thủ thật trên trang kết quả: Hệ thống chọn đối thủ theo kết quả tìm kiếm thực tế của những nhu cầu chủ lực — đôi khi là báo ngành hay sàn thương mại điện tử, không chỉ đối thủ kinh doanh — rồi phân tích điểm mạnh, điểm yếu và phần nội dung họ còn bỏ ngỏ.
+- Khoảng trống nội dung & cơ hội: Chỉ ra chính xác nhu cầu nào chưa ai trả lời trọn vẹn, và bạn có thể chiếm chỗ ở đâu trước khi đối thủ kịp nhận ra.
+- Bản đồ chủ đề & câu hỏi vệ tinh: Bản đồ chủ đề đầy đủ, kèm mô phỏng 5–10 câu hỏi mà AI thường tự đặt thêm quanh mỗi chủ đề. Câu hỏi nào chưa có bài trả lời chính là khoảng trống cần lấp.
+- Số liệu đo được hay ước lượng — luôn ghi rõ: Mỗi phân tích đều được gắn nhãn: dựa trên dữ liệu đo được, hay là ước lượng có cấu trúc. Hệ thống không bịa lượng tìm kiếm, thứ hạng hay điểm yếu đối thủ để báo cáo trông đẹp hơn.
+- Chiến lược bẻ theo bạn, không áp một khuôn: Lộ trình thay đổi theo độ trưởng thành của website và mô hình kinh doanh — dịch vụ địa phương, thương mại điện tử, B2B, publisher hay ứng dụng. Website mới không bị đẩy vào những từ khóa mà đối thủ đã giữ nhiều năm.
+
+## AI Search Visibility
+
+- [Thương hiệu của bạn ở đâu khi khách hàng hỏi AI?](https://neverseo.com/vn/#geo): SEO truyền thống là chưa đủ. Khi người mua chuyển sang tìm kiếm bằng ChatGPT, Gemini hay Perplexity, NeverSEO giúp bạn đo lường và tối ưu để thương hiệu luôn xuất hiện trong câu trả lời.
+- Đo lường AI Mention Rate: Mô phỏng tự động hàng loạt truy vấn thực tế trên ChatGPT, Claude, Gemini... để đo đếm tần suất và vị trí thương hiệu của bạn được AI nhắc tới.
+- Theo dõi AI Overviews (SGE): Ghi nhận vị thế của bạn trong khối trả lời do AI tạo ngay trên trang kết quả Google — nơi quyết định lượng lớn traffic tự nhiên trước khi người dùng kịp cuộn xuống.
+- Tối ưu nội dung cho AI (GEO): Cấu trúc nội dung để AI dễ dàng trích xuất: câu trả lời trực diện, dữ kiện có nguồn gốc rõ ràng và các khối thông tin độc lập.
+- Đồng bộ tín hiệu thực thể (Entity): Khai báo doanh nghiệp bằng dữ liệu có cấu trúc và liên kết nhất quán trên mọi kênh để AI hiểu chính xác bạn là ai, thay vì chỉ đọc văn bản.
+- Technical SEO cho AI Bot: Đảm bảo cấu trúc HTML không cản trở việc thu thập dữ liệu và luồng robots.txt được mở chuẩn xác cho GPTBot, ClaudeBot hay PerplexityBot.
+
+## Vận hành & cộng tác
+
+- [Quản trị nhiều website và cả đội ngũ ở một nơi.](https://neverseo.com/vn/#ops): Phần khó của SEO không chỉ nằm ở chuyên môn, mà ở việc giữ cho nhiều người và nhiều dự án cùng chạy đúng hướng. Đây là lớp vận hành phía sau mà NeverSEO lo giúp bạn.
+- Nhiều dự án trong một tổ chức: Gom các website theo nhóm, mỗi dự án có chiến lược, kế hoạch và hạn mức riêng nhưng bạn vẫn nhìn được toàn cảnh.
+- Phân quyền theo vai trò: Chủ sở hữu, quản trị viên và thành viên có quyền khác nhau. Mời cộng tác viên vào đúng dự án mà không phải chia sẻ tài khoản.
+- Giao việc và theo dõi tiến độ: Mỗi bài có người phụ trách và trạng thái rõ ràng, từ lúc còn là brief cho tới khi đã lên website.
+- Xuất bản thẳng lên website: Kết nối WordPress để đăng bài kèm ảnh, danh mục và dữ liệu có cấu trúc, không phải chép tay qua lại.
+- Chạy tự động theo lịch: Các tác vụ nặng chạy nền theo hàng đợi và lịch định sẵn. Hệ thống báo khi xong hoặc khi có việc cần bạn xử lý.
+- Xuất báo cáo cho khách hàng: Kết xuất kế hoạch và kết quả ra Word, Excel hoặc Google Docs để gửi cho khách hàng và ban lãnh đạo.
 
 ## Quy trình
 
-- [1. Phân tích hiện trạng website](https://neverseo.com/vn/#workflow): Hệ thống tự động quét website để chỉ ra những lỗi cần khắc phục, đánh giá sức khỏe SEO và tìm kiếm cơ hội tăng trưởng nhanh.
-- [2. Xây dựng kế hoạch nội dung](https://neverseo.com/vn/#workflow): Thay vì tập trung vào từ khóa lẻ tẻ, hệ thống giúp nhóm các chủ đề liên quan để xây dựng kế hoạch nội dung toàn diện và mạch lạc.
-- [3. Lên dàn ý và viết bài với AI](https://neverseo.com/vn/#workflow): Tạo dàn ý chi tiết dựa trên dữ liệu tìm kiếm. Tích hợp AI để hỗ trợ soạn thảo nhanh chóng, đảm bảo chuẩn SEO và thân thiện với người đọc.
-- [4. Kiểm duyệt và đo lường](https://neverseo.com/vn/#workflow): Hệ thống chấm điểm SEO trước khi đăng bài. Sau đó theo dõi thứ hạng, lượng truy cập để liên tục đề xuất các bước tối ưu tiếp theo.
+- [1. Phân tích hiện trạng website](https://neverseo.com/vn/#workflow): Hệ thống quét website để chỉ ra lỗi cần khắc phục, đánh giá độ trưởng thành và hồ sơ thương hiệu, đồng thời phát hiện các bài đang tự cạnh tranh lẫn nhau.
+- [2. Nghiên cứu thị trường & khách hàng](https://neverseo.com/vn/#workflow): Phân tích thị trường và ngách, dựng chân dung khách hàng cùng những ý định ẩn phía sau mỗi câu hỏi, đánh giá SWOT và bóc tách đối thủ đang thật sự chiếm trang kết quả.
+- [3. Bản đồ chủ đề & kế hoạch nội dung](https://neverseo.com/vn/#workflow): Thay vì chạy theo từ khóa lẻ tẻ, hệ thống dựng bản đồ chủ đề làm xương sống, chấm mức ưu tiên theo giá trị kinh doanh rồi chuyển thành kế hoạch bài viết giao được ngay.
+- [4. Kiểm duyệt, đo lường và lặp lại](https://neverseo.com/vn/#workflow): Bài được chấm điểm trước khi đăng và chỉ xuất bản khi đạt chuẩn. Sau đó hệ thống theo dõi thứ hạng, lượng truy cập, backlink mới và mức độ được AI nhắc tới — rồi đưa tất cả trở lại thành đầu vào cho kế hoạch tháng sau.
 
 ## Bảng giá
 
@@ -42,13 +60,16 @@
 
 ## FAQ
 
-- [NeverSEO có thay thế được nhân sự SEO không?](https://neverseo.com/vn/#faq): Không. NeverSEO là công cụ đắc lực giúp đội ngũ SEO làm việc hiệu quả hơn, nhanh hơn và ít sai sót hơn. Hệ thống tự động hóa quy trình phân tích và vận hành, còn tư duy chiến lược cuối cùng vẫn do con người quyết định.
-- [Tôi mới tìm hiểu về SEO thì có dùng được không?](https://neverseo.com/vn/#faq): Chắc chắn rồi. NeverSEO được thiết kế với giao diện thân thiện, dễ hiểu. Hệ thống sẽ hướng dẫn bạn từng bước cần làm, giống như có một chuyên gia SEO luôn bên cạnh hỗ trợ.
-- [Viết bài bằng AI có bị Google phạt không?](https://neverseo.com/vn/#faq): Google không phạt nội dung tạo bằng AI, họ chỉ phạt nội dung rác, kém chất lượng. NeverSEO sử dụng AI như một trợ lý để giúp bạn nghiên cứu và viết bài tốt hơn, cung cấp thông tin thực sự hữu ích cho người đọc.
-- [Dữ liệu của công ty tôi có được bảo mật không?](https://neverseo.com/vn/#faq): Có. Mỗi công ty (Organization) có không gian dữ liệu hoàn toàn độc lập. Các thông tin nhạy cảm được mã hóa cấp độ cao và tuyệt đối không chia sẻ cho bất kỳ bên thứ ba nào.
-- [Tôi có thể dùng tài khoản AI của riêng mình không?](https://neverseo.com/vn/#faq): Có. Ở gói Doanh nghiệp, bạn có thể kết nối tài khoản AI (API Key của OpenAI, Google...) để tự quản lý chi phí token và chủ động hơn khi sử dụng ở quy mô lớn.
-- [NeverSEO có cam kết từ khóa lên top không?](https://neverseo.com/vn/#faq): Bất kỳ cam kết lên top nào cũng thiếu thực tế, vì thuật toán Google thay đổi liên tục. NeverSEO giúp bạn xây dựng nền tảng SEO đúng chuẩn, tạo nội dung chất lượng để tăng trưởng lượng khách hàng bền vững và dài hạn.
-- [Tôi có thể hủy hoặc đổi gói bất cứ lúc nào không?](https://neverseo.com/vn/#faq): Được. Bạn có thể nâng cấp, hạ cấp hoặc hủy gói bất cứ lúc nào ngay trong phần cài đặt tài khoản, không ràng buộc hợp đồng dài hạn.
+- [NeverSEO có thay thế được nhân sự SEO không?](https://neverseo.com/vn/#faq): Không. NeverSEO giúp đội ngũ của bạn làm nhanh hơn và ít sai sót hơn bằng cách tự động hóa phần phân tích và vận hành. Những quyết định cần hiểu bối cảnh doanh nghiệp vẫn thuộc về con người.
+- [Tôi mới tìm hiểu về SEO thì có dùng được không?](https://neverseo.com/vn/#faq): Được. Hệ thống chỉ rõ từng bước cần làm và giải thích lý do đằng sau mỗi đề xuất, nên bạn vừa triển khai được ngay vừa hiểu dần cách SEO vận hành.
+- [SEO còn đáng đầu tư khi nhiều người đã chuyển sang hỏi AI?](https://neverseo.com/vn/#faq): Cách tìm thay đổi, nhưng nhu cầu thì không. Các nền tảng AI vẫn lấy thông tin từ nội dung trên web và vẫn dẫn nguồn. Việc cần làm là viết sao cho AI trích dẫn được, đồng thời theo dõi xem thương hiệu có thực sự được nhắc tới hay không.
+- [GEO khác SEO ở điểm nào?](https://neverseo.com/vn/#faq): SEO hướng tới việc website xếp hạng cao và nhận được lượt truy cập. GEO hướng tới việc nội dung của bạn được chọn làm nguồn khi AI tổng hợp câu trả lời, kể cả khi người dùng không ghé thăm website. Cả hai cùng dựa trên nội dung chất lượng, chỉ khác ở cách trình bày để máy đọc và trích dẫn được.
+- [Làm sao biết thương hiệu của tôi có được AI nhắc tới?](https://neverseo.com/vn/#faq): NeverSEO đặt cho từng nền tảng AI những câu hỏi mà khách hàng thường hỏi trong lĩnh vực của bạn, rồi ghi nhận thương hiệu có được nêu tên hay không và ở vị trí nào. Kết quả được lưu lại theo thời gian để bạn thấy xu hướng, thay vì chỉ một lần thử ngẫu nhiên.
+- [Nội dung tạo bằng AI có bị Google phạt không?](https://neverseo.com/vn/#faq): Google không phạt nội dung vì nó được tạo bằng công cụ nào, họ hạ thấp nội dung sơ sài và không mang lại giá trị mới. Vì vậy mỗi bài trong NeverSEO đều bám một brief có mục tiêu rõ ràng, phải dẫn nguồn cho các số liệu quan trọng và phải qua vòng chấm điểm trước khi được phép xuất bản.
+- [Dữ liệu của công ty tôi có được bảo mật không?](https://neverseo.com/vn/#faq): Có. Mỗi tổ chức có không gian dữ liệu hoàn toàn độc lập. Thông tin nhạy cảm được mã hóa và không chia sẻ cho bất kỳ bên thứ ba nào.
+- [Tôi có thể dùng tài khoản AI của riêng mình không?](https://neverseo.com/vn/#faq): Có. Ở gói Doanh nghiệp, bạn có thể kết nối API Key riêng để tự quản lý chi phí và chủ động hơn khi triển khai ở quy mô lớn.
+- [NeverSEO có cam kết từ khóa lên top không?](https://neverseo.com/vn/#faq): Bất kỳ cam kết lên top nào cũng thiếu thực tế, vì thuật toán thay đổi liên tục và còn phụ thuộc vào tuổi đời website, sức mạnh thương hiệu lẫn mức độ cạnh tranh của ngành. Điều NeverSEO cam kết là một quy trình bài bản và nội dung đủ chất lượng để tăng trưởng bền vững.
+- [Tôi có thể hủy hoặc đổi gói bất cứ lúc nào không?](https://neverseo.com/vn/#faq): Được. Bạn có thể nâng cấp, hạ cấp hoặc hủy gói ngay trong phần cài đặt tài khoản, không ràng buộc hợp đồng dài hạn.
 
 ## Pháp lý & Liên hệ
 

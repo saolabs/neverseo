@@ -30,7 +30,8 @@ $home_url = (isset($current_url) && $current_url) ? ($LANG === 'vi' ? '/vn/' : '
                 <nav class="site-nav" aria-label="Điều hướng chính">
                     <a href="<?= $home_url ?>#solution"><?= __('nav.solution') ?></a>
                     <a href="<?= $home_url ?>#workflow"><?= __('nav.workflow') ?></a>
-                    <a href="<?= $home_url ?>#features"><?= __('nav.features') ?></a>
+                    <a href="<?= $home_url ?>#research"><?= __('nav.research') ?></a>
+                    <a href="<?= $home_url ?>#geo"><?= __('nav.geo') ?></a>
                     <a href="<?= $home_url ?>#pricing"><?= __('nav.pricing') ?></a>
                     <a href="<?= $home_url ?>#faq"><?= __('nav.faq') ?></a>
                     <a href="<?= $home_url ?>#team"><?= __('nav.team') ?></a>

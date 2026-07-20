@@ -1,6 +1,6 @@
 # NeverSEO
 
-> Instead of mass-producing content, NeverSEO helps you plan SEO based on real data, create high-quality content to attract customers, and grow sustainably on Google.
+> Run a controlled SEO/GEO workflow. Combine real-world data and specialized AI to build strategy, publish content, and track performance on a single platform.
 
 - A comprehensive SEO management platform helping businesses build strategies, optimize content, and grow sustainably on search engines.
 - Email: support@neverseo.com
@@ -9,27 +9,45 @@
 
 ## Solutions
 
-- [Streamlined and effective SEO management system.](https://neverseo.com/#solution): NeverSEO combines the power of data and AI to help you do SEO more systematically. Every decision, from choosing topics to publishing content, is clearly guided.
-- Data-Driven Planning: The system automatically analyzes website and market data to find the best SEO opportunities, no guesswork required.
-- Smart AI Integration: AI assistants help analyze, outline, and support faster writing, ensuring quality and accuracy.
-- Reach the Right Audience: Optimize content to answer customers' actual questions, helping your website appear everywhere they search.
-- Sustainable Growth: Build a high-quality content foundation. Your articles will consistently bring in customers for years to come.
+- [Run a controlled SEO & GEO process on a single platform.](https://neverseo.com/#solution): NeverSEO combines real-world data (Crawl, GSC, SERPs) with the powerful analytical capabilities of specialized AI models. From technical foundations and content strategy to performance measurement—everything is managed in a standardized workflow with no blind spots, eliminating the need to stitch together multiple tools.
 
-## Features
+## Strategic foundation
 
-- [Automated Market Research](https://neverseo.com/#features): Analyzes Google data to tell you exactly what your customers are searching for and what competitors are doing.
-- [Smart Topic Management](https://neverseo.com/#features): Visualizes your website's structure, making it easy to track and add content to important topical clusters.
-- [Content Planning](https://neverseo.com/#features): Clear editorial calendar. Easily assign tasks to team members and track content production progress.
-- [Content Standardization](https://neverseo.com/#features): Provides specific writing guidelines and detailed outlines, ensuring everyone writes SEO-standard articles.
-- [Automated SEO Scoring](https://neverseo.com/#features): Instantly points out issues before publishing: missing keywords, unoptimized titles, thin content...
-- [Transparent Reporting](https://neverseo.com/#features): Connects with Google Analytics and Search Console so you know exactly which articles bring the most customers.
+- [Understand the market and the customer before writing anything.](https://neverseo.com/#research): Google judges content on four things — real experience, expertise, authoritativeness and trustworthiness (E-E-A-T) — and favours writing made for readers rather than for the search engine. You cannot meet that bar without first knowing what your customers need. So NeverSEO starts from the market, the customer, and whatever competitors have left unanswered.
+- Market & niche analysis: How demand is shifting, what affects your project directly, and where the openings nobody has taken yet actually are.
+- Customer portraits & hidden intent: It doesn't stop at age and job title. The system unpacks five layers behind every search: the unspoken worry, the outcome they actually want, the doubt still holding them back, the limits on budget and time, and the question they'll ask next.
+- SWOT grounded in evidence: Your own strengths and weaknesses assessed from data gathered on your site, from Search Console and from public signals — not from gut feel.
+- Real competitors on the results page: Competitors are picked from the actual results for your priority needs — sometimes an industry publication or a marketplace rather than a business rival — then analysed for strengths, weaknesses and whatever they've left uncovered.
+- Content gaps & openings: Exactly which needs nobody has answered properly yet, and where you can take the space before a competitor notices.
+- Topic map & follow-up questions: A complete topic map, plus a simulation of the 5–10 follow-up questions AI tends to raise around each subject. Any question without an article answering it is a gap worth filling.
+- Measured or estimated — always labelled: Every analysis is tagged as either measured data or a structured estimate. The system does not invent search volumes, rankings or competitor weaknesses to make a report look better.
+- Strategy bends to you, not to a template: The roadmap changes with your site's maturity and business model — local service, e-commerce, B2B, publisher or app. A new site is never pushed at terms a competitor has held for years.
+
+## AI Search Visibility
+
+- [Where is your brand when customers ask AI?](https://neverseo.com/#geo): Traditional SEO is not enough. As buyers shift to searching with ChatGPT, Gemini or Perplexity, NeverSEO helps you measure and optimize so your brand always appears in the answers.
+- Measure AI Mention Rate: Automatically simulate mass real-world queries on ChatGPT, Claude, Gemini... to count the frequency and position of your brand mentioned by AI.
+- Track AI Overviews (SGE): Record your position in the AI-generated answer block right on Google results page — where a massive amount of organic traffic is decided before users scroll.
+- Optimize content for AI (GEO): Structure content so AI can easily extract it: direct answers, attributed facts, and standalone information blocks.
+- Synchronize Entity signals: Declare your business using structured data and link consistently across all channels so AI understands exactly who you are, instead of just reading text.
+- Technical SEO for AI Bots: Ensure HTML structure does not hinder crawling and robots.txt is correctly opened for GPTBot, ClaudeBot or PerplexityBot.
+
+## Operations & collaboration
+
+- [Run several sites and your whole team in one place.](https://neverseo.com/#ops): The hard part of SEO isn't only the expertise — it's keeping several people and several projects pointed the same way. This is the operational layer NeverSEO handles for you.
+- Many projects, one organisation: Group your sites, give each project its own strategy, plan and quota, and still see the whole picture at a glance.
+- Role-based permissions: Owners, admins and members get different rights. Invite a collaborator into one project without handing over an account.
+- Assign work, track progress: Every article has an owner and a clear status, from the moment it's a brief to the moment it's live.
+- Publish straight to your site: Connect WordPress to publish articles with their images, categories and structured data — no copying back and forth.
+- Runs on a schedule: Heavy jobs run in the background on a queue and a set schedule. The system tells you when they finish, or when something needs you.
+- Export reports for clients: Send plans and results out to Word, Excel or Google Docs for clients and leadership.
 
 ## Workflow
 
-- [1. Website Analysis](https://neverseo.com/#workflow): The system automatically crawls your website to point out issues to fix, evaluates SEO health, and finds quick growth opportunities.
-- [2. Content Planning](https://neverseo.com/#workflow): Instead of focusing on isolated keywords, the system helps group related topics to build a comprehensive and coherent content plan.
-- [3. Outlining & AI Writing](https://neverseo.com/#workflow): Create detailed outlines based on search data. Integrate AI to assist with rapid drafting, ensuring content is SEO-friendly and reader-friendly.
-- [4. Quality Control & Measurement](https://neverseo.com/#workflow): The system scores SEO before publishing. Then it tracks rankings and traffic to continuously suggest the next optimization steps.
+- [1. Analyse the current site](https://neverseo.com/#workflow): The system scans your site to surface what needs fixing, assess its maturity and brand profile, and find articles quietly competing with each other.
+- [2. Research the market & customer](https://neverseo.com/#workflow): Market and niche analysis, customer portraits with the hidden intent behind each question, an evidenced SWOT, and a breakdown of who really holds the results page.
+- [3. Topic map & content plan](https://neverseo.com/#workflow): Rather than chasing scattered keywords, the system builds a topic map as the backbone, scores priorities by business value, then turns it into briefs a writer can pick up immediately.
+- [4. Review, measure, repeat](https://neverseo.com/#workflow): Drafts are scored before they go live and only publish once they meet the bar. After that the system tracks rankings, traffic, new backlinks and AI mentions — then folds all of it into next month's plan.
 
 ## Pricing
 
@@ -42,13 +60,16 @@
 
 ## FAQ
 
-- [Can NeverSEO replace an SEO team?](https://neverseo.com/#faq): No. NeverSEO is a powerful tool that helps SEO teams work more efficiently, faster, and with fewer errors. The system automates analysis and operations, but strategic thinking is ultimately driven by humans.
-- [I'm new to SEO. Can I use it?](https://neverseo.com/#faq): Absolutely. NeverSEO is designed with a user-friendly interface. The system guides you step-by-step, like having an SEO expert by your side.
-- [Will Google penalize AI-written articles?](https://neverseo.com/#faq): Google does not penalize AI-generated content; they penalize spam and low-quality content. NeverSEO uses AI as an assistant to help you research and write better, providing genuinely useful information for readers.
-- [Is my company's data secure?](https://neverseo.com/#faq): Yes. Each Organization has a completely independent data space. Sensitive information is highly encrypted and never shared with any third party.
-- [Can I use my own AI accounts?](https://neverseo.com/#faq): Yes. On the Enterprise plan, you can connect your AI accounts (OpenAI, Google API Keys) to manage token costs yourself and have more control at scale.
-- [Does NeverSEO guarantee keyword rankings?](https://neverseo.com/#faq): Any ranking guarantee is unrealistic because Google's algorithm constantly changes. NeverSEO helps you build a solid SEO foundation and create quality content to grow your customer base sustainably over the long term.
-- [Can I cancel or change plans anytime?](https://neverseo.com/#faq): Yes. You can upgrade, downgrade, or cancel your plan at any time right from your account settings, with no long-term contracts.
+- [Does NeverSEO replace my SEO staff?](https://neverseo.com/#faq): No. NeverSEO helps your team work faster with fewer mistakes by automating the analysis and operational work. Decisions that need real business context stay with people.
+- [I'm new to SEO — can I still use it?](https://neverseo.com/#faq): Yes. The system spells out each step and explains the reasoning behind every recommendation, so you can act immediately while gradually learning how SEO works.
+- [Is SEO still worth the investment now that people ask AI?](https://neverseo.com/#faq): How people search changed; what they need didn't. AI platforms still draw on web content and still cite sources. The work is to write so AI can quote you, and to track whether your brand actually gets mentioned.
+- [How is GEO different from SEO?](https://neverseo.com/#faq): SEO aims to rank your site and earn the visit. GEO aims to have your content chosen as a source when AI assembles an answer, even if nobody visits the site at all. Both rest on genuinely good content; they differ in how it's presented so machines can read and quote it.
+- [How do I know whether AI mentions my brand?](https://neverseo.com/#faq): NeverSEO asks each AI platform the questions customers commonly ask in your category, then records whether your brand is named and where it appears. Results are stored over time so you see the trend rather than a single lucky sample.
+- [Will AI-generated content get penalised by Google?](https://neverseo.com/#faq): Google doesn't penalise content for the tool that made it; it demotes thin content that adds nothing new. That's why every NeverSEO article follows a brief with a stated objective, must cite sources for material figures, and has to pass a scoring round before it can be published.
+- [Is my company's data kept private?](https://neverseo.com/#faq): Yes. Each organisation gets a fully separate data space. Sensitive information is encrypted and never shared with third parties.
+- [Can I use my own AI account?](https://neverseo.com/#faq): Yes. On the Enterprise plan you can connect your own API key to manage costs directly and stay in control at larger scale.
+- [Do you guarantee top rankings?](https://neverseo.com/#faq): Any guarantee of top rankings is unrealistic — algorithms shift constantly, and results also depend on your domain's age, brand strength and how competitive your industry is. What NeverSEO commits to is a rigorous process and content good enough to grow on.
+- [Can I cancel or change plans at any time?](https://neverseo.com/#faq): Yes. You can upgrade, downgrade or cancel from your account settings at any time, with no long-term contract.
 
 ## Legal & Contact
 

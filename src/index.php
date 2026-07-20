@@ -15,7 +15,9 @@ $sections_dir = __DIR__ . '/sections/';
     <?php include $sections_dir . 'problems.php'; ?>
     <?php include $sections_dir . 'solution.php'; ?>
     <?php include $sections_dir . 'workflow.php'; ?>
-    <?php include $sections_dir . 'features.php'; ?>
+    <?php include $sections_dir . 'research.php'; ?>
+    <?php include $sections_dir . 'geo.php'; ?>
+    <?php include $sections_dir . 'ops.php'; ?>
     <?php include $sections_dir . 'testimonials.php'; ?>
     <?php include $sections_dir . 'pricing.php'; ?>
     <?php include $sections_dir . 'audience.php'; ?>

@@ -1,13 +1,19 @@
 <?php
 // sections/features.php — Tính năng chi tiết + Tích hợp
-$features = [
-    ['icon' => 'ph-magnifying-glass', 'title' => __('features.items.0.title'), 'desc' => __('features.items.0.desc')],
-    ['icon' => 'ph-tree-structure',   'title' => __('features.items.1.title'), 'desc' => __('features.items.1.desc')],
-    ['icon' => 'ph-calendar-check',   'title' => __('features.items.2.title'), 'desc' => __('features.items.2.desc')],
-    ['icon' => 'ph-quotes',           'title' => __('features.items.3.title'), 'desc' => __('features.items.3.desc')],
-    ['icon' => 'ph-checks',           'title' => __('features.items.4.title'), 'desc' => __('features.items.4.desc')],
-    ['icon' => 'ph-chart-donut',      'title' => __('features.items.5.title'), 'desc' => __('features.items.5.desc')],
+// Icon theo thứ tự items trong locale; 3 mục cuối là kỹ thuật / off-page / thứ hạng.
+$feature_icons = [
+    'ph-magnifying-glass', 'ph-tree-structure', 'ph-calendar-check',
+    'ph-quotes', 'ph-checks', 'ph-chart-donut',
+    'ph-warning-circle', 'ph-graph', 'ph-crosshair',
 ];
+$features = [];
+foreach (__('features.items') as $i => $item) {
+    $features[] = [
+        'icon'  => $feature_icons[$i] ?? 'ph-check-circle',
+        'title' => $item['title'],
+        'desc'  => $item['desc'],
+    ];
+}
 
 $integrations = [
     ['icon' => 'ph-google-logo',      'name' => 'Search Console'],

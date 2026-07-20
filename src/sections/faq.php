@@ -1,35 +1,8 @@
 <?php
 // sections/faq.php — Câu hỏi thường gặp (accordion + FAQPage JSON-LD)
-$faqs = [
-    [
-        'q' => __('faq.items.0.q'),
-        'a' => __('faq.items.0.a'),
-    ],
-    [
-        'q' => __('faq.items.1.q'),
-        'a' => __('faq.items.1.a'),
-    ],
-    [
-        'q' => __('faq.items.2.q'),
-        'a' => __('faq.items.2.a'),
-    ],
-    [
-        'q' => __('faq.items.3.q'),
-        'a' => __('faq.items.3.a'),
-    ],
-    [
-        'q' => __('faq.items.4.q'),
-        'a' => __('faq.items.4.a'),
-    ],
-    [
-        'q' => __('faq.items.5.q'),
-        'a' => __('faq.items.5.a'),
-    ],
-    [
-        'q' => __('faq.items.6.q'),
-        'a' => __('faq.items.6.a'),
-    ],
-];
+// Lấy thẳng mảng từ locale để thêm/bớt câu hỏi chỉ cần sửa JSON.
+$faqs = __('faq.items');
+if (!is_array($faqs)) $faqs = [];
 ?>
 <section id="faq" class="studio-section faq-section" aria-labelledby="faq-title">
     <div class="site-shell">

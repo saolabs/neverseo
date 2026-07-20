@@ -2,7 +2,8 @@
   "nav": {
     "solution": "Solutions",
     "workflow": "Workflow",
-    "features": "Features",
+    "research": "Strategy",
+    "geo": "AI Search",
     "pricing": "Pricing",
     "faq": "FAQ",
     "team": "Team",
@@ -13,102 +14,164 @@
   "lang_vi": "VI",
   "lang_en": "EN",
   "hero": {
-    "eyebrow": "Comprehensive SEO Management Platform",
+    "eyebrow": "Complete SEO & GEO Management Platform",
     "title_start": "Sustainable SEO growth ",
     "title_gradient": "in the AI era.",
-    "lead": "Instead of blindly producing content, NeverSEO helps you build a data-driven strategy. Focus on high-quality content that converts customers and establishes a sustainable presence on search engines.",
+    "lead": "Instead of blindly producing content, NeverSEO researches your market and customers before planning, then manages all four disciplines: content, technical, off-page and measurement. The result is a site that builds standing on search engines and gets cited by AI platforms.",
     "cta_start": "Start for free",
     "cta_secondary": "Explore workflow",
-    "proof_1": "Data-driven strategy",
-    "proof_2": "Optimized for users",
-    "proof_3": "Long-term growth"
+    "proof_1": "Content · Technical · Off-page",
+    "proof_2": "Research before writing",
+    "proof_3": "Rankings and AI mentions"
   },
   "logos": {
     "eyebrow": "Trusted by over <strong>50+ businesses &amp; projects</strong> in Vietnam"
   },
   "problems": {
     "label": "Current Challenges",
-    "title": "Mass-producing content doesn't bring sustainable rankings.",
-    "desc": "Search engines are getting smarter and prioritize genuine value. Keyword stuffing and mass content production are no longer effective and only waste your budget.",
+    "title": "Buyers changed how they search. Content production didn't.",
+    "desc": "Google keeps raising the bar for genuine value, while a growing share of research now happens inside AI platforms. Keyword stuffing and mass production underperform on Google and do nothing to get you into an AI's answer.",
     "items": [
       {
-        "title": "Guesswork content strategy",
-        "desc": "Without a clear keyword strategy, scattered articles fail to build Topical Authority and won't be highly ranked by search engines."
+        "title": "Writing without knowing who you write for",
+        "desc": "No customer portrait, no grasp of what worries them or what they're second-guessing. The article matches the keyword but misses the real problem, so nobody gets in touch after reading it."
       },
       {
         "title": "Over-relying on AI",
-        "desc": "Generating thousands of unchecked AI articles creates soulless, inaccurate content that damages your brand reputation."
+        "desc": "Thousands of unchecked AI articles: unsourced figures, wrong facts, no voice. Google files it under mass-produced content, and customers stop trusting you."
       },
       {
         "title": "Hard to measure ROI",
         "desc": "Pouring money into content and backlinks without knowing exactly which activities are actually driving traffic and potential customers."
+      },
+      {
+        "title": "People ask AI instead of searching",
+        "desc": "More and more buyers describe what they need to ChatGPT or Gemini before deciding, or simply read the AI summary at the top of the results page. If your brand isn't named in that answer, you lose the customer before they ever reach your website."
       }
     ]
   },
-
   "solution": {
     "label": "NeverSEO Solution",
-    "title": "Streamlined and effective SEO management system.",
-    "desc": "NeverSEO combines the power of data and AI to help you do SEO more systematically. Every decision, from choosing topics to publishing content, is clearly guided.",
-    "pillars": [
-      {
-        "title": "Data-Driven Planning",
-        "desc": "The system automatically analyzes website and market data to find the best SEO opportunities, no guesswork required."
-      },
-      {
-        "title": "Smart AI Integration",
-        "desc": "AI assistants help analyze, outline, and support faster writing, ensuring quality and accuracy."
-      },
-      {
-        "title": "Reach the Right Audience",
-        "desc": "Optimize content to answer customers' actual questions, helping your website appear everywhere they search."
-      },
-      {
-        "title": "Sustainable Growth",
-        "desc": "Build a high-quality content foundation. Your articles will consistently bring in customers for years to come."
-      }
-    ],
+    "title": "Run a controlled SEO & GEO process on a single platform.",
+    "desc": "NeverSEO combines real-world data (Crawl, GSC, SERPs) with the powerful analytical capabilities of specialized AI models. From technical foundations and content strategy to performance measurement—everything is managed in a standardized workflow with no blind spots, eliminating the need to stitch together multiple tools.",
     "nodes": [
-      "Platform",
-      "Sustainable Plan",
-      "Strategy",
+      "Foundation audit",
+      "Strategy & planning",
       "Content & QC",
-      "Performance",
-      "AI Visibility"
+      "Technical",
+      "Off-page",
+      "Performance & AI"
     ]
   },
-  "features": {
-    "label": "Key Features",
-    "title_start": "All the tools you need, ",
-    "title_gradient": "in a single platform.",
-    "desc": "No need for complex software stacks. NeverSEO provides everything you need to manage your SEO campaigns from A to Z.",
+  "research": {
+    "label": "Strategic foundation",
+    "title_start": "Understand the market and the customer ",
+    "title_gradient": "before writing anything.",
+    "desc": "Google judges content on four things — real experience, expertise, authoritativeness and trustworthiness (E-E-A-T) — and favours writing made for readers rather than for the search engine. You cannot meet that bar without first knowing what your customers need. So NeverSEO starts from the market, the customer, and whatever competitors have left unanswered.",
     "items": [
       {
-        "title": "Automated Market Research",
-        "desc": "Analyzes Google data to tell you exactly what your customers are searching for and what competitors are doing."
+        "title": "Market & niche analysis",
+        "desc": "How demand is shifting, what affects your project directly, and where the openings nobody has taken yet actually are."
       },
       {
-        "title": "Smart Topic Management",
-        "desc": "Visualizes your website's structure, making it easy to track and add content to important topical clusters."
+        "title": "Customer portraits & hidden intent",
+        "desc": "It doesn't stop at age and job title. The system unpacks five layers behind every search: the unspoken worry, the outcome they actually want, the doubt still holding them back, the limits on budget and time, and the question they'll ask next."
       },
       {
-        "title": "Content Planning",
-        "desc": "Clear editorial calendar. Easily assign tasks to team members and track content production progress."
+        "title": "SWOT grounded in evidence",
+        "desc": "Your own strengths and weaknesses assessed from data gathered on your site, from Search Console and from public signals — not from gut feel."
       },
       {
-        "title": "Content Standardization",
-        "desc": "Provides specific writing guidelines and detailed outlines, ensuring everyone writes SEO-standard articles."
+        "title": "Real competitors on the results page",
+        "desc": "Competitors are picked from the actual results for your priority needs — sometimes an industry publication or a marketplace rather than a business rival — then analysed for strengths, weaknesses and whatever they've left uncovered."
       },
       {
-        "title": "Automated SEO Scoring",
-        "desc": "Instantly points out issues before publishing: missing keywords, unoptimized titles, thin content..."
+        "title": "Content gaps & openings",
+        "desc": "Exactly which needs nobody has answered properly yet, and where you can take the space before a competitor notices."
       },
       {
-        "title": "Transparent Reporting",
-        "desc": "Connects with Google Analytics and Search Console so you know exactly which articles bring the most customers."
+        "title": "Topic map & follow-up questions",
+        "desc": "A complete topic map, plus a simulation of the 5–10 follow-up questions AI tends to raise around each subject. Any question without an article answering it is a gap worth filling."
       }
     ],
-    "integrations_label": "Seamless integration with your ecosystem"
+    "notes": [
+      {
+        "title": "Measured or estimated — always labelled",
+        "desc": "Every analysis is tagged as either measured data or a structured estimate. The system does not invent search volumes, rankings or competitor weaknesses to make a report look better."
+      },
+      {
+        "title": "Strategy bends to you, not to a template",
+        "desc": "The roadmap changes with your site's maturity and business model — local service, e-commerce, B2B, publisher or app. A new site is never pushed at terms a competitor has held for years."
+      }
+    ]
+  },
+  "ops": {
+    "label": "Operations & collaboration",
+    "title_start": "Run several sites ",
+    "title_gradient": "and your whole team in one place.",
+    "desc": "The hard part of SEO isn't only the expertise — it's keeping several people and several projects pointed the same way. This is the operational layer NeverSEO handles for you.",
+    "items": [
+      {
+        "title": "Many projects, one organisation",
+        "desc": "Group your sites, give each project its own strategy, plan and quota, and still see the whole picture at a glance."
+      },
+      {
+        "title": "Role-based permissions",
+        "desc": "Owners, admins and members get different rights. Invite a collaborator into one project without handing over an account."
+      },
+      {
+        "title": "Assign work, track progress",
+        "desc": "Every article has an owner and a clear status, from the moment it's a brief to the moment it's live."
+      },
+      {
+        "title": "Publish straight to your site",
+        "desc": "Connect WordPress to publish articles with their images, categories and structured data — no copying back and forth."
+      },
+      {
+        "title": "Runs on a schedule",
+        "desc": "Heavy jobs run in the background on a queue and a set schedule. The system tells you when they finish, or when something needs you."
+      },
+      {
+        "title": "Export reports for clients",
+        "desc": "Send plans and results out to Word, Excel or Google Docs for clients and leadership."
+      }
+    ]
+  },
+  "geo": {
+    "label": "AI Search Visibility",
+    "title_start": "Where is your brand ",
+    "title_gradient": "when customers ask AI?",
+    "desc": "Traditional SEO is not enough. As buyers shift to searching with ChatGPT, Gemini or Perplexity, NeverSEO helps you measure and optimize so your brand always appears in the answers.",
+    "items": [
+      {
+        "title": "Measure AI Mention Rate",
+        "desc": "Automatically simulate mass real-world queries on ChatGPT, Claude, Gemini... to count the frequency and position of your brand mentioned by AI."
+      },
+      {
+        "title": "Track AI Overviews (SGE)",
+        "desc": "Record your position in the AI-generated answer block right on Google results page — where a massive amount of organic traffic is decided before users scroll."
+      },
+      {
+        "title": "Optimize content for AI (GEO)",
+        "desc": "Structure content so AI can easily extract it: direct answers, attributed facts, and standalone information blocks."
+      },
+      {
+        "title": "Synchronize Entity signals",
+        "desc": "Declare your business using structured data and link consistently across all channels so AI understands exactly who you are, instead of just reading text."
+      },
+      {
+        "title": "Technical SEO for AI Bots",
+        "desc": "Ensure HTML structure does not hinder crawling and robots.txt is correctly opened for GPTBot, ClaudeBot or PerplexityBot."
+      }
+    ],
+    "engines_label": "Currently tracked on",
+    "engines": [
+      "ChatGPT",
+      "Claude",
+      "Gemini",
+      "AI Overviews",
+      "Perplexity"
+    ]
   },
   "audience": {
     "label": "Designed for",
@@ -117,12 +180,12 @@
       {
         "badge": "Business Owners & Managers",
         "title": "Manage SEO costs and effectiveness",
-        "desc": "Get the big picture of your SEO. Track what results your investment is bringing and which articles convert, without needing to understand complex jargon."
+        "desc": "See where SEO stands without needing the jargon. Track what your investment is returning and which articles actually convert."
       },
       {
         "badge": "SEO Specialists",
         "title": "Save time, optimize workflows",
-        "desc": "Eliminate hours of manual keyword research. Systematize your workflow to easily manage multiple projects and team members simultaneously."
+        "desc": "Cut hours of manual keyword research. Run several projects side by side in one organisation, set permissions per member and follow progress without a separate spreadsheet."
       },
       {
         "badge": "Content Writers",
@@ -133,32 +196,205 @@
   },
   "workflow": {
     "label": "Workflow",
-    "title": "Streamlined 4-Step Process",
-    "desc": "A standardized process helps you easily track your entire SEO campaign — from initial analysis to publishing and measuring results.",
+    "title": "A lean four-step workflow",
+    "desc": "From diagnosing where you stand, through market research, to production and measurement. What you learn in the last step feeds the next cycle, so the campaign tracks reality more closely the longer it runs.",
     "steps": [
       {
-        "title": "1. Website Analysis",
-        "desc": "The system automatically crawls your website to point out issues to fix, evaluates SEO health, and finds quick growth opportunities."
+        "title": "1. Analyse the current site",
+        "desc": "The system scans your site to surface what needs fixing, assess its maturity and brand profile, and find articles quietly competing with each other.",
+        "panel": {
+          "title": "Foundation diagnosis",
+          "badges": [
+            {
+              "k": "Maturity",
+              "v": "Growing"
+            },
+            {
+              "k": "Model",
+              "v": "Local service"
+            }
+          ],
+          "rows": [
+            {
+              "label": "Business profile (schema)",
+              "state": "ok",
+              "value": "Present"
+            },
+            {
+              "label": "Expert author profile",
+              "state": "warn",
+              "value": "Missing"
+            },
+            {
+              "label": "About & team pages",
+              "state": "ok",
+              "value": "Present"
+            },
+            {
+              "label": "Articles competing on one need",
+              "state": "bad",
+              "value": "3 pairs"
+            },
+            {
+              "label": "Indexed pages",
+              "state": "ok",
+              "value": "148 / 162"
+            }
+          ],
+          "caption": "Scan results for a language school's website."
+        }
       },
       {
-        "title": "2. Content Planning",
-        "desc": "Instead of focusing on isolated keywords, the system helps group related topics to build a comprehensive and coherent content plan."
+        "title": "2. Research the market & customer",
+        "desc": "Market and niche analysis, customer portraits with the hidden intent behind each question, an evidenced SWOT, and a breakdown of who really holds the results page.",
+        "panel": {
+          "title": "Customer portrait",
+          "persona": "Parent of a child aged 8–12 · urban area",
+          "intent_label": "Five layers of hidden intent",
+          "rows": [
+            {
+              "label": "The unspoken worry",
+              "value": "Three years of classes and the child still won't speak English aloud"
+            },
+            {
+              "label": "Outcome actually wanted",
+              "value": "A child who speaks confidently and uses English outside the classroom"
+            },
+            {
+              "label": "The lingering doubt",
+              "value": "Whether a teacher can really support each child in a class that size"
+            },
+            {
+              "label": "Limits in play",
+              "value": "Under $120 a month, and close enough to get to after school"
+            },
+            {
+              "label": "The next question",
+              "value": "Is there a trial lesson before paying the full fee?"
+            }
+          ],
+          "caption": "One target audience for the school, including what they never say out loud."
+        }
       },
       {
-        "title": "3. Outlining & AI Writing",
-        "desc": "Create detailed outlines based on search data. Integrate AI to assist with rapid drafting, ensuring content is SEO-friendly and reader-friendly."
+        "title": "3. Topic map & content plan",
+        "desc": "Rather than chasing scattered keywords, the system builds a topic map as the backbone, scores priorities by business value, then turns it into briefs a writer can pick up immediately.",
+        "panel": {
+          "title": "Topic map & monthly plan",
+          "tree_root": "English for children",
+          "tree": [
+            {
+              "name": "Fees & learning paths",
+              "branch": "Core",
+              "count": "6 posts"
+            },
+            {
+              "name": "Method & curriculum",
+              "branch": "Supporting",
+              "count": "9 posts"
+            },
+            {
+              "name": "Age & choosing a class",
+              "branch": "Supporting",
+              "count": "5 posts"
+            },
+            {
+              "name": "Student stories",
+              "branch": "Brand",
+              "count": "3 posts"
+            }
+          ],
+          "plan_label": "This month · 12 articles",
+          "rows": [
+            {
+              "code": "C-01",
+              "title": "What language schools charge, and how to pick the right path",
+              "funnel": "Ready to choose"
+            },
+            {
+              "code": "C-02",
+              "title": "What age should a child start English? A stage-by-stage look",
+              "funnel": "Comparing"
+            },
+            {
+              "code": "C-03",
+              "title": "7 signs a child is falling behind in English that parents miss",
+              "funnel": "Just looking"
+            }
+          ],
+          "caption": "The topics that need covering, and the articles planned for the first month."
+        }
       },
       {
-        "title": "4. Quality Control & Measurement",
-        "desc": "The system scores SEO before publishing. Then it tracks rankings and traffic to continuously suggest the next optimization steps."
+        "title": "4. Review, measure, repeat",
+        "desc": "Drafts are scored before they go live and only publish once they meet the bar. After that the system tracks rankings, traffic, new backlinks and AI mentions — then folds all of it into next month's plan.",
+        "panel": {
+          "title": "Review & measurement",
+          "score": "72",
+          "score_label": "Quality score",
+          "gate": "Below threshold — publishing blocked",
+          "rows": [
+            {
+              "label": "Follows the objective & outline",
+              "state": "ok",
+              "value": "Pass"
+            },
+            {
+              "label": "Figures carry a source",
+              "state": "bad",
+              "value": "2 missing"
+            },
+            {
+              "label": "New value vs what already ranks",
+              "state": "warn",
+              "value": "Needs more"
+            }
+          ],
+          "ai_label": "How often AI names the brand",
+          "engines": [
+            {
+              "name": "ChatGPT",
+              "state": "ok",
+              "value": "Named · position 2"
+            },
+            {
+              "name": "Gemini",
+              "state": "bad",
+              "value": "Not named"
+            },
+            {
+              "name": "Claude",
+              "state": "ok",
+              "value": "Named · position 4"
+            }
+          ],
+          "caption": "One article's quality score before publishing, and how often AI names the brand."
+        }
       }
     ],
-    "alt_images": [
-      "Audit & Technical SEO",
-      "Strategy & Topical Map",
-      "Detailed Content Plan",
-      "AI Writing & Quality Control"
-    ]
+    "trust": {
+      "title": "Nothing gets published until it meets the bar.",
+      "items": [
+        {
+          "title": "A detailed brief comes first",
+          "desc": "Objective, outline, keywords, audience and the knowledge required are settled up front, so the article doesn't drift off course."
+        },
+        {
+          "title": "Figures must carry a source",
+          "desc": "Every material number and quote comes with its source and date. When no credible source exists, it's dropped rather than guessed at."
+        },
+        {
+          "title": "Scored independently before it ships",
+          "desc": "Drafts below the threshold are blocked with the specific fixes listed, which keeps quality even across a team of writers."
+        },
+        {
+          "title": "The decision stays yours",
+          "desc": "The system recommends and warns; the strategy and the publish button stay with your team."
+        }
+      ]
+    },
+    "sample_label": "Illustrative example",
+    "loop_note": "Data from step 4 feeds back into steps 2 and 3 for the next cycle"
   },
   "testimonials": {
     "stats": [
@@ -297,32 +533,44 @@
     "desc_link": "Contact our team",
     "items": [
       {
-        "q": "Can NeverSEO replace an SEO team?",
-        "a": "No. NeverSEO is a powerful tool that helps SEO teams work more efficiently, faster, and with fewer errors. The system automates analysis and operations, but strategic thinking is ultimately driven by humans."
+        "q": "Does NeverSEO replace my SEO staff?",
+        "a": "No. NeverSEO helps your team work faster with fewer mistakes by automating the analysis and operational work. Decisions that need real business context stay with people."
       },
       {
-        "q": "I'm new to SEO. Can I use it?",
-        "a": "Absolutely. NeverSEO is designed with a user-friendly interface. The system guides you step-by-step, like having an SEO expert by your side."
+        "q": "I'm new to SEO — can I still use it?",
+        "a": "Yes. The system spells out each step and explains the reasoning behind every recommendation, so you can act immediately while gradually learning how SEO works."
       },
       {
-        "q": "Will Google penalize AI-written articles?",
-        "a": "Google does not penalize AI-generated content; they penalize spam and low-quality content. NeverSEO uses AI as an assistant to help you research and write better, providing genuinely useful information for readers."
+        "q": "Is SEO still worth the investment now that people ask AI?",
+        "a": "How people search changed; what they need didn't. AI platforms still draw on web content and still cite sources. The work is to write so AI can quote you, and to track whether your brand actually gets mentioned."
       },
       {
-        "q": "Is my company's data secure?",
-        "a": "Yes. Each Organization has a completely independent data space. Sensitive information is highly encrypted and never shared with any third party."
+        "q": "How is GEO different from SEO?",
+        "a": "SEO aims to rank your site and earn the visit. GEO aims to have your content chosen as a source when AI assembles an answer, even if nobody visits the site at all. Both rest on genuinely good content; they differ in how it's presented so machines can read and quote it."
       },
       {
-        "q": "Can I use my own AI accounts?",
-        "a": "Yes. On the Enterprise plan, you can connect your AI accounts (OpenAI, Google API Keys) to manage token costs yourself and have more control at scale."
+        "q": "How do I know whether AI mentions my brand?",
+        "a": "NeverSEO asks each AI platform the questions customers commonly ask in your category, then records whether your brand is named and where it appears. Results are stored over time so you see the trend rather than a single lucky sample."
       },
       {
-        "q": "Does NeverSEO guarantee keyword rankings?",
-        "a": "Any ranking guarantee is unrealistic because Google's algorithm constantly changes. NeverSEO helps you build a solid SEO foundation and create quality content to grow your customer base sustainably over the long term."
+        "q": "Will AI-generated content get penalised by Google?",
+        "a": "Google doesn't penalise content for the tool that made it; it demotes thin content that adds nothing new. That's why every NeverSEO article follows a brief with a stated objective, must cite sources for material figures, and has to pass a scoring round before it can be published."
       },
       {
-        "q": "Can I cancel or change plans anytime?",
-        "a": "Yes. You can upgrade, downgrade, or cancel your plan at any time right from your account settings, with no long-term contracts."
+        "q": "Is my company's data kept private?",
+        "a": "Yes. Each organisation gets a fully separate data space. Sensitive information is encrypted and never shared with third parties."
+      },
+      {
+        "q": "Can I use my own AI account?",
+        "a": "Yes. On the Enterprise plan you can connect your own API key to manage costs directly and stay in control at larger scale."
+      },
+      {
+        "q": "Do you guarantee top rankings?",
+        "a": "Any guarantee of top rankings is unrealistic — algorithms shift constantly, and results also depend on your domain's age, brand strength and how competitive your industry is. What NeverSEO commits to is a rigorous process and content good enough to grow on."
+      },
+      {
+        "q": "Can I cancel or change plans at any time?",
+        "a": "Yes. You can upgrade, downgrade or cancel from your account settings at any time, with no long-term contract."
       }
     ]
   },
@@ -355,8 +603,8 @@
     ]
   },
   "meta": {
-    "title": "NeverSEO – Comprehensive SEO Management Platform for Businesses",
-    "description": "Instead of mass-producing content, NeverSEO helps you plan SEO based on real data, create high-quality content to attract customers, and grow sustainably on Google."
+    "title": "NeverSEO – Comprehensive SEO & GEO management platform",
+    "description": "Run a controlled SEO/GEO workflow. Combine real-world data and specialized AI to build strategy, publish content, and track performance on a single platform."
   },
   "contact": {
     "label": "Contact",
@@ -390,7 +638,7 @@
   },
   "cta": {
     "label": "Get Started Today",
-    "title": "Start building a sustainable source of customers from Google",
+    "title": "Start building a steady stream of customers from search",
     "desc": "Create a free account and experience a more systematic, effective way to do SEO for your business.",
     "btn_primary": "Start Free Trial",
     "btn_secondary": "Log In"

@@ -1,11 +1,5 @@
 <?php
-// sections/solution.php — Hệ sinh thái NeverSEO (sơ đồ đặc vụ AI radial + 4 trụ cột)
-$pillars = [
-    ['icon' => 'ph-database', 'title' => __('solution.pillars.0.title'), 'desc' => __('solution.pillars.0.desc')],
-    ['icon' => 'ph-brain',    'title' => __('solution.pillars.1.title'), 'desc' => __('solution.pillars.1.desc')],
-    ['icon' => 'ph-globe',    'title' => __('solution.pillars.2.title'), 'desc' => __('solution.pillars.2.desc')],
-    ['icon' => 'ph-infinity', 'title' => __('solution.pillars.3.title'), 'desc' => __('solution.pillars.3.desc')],
-];
+// sections/solution.php — Hệ sinh thái NeverSEO (sơ đồ đặc vụ AI radial)
 
 // 6 đặc vụ quanh tâm (430,340); cặp trên/dưới được giãn nhẹ để bố cục thoáng hơn
 $hx = 430; $hy = 340; $W = 220; $H = 60;
@@ -84,15 +78,6 @@ $nodes = [
             </svg>
         </div>
 
-        <!-- 4 trụ cột -->
-        <div class="solution-pillars">
-            <?php foreach ($pillars as $p): ?>
-                <article class="pillar-card">
-                    <div class="pillar-icon"><i class="ph-duotone <?php echo $p['icon']; ?>" aria-hidden="true"></i></div>
-                    <h3><?php echo $p['title']; ?></h3>
-                    <p><?php echo $p['desc']; ?></p>
-                </article>
-            <?php endforeach; ?>
-        </div>
+
     </div>
 </section>

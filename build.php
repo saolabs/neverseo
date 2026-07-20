@@ -253,14 +253,34 @@ foreach ($LANG_CONFIG as $lang_code => $lang_dir) {
 
     $md .= "## " . __('nav.solution') . "\n\n";
     $md .= "- [" . __('solution.title') . "]({$home}#solution): " . __('solution.desc') . "\n";
-    foreach ($T['solution']['pillars'] ?? [] as $pillar) {
-        $md .= "- {$pillar['title']}: {$pillar['desc']}\n";
+
+    $md .= "\n";
+
+    $md .= "## " . __('research.label') . "\n\n";
+    $md .= "- [" . __('research.title_start') . __('research.title_gradient') . "]({$home}#research): "
+         . __('research.desc') . "\n";
+    foreach ($T['research']['items'] ?? [] as $item) {
+        $md .= "- {$item['title']}: {$item['desc']}\n";
+    }
+    foreach ($T['research']['notes'] ?? [] as $note) {
+        $md .= "- {$note['title']}: {$note['desc']}\n";
     }
     $md .= "\n";
 
-    $md .= "## " . __('nav.features') . "\n\n";
-    foreach ($T['features']['items'] ?? [] as $item) {
-        $md .= "- [{$item['title']}]({$home}#features): {$item['desc']}\n";
+    $md .= "## " . __('geo.label') . "\n\n";
+    $md .= "- [" . __('geo.title_start') . __('geo.title_gradient') . "]({$home}#geo): "
+         . __('geo.desc') . "\n";
+    foreach ($T['geo']['items'] ?? [] as $item) {
+        $md .= "- {$item['title']}: {$item['desc']}\n";
+    }
+    $md .= "\n";
+
+
+
+    $md .= "## " . __('ops.label') . "\n\n";
+    $md .= "- [" . __('ops.title_start') . __('ops.title_gradient') . "]({$home}#ops): " . __('ops.desc') . "\n";
+    foreach ($T['ops']['items'] ?? [] as $item) {
+        $md .= "- {$item['title']}: {$item['desc']}\n";
     }
     $md .= "\n";
 
