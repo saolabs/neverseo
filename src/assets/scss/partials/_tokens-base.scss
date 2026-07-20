@@ -49,7 +49,7 @@
 }
 
 html {
-  scroll-padding-top: 92px;
+  scroll-padding-top: 82px;
   scroll-behavior: smooth;
 }
 
@@ -64,8 +64,8 @@ body.studio-body {
 }
 
 ::selection {
-  background: var(--color-lime);
-  color: var(--color-ink);
+  background: var(--color-teal);
+  color: var(--color-surface);
 }
 
 img {

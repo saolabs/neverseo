@@ -247,7 +247,7 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
     /* ---------------------------------------------------------------
-       Cuộn mượt cho liên kết neo trong trang (menu, nút, footer)
+       Cuộn mượt cho liên kết neo trong trang (chặn hiển thị # trên URL)
     --------------------------------------------------------------- */
     document.querySelectorAll('a[href*="#"]').forEach(function (link) {
         const raw = link.getAttribute('href') || '';
@@ -257,8 +257,10 @@ document.addEventListener('DOMContentLoaded', function () {
         link.addEventListener('click', function (e) {
             const target = document.getElementById(id);
             if (!target) return; // khác trang -> để trình duyệt điều hướng
-            e.preventDefault();
-            const headerOffset = header ? header.getBoundingClientRect().height : 0;
+            e.preventDefault(); // Chặn việc hiển thị # trên thanh URL
+            
+            // Cố định offset là 83px để đồng bộ với scroll-padding-top: 83px trong CSS
+            const headerOffset = 82; 
             const y = target.getBoundingClientRect().top + window.pageYOffset - headerOffset;
             window.scrollTo({ top: y, behavior: 'smooth' });
             return false;
@@ -355,6 +357,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         const h = banner.offsetHeight;
                         let newTop = h - window.scrollY;
                         if (newTop < 0) newTop = 0;
+                        // newTop = newTop + 2;
                         siteHeader.style.top = newTop + 'px';
                     };
                     updateHeaderPos();
