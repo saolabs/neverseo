@@ -39,20 +39,20 @@
             <div class="site-footer-col">
                 <h3><?= __('footer.col_product') ?></h3>
                 <ul>
-                    <li><a href="index.html#features"><?= __('footer.prod_features') ?></a></li>
-                    <li><a href="index.html#workflow"><?= __('footer.prod_workflow') ?></a></li>
-                    <li><a href="index.html#pricing"><?= __('footer.prod_pricing') ?></a></li>
-                    <li><a href="index.html#audience"><?= __('footer.prod_audience') ?></a></li>
+                    <li><a href="#features"><?= __('footer.prod_features') ?></a></li>
+                    <li><a href="#workflow"><?= __('footer.prod_workflow') ?></a></li>
+                    <li><a href="#pricing"><?= __('footer.prod_pricing') ?></a></li>
+                    <li><a href="#audience"><?= __('footer.prod_audience') ?></a></li>
                 </ul>
             </div>
 
             <div class="site-footer-col">
                 <h3><?= __('footer.col_company') ?></h3>
                 <ul>
-                    <li><a href="index.html#solution"><?= __('footer.comp_about') ?></a></li>
-                    <li><a href="index.html#team"><?= __('footer.comp_team') ?></a></li>
-                    <li><a href="index.html#testimonials"><?= __('footer.comp_testimonials') ?></a></li>
-                    <li><a href="index.html#faq"><?= __('footer.comp_faq') ?></a></li>
+                    <li><a href="#solution"><?= __('footer.comp_about') ?></a></li>
+                    <li><a href="#team"><?= __('footer.comp_team') ?></a></li>
+                    <li><a href="#testimonials"><?= __('footer.comp_testimonials') ?></a></li>
+                    <li><a href="#faq"><?= __('footer.comp_faq') ?></a></li>
                 </ul>
             </div>
 
