@@ -62,7 +62,7 @@ $plans = [
         'unit'    => __('pricing.plans.3.unit'),
         'period'  => __('pricing.plans.3.period'),
         'cta'     => __('pricing.plans.3.cta'),
-        'href'    => '#contact',
+        'href'    => 'https://app.neverseo.com/signup',
         'popular' => false,
         'features'=> [
             __('pricing.plans.3.features.0'),
